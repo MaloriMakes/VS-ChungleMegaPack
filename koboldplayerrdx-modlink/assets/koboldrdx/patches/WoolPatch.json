@@ -1,0 +1,11 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "wool" }],
+	"value": {
+		"wool:item/wearable/sweater": "koboldrdx:entity/humanoid/seraph/chestcompat/mods/wool/sweater"
+		}
+	}
+]

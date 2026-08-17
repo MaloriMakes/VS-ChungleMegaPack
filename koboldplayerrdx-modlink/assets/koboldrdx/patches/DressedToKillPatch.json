@@ -1,0 +1,20 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "dressedtokillredux" }],
+	"value": {
+		"dressedtokillredux:foot": "koboldrdx:entity/humanoid/seraph/mods/dressedtokillredux/foot",
+		"dressedtokillredux:lowerbody": "koboldrdx:entity/humanoid/seraph/mods/dressedtokillredux/lowerbody",
+		"dressedtokillredux:upperbody": "koboldrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokillredux:upperbodyover": "koboldrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokillredux:shoulder": "koboldrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/shoulder",
+		"dressedtokill:foot": "koboldrdx:entity/humanoid/seraph/mods/dressedtokillredux/foot",
+		"dressedtokill:lowerbody": "koboldrdx:entity/humanoid/seraph/mods/dressedtokillredux/lowerbody",
+		"dressedtokill:upperbody": "koboldrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokill:upperbodyover": "koboldrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokill:shoulder": "koboldrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/shoulder"
+		}
+	}
+]

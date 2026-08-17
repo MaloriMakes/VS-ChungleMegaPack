@@ -1,0 +1,354 @@
+{
+	"kobold": {
+		"Group": "beasts",
+		"Icon": "koboldrdx:icons/kobold",
+		"GroupIcon": "playermodellib:icons/beasts",
+		"ShapePath": "koboldrdx:entity/humanoid/kobold-faceless",
+		"SizeRange": [ 0.95, 1.05 ],
+		"ScaleColliderWithSizeHorizontally": true,
+		"ScaleColliderWithSizeVertically": true,
+		"MaxCollisionBox": [ 0.8, 2.7 ],
+		"MinCollisionBox": [ 0.1, 0.1 ],
+		"MaxEyeHeight":	2.58,
+		"MinEyeHeight":	0.8,
+		"AddTags": ["beasts","beast","kobold"],
+		"RemoveTags": ["seraph"],
+		"SkinnableParts": [
+			{
+				"code": "baseskin",
+				"type": "texture",
+				"priority": 0,
+				"textureTarget": "koboldbodytex",
+				"targetSkinParts": ["base", "chest","facialexpression"],
+				"overlayTexture": false,
+				"overlayMode": "NormalPreserveAlpha",
+				"size":[128, 128],
+				"textureTemplate": "koboldrdx:entity/humanoid/seraphskinparts/body/{code}",
+				"variants": [
+					{ "code": "koboldskin1", "texture": "skin1" },
+					{ "code": "koboldskin2", "texture": "skin2" },
+					{ "code": "koboldskin3", "texture": "skin3" },
+					{ "code": "koboldskin4", "texture": "skin4" },
+					{ "code": "koboldskin5", "texture": "skin5" },
+					{ "code": "koboldskin11", "texture": "skin11" },
+					{ "code": "koboldskin12", "texture": "skin12" }
+				]
+			},
+			{
+				"code": "baseskin-tint",
+				"type": "texture",
+				"priority": 1,
+				"textureTarget": "koboldbodytex",
+				"targetSkinParts": ["base", "chest","facialexpression"],
+				"solidColor": true,
+				"overlayMode": "Overlay",
+				"size":[128, 128],
+				"variants": [
+					{"Code": "#A6D15241"},
+					{"Code": "#6ABC9F00"},
+					{"Code": "#B64EB745"},
+					{"Code": "#A682B7D1"},
+					{"Code": "#FF91ADBC"},
+					{"Code": "#8ACC60FF"}
+				]
+			},
+			{
+				"code": "horncolor",
+				"type": "texture",
+				"priority": 0,
+				"textureTarget": "koboldbodytex",
+				"targetSkinParts": ["horns-jaw", "horns-extra", "horns-top"],
+				"textureTemplate": "koboldrdx:entity/humanoid/seraphskinparts/body/{code}",
+				"overlayMode": "NormalPreserveAlpha",
+				"variants": [
+					{ "code": "koboldskin1", "texture": "skin1" },
+					{ "code": "koboldskin2", "texture": "skin2" },
+					{ "code": "koboldskin3", "texture": "skin3" },
+					{ "code": "koboldskin4", "texture": "skin4" },
+					{ "code": "koboldskin5", "texture": "skin5" },
+					{ "code": "koboldskin11", "texture": "skin11" },
+					{ "code": "koboldskin12", "texture": "skin12" }
+				]
+			},
+			{
+				"code": "horncolor-tint",
+				"type": "texture",
+				"priority": 1,
+				"textureTarget": "koboldbodytex",
+				"targetSkinParts": ["horns-jaw", "horns-extra", "horns-top"],
+				"solidColor": true,
+				"overlayMode": "Overlay",
+				"size":[128, 128],
+				"variants": [
+					{"Code": "#E2E28B72"},
+					{"Code": "#E2DDE2B4"},
+					{"Code": "#E2B4E2C7"},
+					{"Code": "#E2657FB1"},
+					{"Code": "#C094B3FF"},
+					{"Code": "#B98367C5"}
+				]
+			},
+			{
+				"code": "eyecolor",
+				"type": "texture",
+				"priority": 0,
+				"textureTarget": "playermodellib-iris",
+				"targetSkinParts": ["facialexpression"],
+				"textureTemplate": "playermodellib:eyes/{code}",
+				"variants": [
+					{ "code": "ruby", "texture": "ruby" },
+					{ "code": "topaz", "texture": "topaz" },
+					{ "code": "dark-green", "texture": "dark-green" },
+					{ "code": "jonas", "texture": "jonas" },
+					{ "code": "midnight", "texture": "midnight" },
+					{ "code": "white", "texture": "white" }
+				]
+			},
+			{
+				"code": "eyecolor-tint",
+				"type": "texture",
+				"priority": 1,
+				"textureTarget": "playermodellib-iris",
+				"targetSkinParts": ["facialexpression"],
+				"solidColor": true,
+				"overlayMode": "HueSaturationBlend",
+				"size":[8, 8],
+				"variants": [
+					{"Code": "#A6D15241"},
+					{"Code": "#6ABC9F00"},
+					{"Code": "#B64EB745"},
+					{"Code": "#A682B7D1"},
+					{"Code": "#FF91ADBC"},
+					{"Code": "#8ACC60FF"}
+				]
+			},
+			{
+				"code": "haircolor",
+				"type": "texture",
+				"priority": 1,
+				"textureTarget": "hair",
+				"targetSkinParts": ["hairbase", "hairextra"],
+				"textureTemplate": "game:entity/humanoid/seraphskinparts/hair/{code}",
+				"overlayMode": "Overlay",
+				"variants": [
+					{ "code": "eerieblack" },
+					{ "code": "slategray" },
+					{ "code": "silverchalice" },
+					{ "code": "lightgray" },
+					{ "code": "wintergreendream" },
+					{ "code": "steelblue" },
+					{ "code": "queenblue" },
+					{ "code": "indigodye" },
+					{ "code": "sanddune" },
+					{ "code": "harvestgold" },
+					{ "code": "oldburgundy" }
+				]
+			},
+			{
+				"code": "haircolor-tint",
+				"type": "texture",
+				"priority": 0,
+				"colbreak": true,
+				"textureTarget": "hair",
+				"targetSkinParts": ["hairbase", "hairextra"],
+				"solidColor": true,
+				"overlayMode": "NormalPreserveAlpha",
+				"size":[128, 128],
+				"variants": [
+					{"Code": "#77DFDFDF"},
+					{"Code": "#77303030"}
+				]
+			},
+			{
+				"code": "facialexpression",
+				"type": "shape",
+				"shapeTemplate": { "base": "koboldrdx:entity/humanoid/seraphskinparts/face/{code}" },
+				"variants": [
+					{ "code": "angry"},
+					{ "code": "cringe"},
+					{ "code": "shock"},
+					{ "code": "excited"},
+					{ "code": "focused"},
+					{ "code": "mouthless"},
+					{ "code": "neutral"},
+					{ "code": "rage"},
+					{ "code": "sad"},
+					{ "code": "smarm"},
+					{ "code": "smile"},
+					{ "code": "squint"},
+					{ "code": "tired"},
+					{ "code": "tiredhappy"},
+					{ "code": "uwu"},
+					{ "code": "verytired"}
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "altoflute", "sound": "sounds/voice/altoflute" },
+					{ "code": "harmonica", "sound": "sounds/voice/harmonica" },
+					{ "code": "oboe", "sound": "sounds/voice/oboe" },
+					{ "code": "clarinet", "sound": "sounds/voice/clarinet" },
+					{ "code": "accordion", "sound": "sounds/voice/accordion" },
+					{ "code": "trumpet", "sound": "sounds/voice/trumpet" },
+					{ "code": "sax", "sound": "sounds/voice/sax" },
+					{ "code": "tuba", "sound": "sounds/voice/tuba" },
+					{ "code": "frog", "sound": "koboldrdx:sounds/voice/treefrog" },
+					{ "code": "gecko", "sound": "koboldrdx:sounds/voice/tokay" },
+					{ "code": "meep", "sound": "koboldrdx:sounds/voice/meep" },
+					{ "code": "none", "sound": "koboldrdx:sounds/voice/none" }
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "verylow" },
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "hairbase",
+				"type": "shape",
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-base/{code}" },
+				"variants": [
+					{ "code": "bald" },
+					{ "code": "balding" },
+					{ "code": "afro" },
+					{ "code": "combed" },
+					{ "code": "dreadlocks" },
+					{ "code": "indigenousbalding" },
+					{ "code": "iroquois" },
+					{ "code": "kniaz" },
+					{ "code": "layered" },
+					{ "code": "longflowing" },
+					{ "code": "longwithstrands" },
+					{ "code": "mediumlength-bangs" },
+					{ "code": "messy" },
+					{ "code": "messy2" },
+					{ "code": "classic" },
+					{ "code": "short" },
+					{ "code": "short-parted" },
+					{ "code": "shortspiky" },
+					{ "code": "short-trimmed" },
+					{ "code": "tonsure" }
+				]
+			},
+			{
+				"code": "hairextra",
+				"type": "shape",
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/{code}" },
+				"variants": [
+					{ "code": "none" },
+					{ "code": "backbun" },
+					{ "code": "braidedup" },
+					{ "code": "elaboratestickbun" },
+					{ "code": "headsidebraid" },
+					{ "code": "largestickbun" },
+					{ "code": "neatbraid" },
+					{ "code": "classicponytail" },
+					{ "code": "ponytail" },
+					{ "code": "rolledbraidwithbun" },
+					{ "code": "shortmessybraid" },
+					{ "code": "sidebraids" },
+					{ "code": "sidebuns" },
+					{ "code": "siderolls" },
+					{ "code": "snood" },
+					{ "code": "thicklongfrenchbraid" },
+					{ "code": "tiedback" },
+					{ "code": "tieddreads" },
+					{ "code": "tiedtopknot" },
+					{ "code": "topbun" },
+					{ "code": "topknot" },
+					{ "code": "unkempt" },
+					{ "code": "vikingtopbraid" }
+				]
+			},
+			{
+				"code": "horns-top",
+				"type": "shape",
+				"useDropDown": true,
+				"shapeTemplate": { "base": "koboldrdx:entity/humanoid/seraphskinparts/horns-top/{code}" },
+				"variants": [
+					{ "code": "none" },
+					{ "code": "straight" },
+					{ "code": "ram" },
+					{ "code": "goat" },
+					{ "code": "curly" }
+				]
+			},
+			{
+				"code": "horns-extra",
+				"type": "shape",
+				"useDropDown": true,
+				"shapeTemplate": { "base": "koboldrdx:entity/humanoid/seraphskinparts/horns-extra/{code}" },
+				"variants": [
+					{ "code": "none" },
+					{ "code": "small" },
+					{ "code": "eastern" },
+					{ "code": "nose" },
+					{ "code": "burns" },
+					{ "code": "brows" },
+					{ "code": "fangs" },
+					{ "code": "floof" }
+				]
+			},
+			{
+				"code": "horns-jaw",
+				"type": "shape",
+				"useDropDown": true,
+				"shapeTemplate": { "base": "koboldrdx:entity/humanoid/seraphskinparts/horns-jaw/{code}" },
+				"variants": [
+					{ "code": "none" },
+					{ "code": "short" },
+					{ "code": "propermohawk" },
+					{ "code": "teeny" },
+					{ "code": "spikes" },
+					{ "code": "doublemohawk" },
+					{ "code": "mohawk" },
+					{ "code": "smalltop1" },
+					{ "code": "smalltop2" },
+					{ "code": "smalltop3" },
+					{ "code": "smalltopmany" },
+					{ "code": "spines" }
+				]
+			},
+			{
+				"code": "underwear",
+				"type": "texture", 
+				"priority": 3,
+				"useDropDown": true,
+				"textureTarget": "koboldbodytex",
+				"targetSkinParts": ["base", "chest"],
+				"overlayTexture": true,
+				"overlayMode": "normal",
+				"textureTemplate": "koboldrdx:entity/humanoid/seraphskinparts/underwear/{code}",
+				"variants": [
+					{ "code": "twopiece", "texture": "twopiece" },
+					{ "code": "leotard", "texture": "leotard" },
+					{ "code": "breeches", "texture": "breeches" },
+					{ "code": "none", "texture": "none" }
+				]
+			},
+			{
+				"code": "chest",
+				"type": "shape",
+				"shapeTemplate": { "base": "koboldrdx:entity/humanoid/seraphskinparts/chest/{code}" },
+				"variants": [
+					{ "code": "none"},
+					{ "code": "yes"}
+				],
+				"disableElementsByVariantCode": {
+					"none": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
+					"yes": []
+				}
+			}
+		],
+		"ExtraTraits": ["kobold-sunlight", "kobold-sunlight"]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"foxxoplymdl:modeldesc-fox": "An anthro fox.",
+	"foxxoplymdl:playermodel-fox": "Fox",
+
+	"game:skinpart-underwear-none": "None",
+
+	"game:skinpart-facialexpression-animu1": "Anime 1",
+	"game:skinpart-facialexpression-animu2": "Anime 2",
+
+	"game:skinpart-haircustom": "Head Fluff",
+	"game:skinpart-haircustom-none": "None",
+	"game:skinpart-haircustom-furslop": "Furslop",
+	"game:skinpart-haircustom-fursloplight": "Furslop Light",
+
+	"foxxoplymdl:setting-size-range-min": "Size Range (minimum)",
+	"foxxoplymdl:setting-size-range-max": "Size Range (maximum)",
+	"foxxoplymdl:setting-eye-height-min": "Camera height (minimum)",
+	"foxxoplymdl:setting-eye-height-max": "Camera height (maximum)"
+}

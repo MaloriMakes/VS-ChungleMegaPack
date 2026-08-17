@@ -1,0 +1,17 @@
+﻿[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "mitsuyoninjafork" }],
+	"value": {
+		"mitsuyoninja:entity/armor/kitsune/suneate": "koboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/kitsune/suneate",
+		"mitsuyoninja:entity/armor/kitsune/yukata": "koboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/kitsune/yukata",
+		"mitsuyoninja:entity/armor/ninja/ninja-head": "koboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/ninja/ninja-head",
+		"mitsuyoninja:entity/armor/ninja/ninja-legs": "koboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/ninja/ninja-legs",
+		"mitsuyoninja:entity/armor/ninja/ninja-torso": "koboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/ninja/ninja-torso",
+		"mitsuyoninja:entity/armor/sam/domaru": "koboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/sam/domaru",
+		"mitsuyoninja:entity/armor/sam/hakama": "koboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/sam/hakama"
+		}
+	}
+]

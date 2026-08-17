@@ -1,0 +1,98 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/fox/SkinnableParts/6/variants",
+		"value": [
+			{
+				"type": "shape",
+				"code": "bigspacebuns",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/bigspacebuns" }
+			},
+			{
+				"type": "shape",
+				"code": "braidedronin",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/braidedronin" }
+			},
+			{
+				"type": "shape",
+				"code": "dynastybun",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/dynastybun" }
+			},
+			{
+				"type": "shape",
+				"code": "fluffybraidedhawk",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/fluffybraidedhawk" }
+			},
+			{
+				"type": "shape",
+				"code": "fluffymohawk",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/fluffymohawk" }
+			},
+			{
+				"type": "shape",
+				"code": "jeweledponytail",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/jeweledponytail" }
+			},
+			{
+				"type": "shape",
+				"code": "longcurtain",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/longcurtain" }
+			},
+			{
+				"type": "shape",
+				"code": "loopedbraids",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/loopedbraids" }
+			},
+			{
+				"type": "shape",
+				"code": "poofyfrenchbraid",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/poofyfrenchbraid" }
+			},
+			{
+				"type": "shape",
+				"code": "rolledsidebraid",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/rolledsidebraids" }
+			},
+			{
+				"type": "shape",
+				"code": "roninclean",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/roninclean" }
+			},
+			{
+				"type": "shape",
+				"code": "sidebraidsandpoofbun",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/sidebraidsandpoofbun" }
+			},
+			{
+				"type": "shape",
+				"code": "slickedponytail",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-extra/slickedponytail" }
+			}
+        ],
+        "file": "foxxoplymdl:config/customplayermodels/fox.json",
+		"dependsOn": [{ "modid": "valkyrjahair" }]
+	},
+	{
+		"op": "addmerge",
+		"path": "/fox/SkinnableParts/5/variants",
+		"value": [
+			{
+				"type": "shape",
+				"code": "hairmonster",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-base/hairmonster" }
+			},
+			{
+				"type": "shape",
+				"code": "curtainedmonster",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-base/curtainedmonster" }
+			},
+			{
+				"type": "shape",
+				"code": "verylong",
+				"shape": { "base": "valkyrjahair:entity/humanoid/seraphskinparts/hair-base/verylong" }
+			}
+		],
+		"file": "foxxoplymdl:config/customplayermodels/fox.json",
+		"dependsOn": [{ "modid": "valkyrjahair" }]
+	}
+]

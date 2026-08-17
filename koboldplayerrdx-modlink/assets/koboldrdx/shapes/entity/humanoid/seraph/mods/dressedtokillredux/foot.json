@@ -1,0 +1,57 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Cal/AppData/Roaming/VintagestoryData/Mods/koboldplayerrdx_1.0.29/assets/koboldrdx/shapes/entity/humanoid/kobold-faceless",
+		"collapsedPaths": "Root/shoeL/front16,Root/shoeL/LacesR1,Root/shoeL/LacesL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 28,
+	"textureSizes": {
+		"commoner-boots": [16,28],
+		"fur-wraps": [16,28],
+		"blackguard-shoes-repaired": [16,28],
+		"leather-slipper-boots": [16,28],
+		"reed-sandals": [16,28]
+	},
+	"textures": {
+		"reed-sandals": "C:/Users/Bruger/Desktop/VS mods/dressedtokillredux/assets/dressedtokill/textures/foot/reed-sandals"
+	},
+	"elements": [
+		{
+			"name": "shoeR",
+			"stepParentName": "PawR",
+			"from": [ -0.1, -0.2, -0.1 ],
+			"to": [ 3.1, 6.3, 3.1 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 1.0, 17.0 ],
+			"rotationOrigin": [ -0.1, -0.2, -0.1 ],
+			"faces": {
+				"north": { "texture": "#reed-sandals", "uv": [ 1.0, 21.5, 4.0, 28.0 ] },
+				"east": { "texture": "#reed-sandals", "uv": [ 12.0, 21.5, 15.0, 28.0 ] },
+				"south": { "texture": "#reed-sandals", "uv": [ 8.0, 21.5, 11.0, 28.0 ] },
+				"west": { "texture": "#reed-sandals", "uv": [ 5.0, 21.5, 8.0, 28.0 ] },
+				"up": { "texture": "#reed-sandals", "uv": [ 10.0, 0.0, 13.0, 3.0 ], "rotation": 90 },
+				"down": { "texture": "#reed-sandals", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "shoeL",
+			"stepParentName": "PawL",
+			"from": [ -0.1, -0.2, -0.1 ],
+			"to": [ 3.1, 6.3, 3.1 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 1.0, 7.5 ],
+			"rotationOrigin": [ -0.1, -0.2, -0.1 ],
+			"faces": {
+				"north": { "texture": "#reed-sandals", "uv": [ 1.0, 11.5, 4.0, 18.0 ] },
+				"east": { "texture": "#reed-sandals", "uv": [ 12.0, 11.5, 15.0, 18.0 ] },
+				"south": { "texture": "#reed-sandals", "uv": [ 8.0, 11.5, 11.0, 18.0 ] },
+				"west": { "texture": "#reed-sandals", "uv": [ 5.0, 11.5, 8.0, 18.0 ] },
+				"up": { "texture": "#reed-sandals", "uv": [ 13.0, 0.0, 16.0, 3.0 ], "rotation": 90 },
+				"down": { "texture": "#reed-sandals", "uv": [ 4.0, 4.0, 7.0, 7.0 ], "rotation": 90 }
+			}
+		}
+	]}

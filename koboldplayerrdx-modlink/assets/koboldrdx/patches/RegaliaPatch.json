@@ -1,0 +1,19 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "regalia" }],
+	"value": {
+		"regalia:blackgown": "koboldrdx:entity/humanoid/seraph/mods/regalia/blackgown",
+		"regalia:cardigan": "koboldrdx:entity/humanoid/seraph/mods/regalia/cardigan",
+		"regalia:darknobledress": "koboldrdx:entity/humanoid/seraph/mods/regalia/darknobledress",
+		"regalia:finegown": "koboldrdx:entity/humanoid/seraph/mods/regalia/finegown",
+		"regalia:rednobledress": "koboldrdx:entity/humanoid/seraph/mods/regalia/rednobledress",
+		"regalia:summerdress": "koboldrdx:entity/humanoid/seraph/mods/regalia/summerdress",
+		"regalia:tailcoat": "koboldrdx:entity/humanoid/seraph/mods/regalia/tailcoat",
+		"regalia:trimmedtunic": "koboldrdx:entity/humanoid/seraph/mods/regalia/trimmedtunic",
+		"regalia:weddingdress": "koboldrdx:entity/humanoid/seraph/mods/regalia/weddingdress"
+		}
+	}
+]

@@ -1,0 +1,14 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "astriaporta" }],
+	"value": {
+		"astriaporta:entity/humanoid/seraph/clothing/foot/sgc_boots": "koboldrdx:entity/humanoid/seraph/mods/astriaporta/foot/sgc_boots",
+		"astriaporta:entity/humanoid/seraph/clothing/lowerbody/sgc_pants": "koboldrdx:entity/humanoid/seraph/mods/astriaporta/lowerbody/sgc_pants",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbody/sgc_shirt": "koboldrdx:entity/humanoid/seraph/mods/astriaporta/upperbody/sgc_shirt",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbodyover/sgc_tacticalvest": "koboldrdx:entity/humanoid/seraph/mods/astriaporta/upperbodyover/sgc_tacticalvest"
+		}
+	}
+]

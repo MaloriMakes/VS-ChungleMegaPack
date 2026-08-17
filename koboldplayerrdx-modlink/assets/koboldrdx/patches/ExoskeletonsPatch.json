@@ -1,0 +1,14 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "exoskeletons" }],
+	"value": {
+		"exoskeletons:armored/legs": "koboldrdx:entity/humanoid/seraph/mods/exoskeletons/armored/legs",
+		"exoskeletons:unarmored/legs": "koboldrdx:entity/humanoid/seraph/mods/exoskeletons/unarmored/legs",
+		"exoskeletons:armored/armor/legs": "koboldrdx:entity/humanoid/seraph/mods/exoskeletons/armored/armor/legs",
+		"exoskeletons:armored/armor/feet": "koboldrdx:entity/humanoid/seraph/mods/exoskeletons/armored/armor/feet"
+		}
+	}
+]

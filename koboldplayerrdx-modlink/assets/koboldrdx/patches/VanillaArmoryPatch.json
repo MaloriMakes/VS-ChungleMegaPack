@@ -1,0 +1,51 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "vanillaarmory" }],
+	"value": {
+		"vanillaarmory:armor/acolyte/legs": "koboldrdx:entity/humanoid/seraph/mods/vanillaarmory/acolyte/legs",
+		"vanillaarmory:armor/bear2/legs": "koboldrdx:entity/humanoid/seraph/mods/vanillaarmory/bear2/legs",
+		"vanillaarmory:armor/tracker/legs": "koboldrdx:entity/humanoid/seraph/mods/vanillaarmory/tracker/legs"
+		}
+	},
+	{
+		"file": "vanillaarmory:itemtypes/wearable/acolyte.json",
+		"op": "addmerge",
+		"path": "0/attributes/disableElementsByType",
+		"dependsOn": [{ "modid": "vanillaarmory" }],
+		"value": {
+			"acolytearmor-*-body": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+		}
+	},
+	{
+		"file": "vanillaarmory:itemtypes/wearable/armor-hide.json",
+		"op": "addmerge",
+		"path": "0/attributes/disableElementsByType",
+		"dependsOn": [{ "modid": "vanillaarmory" }],
+		"value": {
+			"armor-body-*": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+		}
+	},
+	{
+		"file": "vanillaarmory:itemtypes/wearable/tracker.json",
+		"op": "addmerge",
+		"path": "0/attributes/disableElementsByType",
+		"dependsOn": [{ "modid": "vanillaarmory" }],
+		"value": {
+			"trackerarmor-*-body": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+		}
+	},
+	{
+	"file": "koboldrdx:config/disabled-elements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "vanillaarmory" }],
+	"value": {
+		"vanillaarmory:armor/acolyte/body": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
+		"vanillaarmory:armor/bear2/body": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
+		"vanillaarmory:armor/tracker/body": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
+		}
+	}
+]

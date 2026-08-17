@@ -1,0 +1,131 @@
+[
+	{
+		"op": "replace",
+		"path": "/fox/SkinnableParts/9/variants",
+		"value": [
+			{
+				"code": "none",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/none"
+			},
+			{
+				"code": "breeches",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/breeches"
+			},
+			{
+				"code": "hidebreeches",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/hide-breeches"
+			},
+			{
+				"code": "ragbreeches",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/rags-breeches"
+			},
+			{
+				"code": "leotard",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/leotard"
+			},
+			{
+				"code": "hideleotard",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/hide-leotard"
+			},
+			{
+				"code": "ragleotard",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/rags-leotard"
+			},
+			{
+				"code": "loincloth",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/loincloth"
+			},
+			{
+				"code": "thong",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/thong"
+			},
+			{
+				"code": "speedo",
+				"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/speedo"
+			}
+		],
+		"file": "foxxoplymdl:config/customplayermodels/fox.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	},
+	{
+		"op": "addmerge",
+		"path": "/fox/SkinnableParts/-",
+		"value": {
+			"useDropDown": true,
+			"code": "undergarment",
+			"type": "texture",
+			"textureTarget": "foxbody",
+			"overlayTexture": true,
+			"overlayMode": "Normal",
+			"variants": [
+				{
+					"type": "texture",
+					"code": "none",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/none"
+				},
+				{
+					"type": "texture",
+					"code": "twopiece",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/twopiecetop"
+				},
+				{
+					"type": "texture",
+					"code": "hidetwopiece",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/hide-twopiecetop"
+				},
+				{
+					"type": "texture",
+					"code": "ragtwopiece",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/rags-twopiecetop"
+				},
+				{
+					"type": "texture",
+					"code": "wrap",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/wrap"
+				},
+				{
+					"type": "texture",
+					"code": "hidewrap",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/hide-wrap"
+				},
+				{
+					"type": "texture",
+					"code": "ragwrap",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/rags-wrap"
+				},
+				{
+					"type": "texture",
+					"code": "undershirt",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/undershirt"
+				},
+				{
+					"type": "texture",
+					"code": "camisole",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/camisole"
+				},
+				{
+					"type": "texture",
+					"code": "straplesstwopiece",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/straplesstwopiece"
+				},
+				{
+					"type": "texture",
+					"code": "binder",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/binder"
+				},
+				{
+					"type": "texture",
+					"code": "sarashibinder",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/sarashibinder"
+				},
+				{
+					"type": "texture",
+					"code": "obibinder",
+					"texture": "foxxoplymdl:entity/humanoid/seraphskinparts/underwear/obibinder"
+				}
+			]
+		},
+		"file": "foxxoplymdl:config/customplayermodels/fox.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	}
+]

@@ -1,0 +1,17 @@
+{
+  "type": "content",
+  "name": "Foxxo Playermodel",
+  "modid": "foxxoplymdl",
+  "version": "1.0.9",
+
+  "description": "A simple fox player model.",
+  "authors": [ "FluffiestFloofer" ],
+
+  "dependencies": {
+    "playermodellib": "1.14.9"
+  },
+
+  "side" : "universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

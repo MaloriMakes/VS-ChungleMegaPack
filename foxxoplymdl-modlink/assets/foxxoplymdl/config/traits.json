@@ -1,0 +1,26 @@
+[
+    {
+        code: "otter-speed",
+        type: "positive",
+        attributes: {
+            "swimSpeed": 0.75,
+            "sprintSpeed": -0.1
+        }
+    },
+    {        code: "otter-hide",
+        type: "positive",
+        attributes: {
+            "frostDamageFactor": -0.15,
+            "suffocationDamageFactor": -0.3
+        }
+    },
+    {
+        code: "otter-nutrition",
+        type: "positive",
+        attributes: {
+            "proteinNutritionFactor": 0.2,
+            "grainNutritionFactor": -0.2
+        }
+    }
+
+]

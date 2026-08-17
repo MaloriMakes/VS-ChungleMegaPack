@@ -1,0 +1,28 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "snowshoes" }],
+	"value": {
+		"snowshoes:item/snowshoes/old/fur": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/old/fur",
+		"snowshoes:item/snowshoes/old/plain": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/old/plain",
+		"snowshoes:item/snowshoes/wooden/crude/plain": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/crude/plain",
+		"snowshoes:item/snowshoes/metal/aluminum/fur": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/metal/aluminum/fur",
+		"snowshoes:item/snowshoes/metal/aluminum/nadiyanblue": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/metal/aluminum/nadiyanblue",
+		"snowshoes:item/snowshoes/metal/aluminum/nadiyanbrown": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/metal/aluminum/nadiyanbrown",
+		"snowshoes:item/snowshoes/metal/aluminum/plain": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/metal/aluminum/plain",
+		"snowshoes:item/snowshoes/metal/aluminum/reindeer": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/metal/aluminum/reindeer",
+		"snowshoes:item/snowshoes/wooden/carved/fur": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/fur",
+		"snowshoes:item/snowshoes/wooden/carved/nadiyanblue": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/nadiyanblue",
+		"snowshoes:item/snowshoes/wooden/carved/nadiyanbrown": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/nadiyanbrown",
+		"snowshoes:item/snowshoes/wooden/carved/plain": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/plain",
+		"snowshoes:item/snowshoes/wooden/carved/reindeer": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/reindeer",
+		"snowshoes:item/snowshoes/wooden/carved/treated/fur": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/treated/fur",
+		"snowshoes:item/snowshoes/wooden/carved/treated/nadiyanblue": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/treated/nadiyanblue",
+		"snowshoes:item/snowshoes/wooden/carved/treated/nadiyanbrown": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/treated/nadiyanbrown",
+		"snowshoes:item/snowshoes/wooden/carved/treated/plain": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/treated/plain",
+		"snowshoes:item/snowshoes/wooden/carved/treated/reindeer": "koboldrdx:entity/humanoid/seraph/mods/snowshoes/wooden/carved/treated/reindeer",
+		}
+	}
+]

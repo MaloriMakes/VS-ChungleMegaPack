@@ -1,0 +1,83 @@
+{
+	"version": 1,
+	"patches": {
+		"float": {
+			"koboldrdx:config/customplayermodels/kobold.json": {
+				"kobold/SizeRange/0": "sizeRangeMin",
+				"kobold/SizeRange/1": "sizeRangeMax",
+				"kobold/MinEyeHeight": "eyeHeightMin",
+				"kobold/MaxEyeHeight": "eyeHeightMax",
+				"kobold/MaxCollisionBox/0": "max_collision_box_horizontal",
+				"kobold/MaxCollisionBox/1": "max_collision_box_vertical",
+			}
+		}
+	},
+	"settings": [
+		{
+			"code": "sizeRangeMin",
+			"type": "float",
+			"ingui": "koboldrdx:setting-size-range-min",
+			"default": 0.5,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		},
+		{
+			"code": "sizeRangeMax",
+			"type": "float",
+			"ingui": "koboldrdx:setting-size-range-max",
+			"default": 1.5,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		},
+		{
+			"code": "eyeHeightMin",
+			"type": "float",
+			"ingui": "koboldrdx:setting-eye-height-min",
+			"default": 0.8,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		},
+		{
+			"code": "eyeHeightMax",
+			"type": "float",
+			"ingui": "koboldrdx:setting-eye-height-max",
+			"default": 2.58,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		},
+		{
+			"code": "max_collision_box_vertical",
+			"type": "float",
+			"ingui": "koboldrdx:setting-max_collision_box_vertical",
+			"default": 2.7,
+			"range": {
+				"min": 0.1,
+				"max": 10.0
+			}
+		},
+		{
+			"code": "max_collision_box_horizontal",
+			"type": "float",
+			"ingui": "koboldrdx:setting-max_collision_box_horizontal",
+			"default": 0.8,
+			"range": {
+				"min": 0.1,
+				"max": 10.0
+			}
+		},
+	],
+	"formatting": [
+		{
+			"type": "separator",
+			"weight": 1.0
+		}
+	]
+}

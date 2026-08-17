@@ -1,0 +1,11 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "raincoats" }],
+	"value": {
+		"raincoats:entity/humanoid/seraph/clothing/foot/froogboot": "koboldrdx:entity/humanoid/seraph/mods/frogboot/froogboot"
+		}
+	}
+]

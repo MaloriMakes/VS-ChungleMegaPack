@@ -1,0 +1,29 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "canjewelry" }],
+	"value": {
+		"canjewelry:item/canearrings-keys": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/canearrings-keys",
+		"canjewelry:item/canearrings-keys_left": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/canearrings-keys_left",
+		"canjewelry:item/cangemstuddedearrings": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/cangemstuddedearrings",
+		"canjewelry:item/cangemstuddedearrings_left": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/cangemstuddedearrings_left",
+		"canjewelry:item/cangemstuddedearrings_right": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/cangemstuddedearrings_right",
+		"canjewelry:item/cannosering": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/cannosering"
+		}
+	},
+	{
+	"file": "koboldrdx:config/model-replacements-bycode.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "canjewelry" }],
+	"value": {
+		"*-right-gemstuddedearrings": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/cangemstuddedearrings",
+        "*-left-gemstuddedearrings": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/cangemstuddedearrings_left",
+        "*-right-keys": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/canearrings-keys",
+        "*-left-keys": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/canearrings-keys_left",
+        "cannosering-*": "koboldrdx:entity/humanoid/seraph/mods/canjewelry/cannosering"
+		}
+	}
+]

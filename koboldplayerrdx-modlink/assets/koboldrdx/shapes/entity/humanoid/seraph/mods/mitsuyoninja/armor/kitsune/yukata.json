@@ -1,0 +1,1063 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Cal/Desktop/boobold",
+		"collapsedPaths": ",Root/Torso/LArmL,Root/Torso/Yukatalower/sideLTop",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 76,
+	"textureSizes": {
+		"kitsune-uwagi.png": [128,128]
+	},
+	"textures": {
+		"kitsune-uwagi.png": "armor/entity/kitsune/kitsune-red"
+	},
+	"elements": [
+		{
+			"name": "Torso",
+			"stepParentName": "",
+			"from": [ -8.0, -8.0, -8.0 ],
+			"to": [ -8.0, -8.0, -8.0 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ -8.0, -8.0, -8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "upperleg",
+					"stepParentName": "",
+					"from": [ 8.0, 8.0, 8.0 ],
+					"to": [ 8.0, 8.0, 8.0 ],
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "upper foot R",
+							"stepParentName": "UpperFootR",
+							"from": [ -0.13, 3.67, -0.13 ],
+							"to": [ 4.33, 9.33, 3.33 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 0.0, 12.0 ],
+							"rotationOrigin": [ -0.1, 7.0, -0.1 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 0.0, 30.0, 4.25, 31.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 58.0, 12.0, 61.25, 13.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 57.0, 43.0, 61.25, 44.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 40.0, 58.0, 43.25, 59.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 47.25, 39.25, 43.0, 36.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 47.25, 41.0, 43.0, 44.25 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "upper foot L",
+							"stepParentName": "UpperFootL",
+							"from": [ -0.13, 3.67, -0.13 ],
+							"to": [ 4.33, 9.33, 3.33 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 0.0, 3.25 ],
+							"rotationOrigin": [ -0.1, 7.0, 2.9 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 57.0, 46.0, 61.25, 47.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 45.0, 58.0, 48.25, 59.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 57.0, 49.0, 61.25, 50.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 0.0, 59.0, 3.25, 60.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 48.25, 3.25, 44.0, 0.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 48.25, 5.0, 44.0, 8.25 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Yukatatop",
+					"stepParentName": "UpperTorso",
+					"from": [ 8.0, 8.0, -17.9 ],
+					"to": [ 8.0, 8.0, -17.9 ],
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 8.0, 8.0, -17.9 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Breasts-armor",
+							"from": [ -8.0, -7.3, 17.6 ],
+							"to": [ -5.0, -5.1, 24.3 ],
+							"autoUnwrap": false,
+							"uv": [ 33.75, 19.0 ],
+							"rotationOrigin": [ -8.0, -7.3, 17.6 ],
+							"rotationZ": 55.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 34.5, 20.0, 36.5, 23.0 ], "rotation": 90 },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 6.5, 2.0 ], "enabled": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 36.5, 20.0, 38.5, 23.0 ], "rotation": 90 },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 33.0, 20.5, 39.5, 22.5 ] },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 33.25, 20.0, 38.75, 23.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 6.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Cube2",
+									"from": [ 0.0, 0.4, 2.9 ],
+									"to": [ 3.0, 2.4, 3.5 ],
+									"autoUnwrap": false,
+									"uv": [ 1.0, 2.5 ],
+									"rotationOrigin": [ 0.0, 0.4, 2.9 ],
+									"rotationY": -35.5,
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 1.0, 3.5, 4.0, 5.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 4.0, 3.5, 4.5, 5.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 2.5, 5.0, 5.5, 7.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 1.5, 4.5, 2.0, 6.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 1.0, 1.5, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 3.0, 1.0, 6.0, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						},
+						{
+							"name": "obi-top",
+							"stepParentName": "",
+							"from": [ -7.0, -6.0, 5.0 ],
+							"to": [ -7.0, -6.0, 5.0 ],
+							"uv": [ 999.0, 999.0 ],
+							"rotationOrigin": [ -7.0, -6.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "cube",
+									"stepParentName": "",
+									"from": [ -1.6, -4.0, 12.6 ],
+									"to": [ 4.575, -2.125, 19.275 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 5.0, 6.75 ],
+									"rotationOrigin": [ 0.0, -4.0, 16.0 ],
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 48.0, 21.0, 54.25, 23.0 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 5.0, 47.0, 11.75, 49.0 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 48.0, 28.0, 54.25, 30.0 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 47.0, 10.0, 53.75, 12.0 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 14.25, 6.75, 8.0, 0.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 14.25, 8.0, 8.0, 14.75 ], "autoUv": false, "snapUv": false }
+									}
+								},
+								{
+									"name": "cube",
+									"stepParentName": "",
+									"from": [ -1.7, -3.2, 12.5 ],
+									"to": [ 4.675, -2.925, 19.375 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 6.5, 0.0 ],
+									"rotationOrigin": [ 0.0, -4.0, 16.0 ],
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 65.0, 52.0, 71.5, 52.25 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 64.0, 54.0, 71.0, 54.25 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 65.0, 61.0, 71.5, 61.25 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 65.0, 0.0, 72.0, 0.25 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 6.5, 7.0, 0.0, 0.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 6.5, 8.0, 0.0, 15.0 ], "autoUv": false, "snapUv": false }
+									}
+								},
+								{
+									"name": "cube",
+									"stepParentName": "",
+									"from": [ -1.95, -3.4, 13.6 ],
+									"to": [ -1.475, -2.725, 14.275 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 33.0, 47.0 ],
+									"rotationOrigin": [ 0.0, -4.0, 16.0 ],
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 73.0, 47.0, 73.5, 47.75 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 33.0, 52.0, 33.75, 52.75 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 73.0, 60.0, 73.5, 60.75 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 70.0, 59.0, 70.75, 59.75 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 61.5, 73.75, 61.0, 73.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 73.5, 62.0, 73.0, 62.75 ], "autoUv": false, "snapUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -8.4, -8.4, 22.75 ],
+							"to": [ -2.475, -2.6, 24.225 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 7.0, 8.0 ],
+							"rotationOrigin": [ -7.0, -6.0, 21.0 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 7.0, 16.0, 13.0, 21.75 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 16.0, 54.0, 17.5, 59.75 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 16.0, 8.0, 22.0, 13.75 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 23.0, 54.0, 24.5, 59.75 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 46.0, 51.5, 40.0, 50.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 18.0, 51.0, 12.0, 52.5 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -8.05, -8.4, 17.85 ],
+							"to": [ -2.95, -4.875, 21.65 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 0.0, 24.0 ],
+							"rotationOrigin": [ -7.0, -6.0, 18.5 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 13.0, 35.0, 18.0, 38.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 20.0, 47.0, 23.75, 50.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 0.0, 38.0, 5.0, 41.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 30.0, 47.0, 33.75, 50.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 12.0, 36.75, 7.0, 33.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 39.0, 24.0, 34.0, 27.75 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -8.4, -8.4, 21.9 ],
+							"to": [ -2.475, -4.45, 22.775 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 7.0, 11.0 ],
+							"rotationOrigin": [ -7.0, -6.0, 18.8 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 7.0, 23.0, 13.0, 27.0 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 30.0, 42.0, 31.0, 46.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 20.0, 23.0, 26.0, 27.0 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 19.0, 57.0, 20.0, 61.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 61.0, 11.0, 55.0, 10.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 62.0, 35.0, 56.0, 36.0 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -8.4, -8.4, 19.55 ],
+							"to": [ -2.475, -7.075, 21.075 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 33.0, 14.5 ],
+							"rotationOrigin": [ -7.0, -6.0, 17.1 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 54.0, 24.0, 60.0, 25.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 63.0, 58.0, 64.5, 59.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 33.0, 54.0, 39.0, 55.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 60.0, 63.0, 61.5, 64.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 57.0, 14.5, 51.0, 13.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 46.0, 53.0, 40.0, 54.5 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -2.706, -12.2158, 17.7167 ],
+							"to": [ -2.481, -7.1908, 20.1167 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 0.0, 48.0 ],
+							"rotationOrigin": [ -2.981, -7.7658, 20.1917 ],
+							"rotationZ": 29.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 17.0, 67.0, 17.25, 72.0 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 25.0, 48.0, 27.5, 53.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 34.0, 67.0, 34.25, 72.0 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 0.0, 49.0, 2.5, 54.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 67.25, 73.5, 67.0, 71.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 71.25, 69.0, 71.0, 71.5 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -8.4, -8.4, 21.075 ],
+							"to": [ -2.475, -6.1, 21.9 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 13.0, 0.0 ],
+							"rotationOrigin": [ -7.0, -6.0, 17.9 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 13.0, 47.0, 19.0, 49.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 38.0, 65.0, 38.75, 67.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 47.0, 24.0, 53.0, 26.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 65.0, 43.0, 65.75, 45.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 63.0, 54.75, 57.0, 54.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 64.0, 0.0, 58.0, 0.75 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "Collar",
+							"stepParentName": "",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.0, 0.0, 0.0 ],
+							"uv": [ 999.0, 999.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -24.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "cube",
+									"stepParentName": "",
+									"from": [ -8.4716, -19.1773, 14.788 ],
+									"to": [ -2.4736, -16.6793, 15.511 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ -1.0, 2.75 ],
+									"rotationOrigin": [ -8.6612, -15.7886, 15.5062 ],
+									"rotationX": 113.963,
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 41.0, 28.0, 47.0, 30.5 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 63.0, 61.0, 63.75, 63.5 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 5.0, 43.0, 11.0, 45.5 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 0.0, 64.0, 0.75, 66.5 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 64.0, 2.75, 58.0, 2.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 64.0, 4.0, 58.0, 4.75 ], "autoUv": false, "snapUv": false }
+									}
+								},
+								{
+									"name": "CollarRight",
+									"stepParentName": "",
+									"from": [ -8.0, 0.0, 0.0 ],
+									"to": [ -8.0, 0.0, 0.0 ],
+									"uv": [ 999.0, 999.0 ],
+									"rotationOrigin": [ -8.0, 0.0, 0.0 ],
+									"rotationX": 52.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+									},
+									"children": [
+										{
+											"name": "cube",
+											"stepParentName": "",
+											"from": [ -0.582, 4.2418, 21.4247 ],
+											"to": [ 5.57, 8.4438, 22.2267 ],
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 0,
+											"uv": [ 23.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 7.3, 22.1 ],
+											"faces": {
+												"north": { "texture": "#kitsune-uwagi.png", "uv": [ 23.0, 0.0, 29.25, 4.25 ], "autoUv": false, "snapUv": false },
+												"east": { "texture": "#kitsune-uwagi.png", "uv": [ 38.0, 59.0, 38.75, 63.25 ], "autoUv": false, "snapUv": false },
+												"south": { "texture": "#kitsune-uwagi.png", "uv": [ 23.0, 6.0, 29.25, 10.25 ], "autoUv": false, "snapUv": false },
+												"west": { "texture": "#kitsune-uwagi.png", "uv": [ 50.0, 59.0, 50.75, 63.25 ], "autoUv": false, "snapUv": false },
+												"up": { "texture": "#kitsune-uwagi.png", "uv": [ 57.25, 57.75, 51.0, 57.0 ], "autoUv": false, "snapUv": false },
+												"down": { "texture": "#kitsune-uwagi.png", "uv": [ 63.25, 52.0, 57.0, 52.75 ], "autoUv": false, "snapUv": false }
+											}
+										},
+										{
+											"name": "cube",
+											"stepParentName": "",
+											"from": [ -0.581, 0.0428, 21.4257 ],
+											"to": [ -0.081, 4.1678, 22.1757 ],
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 0,
+											"uv": [ 52.0, 59.0 ],
+											"rotationOrigin": [ 0.0, 4.1, 22.4 ],
+											"rotationX": 25.5,
+											"faces": {
+												"north": { "texture": "#kitsune-uwagi.png", "uv": [ 56.0, 63.0, 56.5, 67.25 ], "autoUv": false, "snapUv": false },
+												"east": { "texture": "#kitsune-uwagi.png", "uv": [ 52.0, 59.0, 52.75, 63.25 ], "autoUv": false, "snapUv": false },
+												"south": { "texture": "#kitsune-uwagi.png", "uv": [ 58.0, 63.0, 58.5, 67.25 ], "autoUv": false, "snapUv": false },
+												"west": { "texture": "#kitsune-uwagi.png", "uv": [ 54.0, 59.0, 54.75, 63.25 ], "autoUv": false, "snapUv": false },
+												"up": { "texture": "#kitsune-uwagi.png", "uv": [ 63.5, 73.75, 63.0, 73.0 ], "autoUv": false, "snapUv": false },
+												"down": { "texture": "#kitsune-uwagi.png", "uv": [ 73.5, 64.0, 73.0, 64.75 ], "autoUv": false, "snapUv": false }
+											}
+										},
+										{
+											"name": "cube",
+											"stepParentName": "",
+											"from": [ 5.094, 2.2928, 21.4257 ],
+											"to": [ 5.569, 4.1678, 22.1757 ],
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 0,
+											"uv": [ 17.0, 38.0 ],
+											"rotationOrigin": [ 0.0, 4.1, 22.4 ],
+											"rotationX": 25.5,
+											"faces": {
+												"north": { "texture": "#kitsune-uwagi.png", "uv": [ 23.0, 70.0, 23.5, 72.0 ], "autoUv": false, "snapUv": false },
+												"east": { "texture": "#kitsune-uwagi.png", "uv": [ 33.0, 38.0, 33.75, 40.0 ], "autoUv": false, "snapUv": false },
+												"south": { "texture": "#kitsune-uwagi.png", "uv": [ 25.0, 70.0, 25.5, 72.0 ], "autoUv": false, "snapUv": false },
+												"west": { "texture": "#kitsune-uwagi.png", "uv": [ 17.0, 40.0, 17.75, 42.0 ], "autoUv": false, "snapUv": false },
+												"up": { "texture": "#kitsune-uwagi.png", "uv": [ 73.5, 66.75, 73.0, 66.0 ], "autoUv": false, "snapUv": false },
+												"down": { "texture": "#kitsune-uwagi.png", "uv": [ 73.5, 68.0, 73.0, 68.75 ], "autoUv": false, "snapUv": false }
+											}
+										}
+									]
+								},
+								{
+									"name": "cube",
+									"stepParentName": "",
+									"from": [ -8.4479, -14.1023, 14.878 ],
+									"to": [ -2.4729, -11.3523, 15.828 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 15.0, 20.0 ],
+									"rotationOrigin": [ -8.7279, -14.6705, 16.1212 ],
+									"rotationX": -54.766,
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 40.0, 24.0, 46.0, 26.75 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 47.0, 50.0, 48.0, 52.75 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 41.0, 20.0, 47.0, 22.75 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 15.0, 61.0, 16.0, 63.75 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 62.0, 38.0, 56.0, 37.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 62.0, 39.0, 56.0, 40.0 ], "autoUv": false, "snapUv": false }
+									}
+								},
+								{
+									"name": "cube",
+									"stepParentName": "",
+									"from": [ -8.4729, -14.3023, 15.203 ],
+									"to": [ -2.4479, -11.2773, 15.928 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 19.0, 6.75 ],
+									"rotationOrigin": [ -8.7279, -14.6705, 16.1212 ],
+									"rotationX": -54.766,
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 28.0, 34.0, 34.0, 37.0 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 19.0, 62.0, 19.75, 65.0 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 34.0, 29.0, 40.0, 32.0 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 30.0, 62.0, 30.75, 65.0 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 64.0, 6.75, 58.0, 6.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 64.0, 8.0, 58.0, 8.75 ], "autoUv": false, "snapUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -8.5312, -3.4557, 22.625 ],
+							"to": [ -2.4562, -2.5307, 23.575 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 23.0, 18.0 ],
+							"rotationOrigin": [ -2.5812, -2.6057, 22.85 ],
+							"rotationX": 0.0109,
+							"rotationY": 1.0E-4,
+							"rotationZ": -1.0E-4,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 40.0, 56.0, 46.0, 57.0 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 45.0, 18.0, 46.0, 19.0 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 26.0, 57.0, 32.0, 58.0 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 23.0, 52.0, 24.0, 53.0 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 39.0, 58.0, 33.0, 57.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 63.0, 41.0, 57.0, 42.0 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Yukatalower",
+					"stepParentName": "LowerTorso",
+					"from": [ 8.0, 8.0, 8.0 ],
+					"to": [ 8.0, 8.0, 8.0 ],
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "lower2",
+							"stepParentName": "LowerTorso",
+							"from": [ -0.1, 2.7, 0.0 ],
+							"to": [ -0.1, 2.7, 0.0 ],
+							"uv": [ 999.0, 999.0 ],
+							"rotationOrigin": [ -0.1, 2.7, 0.0 ],
+							"rotationZ": -3.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "skirtfrontTop",
+									"stepParentName": "",
+									"from": [ 0.0, -0.5, -0.04 ],
+									"to": [ 0.0, -0.5, -0.04 ],
+									"uv": [ 999.0, 999.0 ],
+									"rotationOrigin": [ 0.0, -0.5, -0.04 ],
+									"rotationZ": -3.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+									},
+									"children": [
+										{
+											"name": "skirtfrontTop_geo",
+											"stepParentName": "",
+											"from": [ -0.5, -4.5, -0.23 ],
+											"to": [ 0.1, 0.0, 6.215 ],
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 0,
+											"uv": [ 12.0, 16.0 ],
+											"rotationOrigin": [ 0.0, -5.0, -0.03 ],
+											"faces": {
+												"north": { "texture": "#kitsune-uwagi.png", "uv": [ 12.0, 67.0, 12.5, 69.75 ], "autoUv": false, "snapUv": false },
+												"east": { "texture": "#kitsune-uwagi.png", "uv": [ 35.0, 33.0, 41.5, 35.75 ], "autoUv": false, "snapUv": false },
+												"south": { "texture": "#kitsune-uwagi.png", "uv": [ 67.0, 16.0, 67.5, 18.75 ], "autoUv": false, "snapUv": false },
+												"west": { "texture": "#kitsune-uwagi.png", "uv": [ 35.0, 37.0, 41.5, 39.75 ], "autoUv": false, "snapUv": false },
+												"up": { "texture": "#kitsune-uwagi.png", "uv": [ 21.5, 63.5, 21.0, 57.0 ], "autoUv": false, "snapUv": false },
+												"down": { "texture": "#kitsune-uwagi.png", "uv": [ 13.5, 59.0, 13.0, 65.5 ], "autoUv": false, "snapUv": false }
+											}
+										},
+										{
+											"name": "skirtfrontTop_geo",
+											"stepParentName": "",
+											"from": [ -0.651, -4.501, 0.544 ],
+											"to": [ 0.101, 0.301, 1.291 ],
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 0,
+											"uv": [ 32.0, 2.75 ],
+											"rotationOrigin": [ 0.0, -5.0, -1.13 ],
+											"faces": {
+												"north": { "texture": "#kitsune-uwagi.png", "uv": [ 32.0, 62.0, 32.75, 65.0 ], "autoUv": false, "snapUv": false },
+												"east": { "texture": "#kitsune-uwagi.png", "uv": [ 40.0, 63.0, 40.75, 66.0 ], "autoUv": false, "snapUv": false },
+												"south": { "texture": "#kitsune-uwagi.png", "uv": [ 42.0, 63.0, 42.75, 66.0 ], "autoUv": false, "snapUv": false },
+												"west": { "texture": "#kitsune-uwagi.png", "uv": [ 63.0, 43.0, 63.75, 46.0 ], "autoUv": false, "snapUv": false },
+												"up": { "texture": "#kitsune-uwagi.png", "uv": [ 71.75, 2.75, 71.0, 2.0 ], "autoUv": false, "snapUv": false },
+												"down": { "texture": "#kitsune-uwagi.png", "uv": [ 72.75, 39.0, 72.0, 39.75 ], "autoUv": false, "snapUv": false }
+											}
+										}
+									]
+								},
+								{
+									"name": "backTop",
+									"stepParentName": "",
+									"from": [ 5.2, -0.5, -0.04 ],
+									"to": [ 5.2, -0.5, -0.04 ],
+									"uv": [ 999.0, 999.0 ],
+									"rotationOrigin": [ 5.2, -0.5, -0.04 ],
+									"rotationZ": 4.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+									},
+									"children": [
+										{
+											"name": "backTop_geo",
+											"stepParentName": "",
+											"from": [ -0.575, -4.575, -0.225 ],
+											"to": [ 0.0, 0.0, 6.23 ],
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 0,
+											"uv": [ 8.0, 20.0 ],
+											"rotationOrigin": [ -4.0, -3.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#kitsune-uwagi.png", "uv": [ 8.0, 66.0, 8.5, 69.0 ], "autoUv": false, "snapUv": false },
+												"east": { "texture": "#kitsune-uwagi.png", "uv": [ 33.0, 20.0, 39.5, 23.0 ], "autoUv": false, "snapUv": false },
+												"south": { "texture": "#kitsune-uwagi.png", "uv": [ 10.0, 66.0, 10.5, 69.0 ], "autoUv": false, "snapUv": false },
+												"west": { "texture": "#kitsune-uwagi.png", "uv": [ 20.0, 34.0, 26.5, 37.0 ], "autoUv": false, "snapUv": false },
+												"up": { "texture": "#kitsune-uwagi.png", "uv": [ 34.5, 65.5, 34.0, 59.0 ], "autoUv": false, "snapUv": false },
+												"down": { "texture": "#kitsune-uwagi.png", "uv": [ 36.5, 59.0, 36.0, 65.5 ], "autoUv": false, "snapUv": false }
+											}
+										}
+									]
+								},
+								{
+									"name": "torso_geo",
+									"stepParentName": "",
+									"from": [ -0.5, -1.5, -0.24 ],
+									"to": [ 5.2, 0.5, 6.165 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 5.75, 0.0 ],
+									"rotationOrigin": [ 0.0, -1.5, -0.04 ],
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 49.0, 36.0, 54.75, 38.0 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 35.0, 47.0, 41.5, 49.0 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 49.0, 39.0, 54.75, 41.0 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 48.0, 18.0, 54.5, 20.0 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 5.75, 22.5, 0.0, 16.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 21.75, 0.0, 16.0, 6.5 ], "autoUv": false, "snapUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "sideLTop",
+							"stepParentName": "",
+							"from": [ -7.5, -4.8, -2.0 ],
+							"to": [ -7.5, -4.8, -2.0 ],
+							"uv": [ 999.0, 999.0 ],
+							"rotationOrigin": [ -7.5, -4.8, -2.0 ],
+							"rotationX": -5.0,
+							"rotationZ": -4.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "sideLTop_geo",
+									"stepParentName": "",
+									"from": [ -0.85, -5.525, -0.325 ],
+									"to": [ 4.55, 0.0, 0.05 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 6.0, 4.25 ],
+									"rotationOrigin": [ 0.0, -6.0, -0.9 ],
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 27.0, 24.0, 32.5, 27.75 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 70.0, 31.0, 70.25, 34.75 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 6.0, 28.0, 11.5, 31.75 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 48.0, 70.0, 48.25, 73.75 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 72.5, 4.25, 67.0, 4.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 72.5, 20.0, 67.0, 20.25 ], "autoUv": false, "snapUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "side R",
+							"stepParentName": "",
+							"from": [ -7.5, -4.8, -8.1 ],
+							"to": [ -7.5, -4.8, -8.1 ],
+							"uv": [ 999.0, 999.0 ],
+							"rotationOrigin": [ -7.5, -4.8, -8.1 ],
+							"rotationX": 5.0,
+							"rotationZ": -4.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "side R_geo",
+									"stepParentName": "",
+									"from": [ -0.775, -5.525, -0.05 ],
+									"to": [ 4.5, -0.975, 0.35 ],
+									"climateColorMap": "",
+									"seasonColorMap": "",
+									"renderPass": 0,
+									"uv": [ 17.0, 27.25 ],
+									"rotationOrigin": [ 0.0, -6.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#kitsune-uwagi.png", "uv": [ 17.0, 43.0, 22.25, 45.75 ], "autoUv": false, "snapUv": false },
+										"east": { "texture": "#kitsune-uwagi.png", "uv": [ 46.0, 71.0, 46.25, 73.75 ], "autoUv": false, "snapUv": false },
+										"south": { "texture": "#kitsune-uwagi.png", "uv": [ 43.0, 32.0, 48.25, 34.75 ], "autoUv": false, "snapUv": false },
+										"west": { "texture": "#kitsune-uwagi.png", "uv": [ 57.0, 71.0, 57.25, 73.75 ], "autoUv": false, "snapUv": false },
+										"up": { "texture": "#kitsune-uwagi.png", "uv": [ 72.25, 27.25, 67.0, 27.0 ], "autoUv": false, "snapUv": false },
+										"down": { "texture": "#kitsune-uwagi.png", "uv": [ 72.25, 43.0, 67.0, 43.25 ], "autoUv": false, "snapUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -8.025, -8.1, -8.15 ],
+							"to": [ -2.975, -5.375, -1.85 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 19.0, 10.0 ],
+							"rotationOrigin": [ -7.1, -8.1, -4.2 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 45.0, 14.0, 50.0, 16.75 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 25.0, 38.0, 31.25, 40.75 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 43.0, 46.0, 48.0, 48.75 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 39.0, 10.0, 45.25, 12.75 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 19.0, 22.25, 14.0, 16.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 25.0, 15.0, 20.0, 21.25 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "LArm",
+					"stepParentName": "UpperArmL",
+					"from": [ 16.0, 16.0, 16.0 ],
+					"to": [ 16.0, 16.0, 16.0 ],
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 16.0, 16.0, 16.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "cube",
+							"stepParentName": "",
+							"from": [ -16.525, -13.3, -16.3 ],
+							"to": [ -12.9, -8.9, -13.8 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 12.0, 14.0 ],
+							"rotationOrigin": [ -15.2, -11.0, -15.2 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 12.0, 40.0, 15.75, 44.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 49.0, 42.0, 51.5, 46.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 40.0, 14.0, 43.75, 18.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 49.0, 48.0, 51.5, 52.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 53.75, 33.5, 50.0, 31.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 38.75, 50.0, 35.0, 52.5 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "LArmL",
+					"stepParentName": "LowerArmL",
+					"from": [ 8.0, 8.0, 8.0 ],
+					"to": [ 8.0, 8.0, 8.0 ],
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -8.2, -6.4, -8.2 ],
+							"to": [ -5.3, -3.0, -5.8 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 3.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 50.0, 0.0, 53.0, 3.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 19.0, 52.0, 21.5, 55.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 4.0, 50.0, 7.0, 53.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 29.0, 52.0, 31.5, 55.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 50.0, 56.5, 47.0, 54.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 3.0, 55.0, 0.0, 57.5 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -8.3, -6.7, -8.3 ],
+							"to": [ -5.2, -6.2, -5.7 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 7.0, 45.0 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 23.0, 66.0, 26.0, 66.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 40.0, 67.0, 42.5, 67.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 30.0, 66.0, 33.0, 66.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 67.0, 45.0, 69.5, 45.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 7.0, 57.5, 4.0, 55.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 11.0, 55.0, 8.0, 57.5 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -7.0, -6.7, -5.7 ],
+							"to": [ -6.5, -6.2, -5.5 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 6.5, 4.25 ],
+							"rotationOrigin": [ -6.75, -6.475, -5.7 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 74.0, 27.0, 74.5, 27.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 77.0, 75.0, 77.25, 75.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 74.0, 39.0, 74.5, 39.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 77.0, 77.0, 77.25, 77.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 78.5, 4.25, 78.0, 4.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 6.5, 78.0, 6.0, 78.25 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -6.8, -6.6, -5.7 ],
+							"to": [ -5.9, -6.3, -5.525 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 8.0, 6.0 ],
+							"rotationOrigin": [ -6.75, -6.475, -5.7 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 74.0, 43.0, 75.0, 43.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 79.0, 6.0, 79.25, 6.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 74.0, 49.0, 75.0, 49.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 8.0, 79.0, 8.25, 79.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 75.0, 57.25, 74.0, 57.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 66.0, 74.0, 65.0, 74.25 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -7.4, -6.6, -5.7 ],
+							"to": [ -6.5, -6.3, -5.525 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 0.0, 0.25 ],
+							"rotationOrigin": [ -6.75, -6.475, -5.7 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 73.0, 74.0, 74.0, 74.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 79.0, 8.0, 79.25, 8.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 0.0, 75.0, 1.0, 75.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 10.0, 79.0, 10.25, 79.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 76.0, 0.25, 75.0, 0.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 76.0, 2.0, 75.0, 2.25 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -8.2, -7.7, -6.4 ],
+							"to": [ -5.3, -6.4, -5.8 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 0.0, 31.5 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 5.0, 59.0, 8.0, 60.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 0.0, 72.0, 0.5, 73.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 9.0, 59.0, 12.0, 60.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 8.0, 72.0, 8.5, 73.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 69.0, 31.5, 66.0, 31.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 69.0, 33.0, 66.0, 33.5 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "LArmR",
+					"stepParentName": "LowerArmR",
+					"from": [ 8.0, 8.0, 8.0 ],
+					"to": [ 8.0, 8.0, 8.0 ],
+					"uv": [ 999.0, 999.0 ],
+					"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -8.2, -6.4, -8.2 ],
+							"to": [ -5.3, -3.0, -5.8 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 8.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 50.0, 5.0, 53.0, 8.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 53.0, 42.0, 55.5, 45.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 8.0, 50.0, 11.0, 53.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 53.0, 47.0, 55.5, 50.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 58.0, 33.5, 55.0, 31.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 59.0, 16.0, 56.0, 18.5 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -8.3, -6.7, -8.3 ],
+							"to": [ -5.2, -6.2, -5.7 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 59.0, 22.5 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 66.0, 47.0, 69.0, 47.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 67.0, 63.0, 69.5, 63.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 66.0, 56.0, 69.0, 56.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 67.0, 65.0, 69.5, 65.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 59.0, 22.5, 56.0, 20.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 59.0, 27.0, 56.0, 29.5 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -7.0, -6.7, -8.5 ],
+							"to": [ -6.5, -6.2, -8.3 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 8.0, 6.0 ],
+							"rotationOrigin": [ -6.75, -6.475, -8.5 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 75.0, 6.0, 75.5, 6.5 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 12.0, 78.0, 12.25, 78.5 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 8.0, 75.0, 8.5, 75.5 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 18.0, 78.0, 18.25, 78.5 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 20.5, 78.25, 20.0, 78.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 78.5, 24.0, 78.0, 24.25 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -6.8, -6.6, -8.475 ],
+							"to": [ -5.9, -6.3, -8.3 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 10.0, 8.0 ],
+							"rotationOrigin": [ -6.75, -6.475, -8.475 ],
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 75.0, 8.0, 76.0, 8.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 79.0, 10.0, 79.25, 10.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 10.0, 75.0, 11.0, 75.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 79.0, 12.0, 79.25, 12.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 76.0, 10.25, 75.0, 10.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 76.0, 14.0, 75.0, 14.25 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -7.4, -6.6, -8.475 ],
+							"to": [ -6.5, -6.3, -8.3 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 14.0, 14.0 ],
+							"rotationOrigin": [ -6.75, -6.475, -8.475 ],
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 15.0, 75.0, 16.0, 75.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 14.0, 79.0, 14.25, 79.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 75.0, 16.0, 76.0, 16.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 79.0, 14.0, 79.25, 14.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 18.0, 75.25, 17.0, 75.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 76.0, 18.0, 75.0, 18.25 ], "autoUv": false, "snapUv": false }
+							}
+						},
+						{
+							"name": "kote",
+							"stepParentName": "",
+							"from": [ -8.2, -7.7, -8.2 ],
+							"to": [ -5.3, -6.4, -7.6 ],
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 0,
+							"uv": [ 10.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#kitsune-uwagi.png", "uv": [ 26.0, 59.0, 29.0, 60.25 ], "autoUv": false, "snapUv": false },
+								"east": { "texture": "#kitsune-uwagi.png", "uv": [ 10.0, 72.0, 10.5, 73.25 ], "autoUv": false, "snapUv": false },
+								"south": { "texture": "#kitsune-uwagi.png", "uv": [ 30.0, 59.0, 33.0, 60.25 ], "autoUv": false, "snapUv": false },
+								"west": { "texture": "#kitsune-uwagi.png", "uv": [ 72.0, 24.0, 72.5, 25.25 ], "autoUv": false, "snapUv": false },
+								"up": { "texture": "#kitsune-uwagi.png", "uv": [ 69.0, 58.5, 66.0, 58.0 ], "autoUv": false, "snapUv": false },
+								"down": { "texture": "#kitsune-uwagi.png", "uv": [ 70.0, 2.0, 67.0, 2.5 ], "autoUv": false, "snapUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

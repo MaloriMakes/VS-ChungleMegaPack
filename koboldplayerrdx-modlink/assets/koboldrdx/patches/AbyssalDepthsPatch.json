@@ -1,0 +1,26 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "abyssaldepths" }],
+	"value": {
+		"abyssaldepths:entity/armour/divingsuit1/head": "koboldrdx:entity/humanoid/seraph/mods/abyssaldepths/divingsuit1/head",
+		"abyssaldepths:entity/armour/divingsuit1/legs": "koboldrdx:entity/humanoid/seraph/mods/abyssaldepths/divingsuit1/legs",
+		"abyssaldepths:entity/armour/divingsuit2/head": "koboldrdx:entity/humanoid/seraph/mods/abyssaldepths/divingsuit2/head",
+		"abyssaldepths:entity/armour/divingsuit2/legs": "koboldrdx:entity/humanoid/seraph/mods/abyssaldepths/divingsuit2/legs",
+		"abyssaldepths:entity/armour/divingsuit3/head": "koboldrdx:entity/humanoid/seraph/mods/abyssaldepths/divingsuit3/head",
+		"abyssaldepths:entity/armour/divingsuit3/legs": "koboldrdx:entity/humanoid/seraph/mods/abyssaldepths/divingsuit3/legs"
+		}
+	},
+	{
+		"file": "abyssaldepths:itemtypes/wearable/armour.json",
+		"op": "addmerge",
+		"path": "0/attributes/disableElementsByType",
+		"dependsOn": [{ "modid": "abyssaldepths" }],
+		"value": {
+			"divingsuit-head-*": ["EarL1","EarR1"],
+			"divingsuit-body-*": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+		}
+	}
+]

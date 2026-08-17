@@ -1,0 +1,31 @@
+[
+	{
+	"file": "koboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/koboldrdx:kobold",
+	"dependsOn": [{ "modid": "rustboundmagic" }],
+	"value": {
+		"rustboundmagic:entities/humanoids/armor/basic/basic-body-inert": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-body-inert",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-body-tier1": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-body-tier1",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-body-tier2": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-body-tier2",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-body-tier3": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-body-tier3",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-inert": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-legs-inert",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-tier1": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-legs-tier1",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-tier2": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-legs-tier2",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-tier3": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/basic/basic-legs-tier3",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-body-tier1": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/wanderer/wanderer-body-tier1",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-body-tier2": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/wanderer/wanderer-body-tier2",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-body-tier3": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/wanderer/wanderer-body-tier3",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-legs-tier1": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/wanderer/wanderer-legs-tier1",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-legs-tier2": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/wanderer/wanderer-legs-tier2",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-legs-tier3": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/wanderer/wanderer-legs-tier3",
+		"rustboundmagic:entities/humanoids/armor/rustyjonas/rustyjonas-body": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/rustyjonas/rustyjonas-body",
+		"rustboundmagic:entities/humanoids/armor/rustyjonas/rustyjonas-legs": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/rustyjonas/rustyjonas-legs",
+		"rustboundmagic:entities/humanoids/armor/necromancer/necromancer-body": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/necromancer/necromancer-body",
+		"rustboundmagic:entities/humanoids/armor/necromancer/necromancer-head": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/necromancer/necromancer-head",
+		"rustboundmagic:entities/humanoids/armor/necromancer/necromancer-legs": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/necromancer/necromancer-legs",
+		"rustboundmagic:entities/humanoids/armor/temporaljonas/temporaljonas-body": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/temporaljonas/temporaljonas-body",
+		"rustboundmagic:entities/humanoids/armor/temporaljonas/temporaljonas-legs": "koboldrdx:entity/humanoid/seraph/mods/rustbound/armor/temporaljonas/temporaljonas-legs"
+		}
+	}
+]
