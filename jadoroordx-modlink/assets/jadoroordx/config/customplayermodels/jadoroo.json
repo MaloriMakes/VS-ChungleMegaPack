@@ -10,9 +10,9 @@
 		"ScaleColliderWithSizeVertically": true,
 		"MaxCollisionBox": [ 0.8, 2.7 ],
 		"MinCollisionBox": [ 0.1, 0.1 ],
-		"MaxEyeHeight":	2.58,
-		"MinEyeHeight":	0.8,
-		"SneakEyeHeightMultiplier": 0.72,
+		"MaxEyeHeight":	2.6,
+		"MinEyeHeight":	2.6,
+		"SneakEyeHeightMultiplier": 0.6,
 		"AddTags": ["beasts","jadoroo"],
 		"RemoveTags": ["seraph"],
 		"SkinnableParts": [
@@ -25,138 +25,7 @@
 				"overlayMode": "Normal",
 				"textureTemplate": "jadoroordx:entity/humanoid/seraphskinparts/body/{code}",
 				"variants": [
-					{ "code": "jadorooskin1", "texture": "skin1" },
-					{ "code": "jadorooskin2", "texture": "skin2" },
-					{ "code": "jadorooskin3", "texture": "skin3" },
-					{ "code": "jadorooskin4", "texture": "skin4" },
-					{ "code": "jadorooskin5", "texture": "skin5" },
-					{ "code": "jadorooskin6", "texture": "skin6" },
-					{ "code": "jadorooskin7", "texture": "skin7" },
-					{ "code": "jadorooskin8", "texture": "skin8" },
-					{ "code": "jadorooskin9", "texture": "skin9" },
-					{ "code": "jadorooskin10", "texture": "skin10" },
-					{ "code": "jadorooskin11", "texture": "skin11" },
-					{ "code": "jadorooskin12", "texture": "skin12" },
-					{ "code": "jadorooskin13", "texture": "skin13" },
-					{ "code": "jadorooskin14", "texture": "skin14" },
-					{ "code": "jadorooskin15", "texture": "skin15" },
-					{ "code": "jadorooskin16", "texture": "skin16" },
-					{ "code": "jadorooskin17", "texture": "skin17" },
-					{ "code": "jadorooskin18", "texture": "skin18" },
-					{ "code": "jadorooskin19", "texture": "skin19" },
-					{ "code": "jadorooskin20", "texture": "skin20" },
-					{ "code": "jadorooskin21", "texture": "skin21" },
-					{ "code": "jadorooskin22", "texture": "skin22" },
-					{ "code": "jadorooskin23", "texture": "skin23" },
-					{ "code": "jadorooskin24", "texture": "skin24" },
-					{ "code": "jadorooskin25", "texture": "skin25" },
-					{ "code": "jadorooskin26", "texture": "skin26" },
-					{ "code": "jadorooskin27", "texture": "skin27" },
-					{ "code": "jadorooskin28", "texture": "skin28" }
-				]
-			},
-			{
-				"code": "horncolor",
-				"type": "texture",
-				"textureTarget": "jadoroobodytex",
-				"targetSkinParts": ["horns-jaw", "horns-extra", "horns-top"],
-				"textureTemplate": "jadoroordx:entity/humanoid/seraphskinparts/body/{code}",
-				"variants": [
-					{ "code": "jadorooskin1", "texture": "skin1" },
-					{ "code": "jadorooskin2", "texture": "skin2" },
-					{ "code": "jadorooskin3", "texture": "skin3" },
-					{ "code": "jadorooskin4", "texture": "skin4" },
-					{ "code": "jadorooskin5", "texture": "skin5" },
-					{ "code": "jadorooskin6", "texture": "skin6" },
-					{ "code": "jadorooskin7", "texture": "skin7" },
-					{ "code": "jadorooskin8", "texture": "skin8" },
-					{ "code": "jadorooskin9", "texture": "skin9" },
-					{ "code": "jadorooskin10", "texture": "skin10" },
-					{ "code": "jadorooskin11", "texture": "skin11" },
-					{ "code": "jadorooskin12", "texture": "skin12" },
-					{ "code": "jadorooskin13", "texture": "skin13" },
-					{ "code": "jadorooskin14", "texture": "skin14" },
-					{ "code": "jadorooskin15", "texture": "skin15" },
-					{ "code": "jadorooskin16", "texture": "skin16" },
-					{ "code": "jadorooskin17", "texture": "skin17" },
-					{ "code": "jadorooskin18", "texture": "skin18" },
-					{ "code": "jadorooskin19", "texture": "skin19" },
-					{ "code": "jadorooskin20", "texture": "skin20" },
-					{ "code": "jadorooskin21", "texture": "skin21" },
-					{ "code": "jadorooskin22", "texture": "skin22" },
-					{ "code": "jadorooskin23", "texture": "skin23" },
-					{ "code": "jadorooskin24", "texture": "skin24" },
-					{ "code": "jadorooskin25", "texture": "skin25" },
-					{ "code": "jadorooskin26", "texture": "skin26" },
-					{ "code": "jadorooskin27", "texture": "skin27" },
-					{ "code": "jadorooskin28", "texture": "skin28" }
-				]
-			},
-			{
-				"code": "eyecolor",
-				"type": "texture",
-				"textureTarget": "playermodellib-iris",
-				"targetSkinParts": ["facialexpression"],
-				"textureTemplate": "playermodellib:eyes/{code}",
-				"variants": [
-					{ "code": "ruby", "texture": "ruby" },
-				
-					{ "code": "topaz", "texture": "topaz" },
-					{ "code": "cadmium-orange", "texture": "cadmium-orange" },
-					{ "code": "goldenrod", "texture": "goldenrod" },
-					{ "code": "sand", "texture": "sand" },
-					
-					{ "code": "citron", "texture": "citron" },
-					{ "code": "acid-green", "texture": "acid-green" },
-					{ "code": "bitter-lemon", "texture": "bitter-lemon" },
-					
-					{ "code": "dark-green", "texture": "dark-green" },
-					{ "code": "forest-green", "texture": "forest-green" },
-					{ "code": "malachite", "texture": "malachite" },
-					{ "code": "mantis", "texture": "mantis" },
-					
-					{ "code": "jonas", "texture": "jonas" },
-					
-					{ "code": "phthalo-blue", "texture": "phthalo-blue" },
-					{ "code": "sapphire", "texture": "sapphire" },
-					{ "code": "azure", "texture": "azure" },
-					{ "code": "jade", "texture": "jade" },
-					{ "code": "aquamarine", "texture": "aquamarine" },
-					
-					{ "code": "midnight", "texture": "midnight" },
-					{ "code": "purple", "texture": "purple" },
-					{ "code": "lavander", "texture": "lavander" }
-				]
-			},
-			{
-				"code": "haircolor",
-				"type": "texture",
-				"colbreak": true,
-				"textureTarget": "hair",
-				"targetSkinParts": ["hairbase", "hairextra"],
-				"textureTemplate": "game:entity/humanoid/seraphskinparts/hair/{code}",
-				"variants": [
-					{ "code": "lightgray" },
-					{ "code": "silverchalice" },
-					{ "code": "slategray" },
-					{ "code": "eerieblack" },
-					{ "code": "mossgreen" },
-					{ "code": "seagreen" },
-					{ "code": "wintergreendream" },
-					{ "code": "steelblue" },
-					{ "code": "queenblue" },
-					{ "code": "indigodye" },
-					{ "code": "heliotropegray" },
-					{ "code": "palatinatepurple" },
-					{ "code": "darkpurple" },
-					{ "code": "wheat" },
-					{ "code": "sanddune" },
-					{ "code": "harvestgold" },
-					{ "code": "cordovan" },
-					{ "code": "rosewood" },
-					{ "code": "russet" },
-					{ "code": "liver" },
-					{ "code": "oldburgundy" }
+					{ "code": "jadorooskin1", "texture": "skin1" }
 				]
 			},
 			{
@@ -164,21 +33,7 @@
 				"type": "shape",
 				"shapeTemplate": { "base": "jadoroordx:entity/humanoid/seraphskinparts/face/{code}" },
 				"variants": [
-					{ "code": "angry"},
-					{ "code": "cringe"},
-					{ "code": "shock"},
-					{ "code": "excited"},
-					{ "code": "focused"},
-					{ "code": "neutral"},
-					{ "code": "rage"},
-					{ "code": "sad"},
-					{ "code": "smarm"},
-					{ "code": "smile"},
-					{ "code": "squint"},
-					{ "code": "tired"},
-					{ "code": "tiredhappy"},
-					{ "code": "uwu"},
-					{ "code": "verytired"}
+					{ "code": "smile"}
 				]
 			},
 			{
@@ -212,112 +67,6 @@
 				]
 			},
 			{
-				"code": "hairbase",
-				"type": "shape",
-				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-base/{code}" },
-				"variants": [
-					{ "code": "bald" },
-					{ "code": "balding" },
-					{ "code": "afro" },
-					{ "code": "combed" },
-					{ "code": "dreadlocks" },
-					{ "code": "indigenousbalding" },
-					{ "code": "iroquois" },
-					{ "code": "kniaz" },
-					{ "code": "layered" },
-					{ "code": "longflowing" },
-					{ "code": "longwithstrands" },
-					{ "code": "mediumlength-bangs" },
-					{ "code": "messy" },
-					{ "code": "messy2" },
-					{ "code": "classic" },
-					{ "code": "short" },
-					{ "code": "short-parted" },
-					{ "code": "shortspiky" },
-					{ "code": "short-trimmed" },
-					{ "code": "tonsure" }
-				]
-			},
-			{
-				"code": "hairextra",
-				"type": "shape",
-				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/{code}" },
-				"variants": [
-					{ "code": "none" },
-					{ "code": "backbun" },
-					{ "code": "braidedup" },
-					{ "code": "elaboratestickbun" },
-					{ "code": "headsidebraid" },
-					{ "code": "largestickbun" },
-					{ "code": "neatbraid" },
-					{ "code": "classicponytail" },
-					{ "code": "ponytail" },
-					{ "code": "rolledbraidwithbun" },
-					{ "code": "shortmessybraid" },
-					{ "code": "sidebraids" },
-					{ "code": "sidebuns" },
-					{ "code": "siderolls" },
-					{ "code": "snood" },
-					{ "code": "thicklongfrenchbraid" },
-					{ "code": "tiedback" },
-					{ "code": "tieddreads" },
-					{ "code": "tiedtopknot" },
-					{ "code": "topbun" },
-					{ "code": "topknot" },
-					{ "code": "unkempt" },
-					{ "code": "vikingtopbraid" }
-				]
-			},
-			{
-				"code": "horns-top",
-				"type": "shape",
-				"useDropDown": true,
-				"shapeTemplate": { "base": "jadoroordx:entity/humanoid/seraphskinparts/horns-top/{code}" },
-				"variants": [
-					{ "code": "none" },
-					{ "code": "straight" },
-					{ "code": "ram" },
-					{ "code": "goat" },
-					{ "code": "curly" }
-				]
-			},
-			{
-				"code": "horns-extra",
-				"type": "shape",
-				"useDropDown": true,
-				"shapeTemplate": { "base": "jadoroordx:entity/humanoid/seraphskinparts/horns-extra/{code}" },
-				"variants": [
-					{ "code": "none" },
-					{ "code": "small" },
-					{ "code": "eastern" },
-					{ "code": "nose" },
-					{ "code": "burns" },
-					{ "code": "brows" },
-					{ "code": "fangs" },
-					{ "code": "floof" }
-				]
-			},
-			{
-				"code": "horns-jaw",
-				"type": "shape",
-				"useDropDown": true,
-				"shapeTemplate": { "base": "jadoroordx:entity/humanoid/seraphskinparts/horns-jaw/{code}" },
-				"variants": [
-					{ "code": "none" },
-					{ "code": "short" },
-					{ "code": "propermohawk" },
-					{ "code": "teeny" },
-					{ "code": "spikes" },
-					{ "code": "doublemohawk" },
-					{ "code": "mohawk" },
-					{ "code": "smalltop1" },
-					{ "code": "smalltop2" },
-					{ "code": "smalltop3" },
-					{ "code": "smalltopmany" },
-					{ "code": "spines" }
-				]
-			},
-			{
 				"code": "underwear",
 				"type": "texture", 
 				"useDropDown": true,
@@ -338,8 +87,7 @@
 				"type": "shape",
 				"shapeTemplate": { "base": "jadoroordx:entity/humanoid/seraphskinparts/chest/{code}" },
 				"variants": [
-					{ "code": "none"},
-					{ "code": "yes"}
+					{ "code": "none"}
 				],
 				"disableElementsByVariantCode": {
 					"none": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
