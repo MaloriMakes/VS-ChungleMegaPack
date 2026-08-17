@@ -1,0 +1,15 @@
+{
+	"type": "content",
+	"name": "A Chance at Evolution",
+	"version": "1",
+	"description": "Everyone's favorite drink, now in voxel form!",
+	"modID": "chancerdx",
+	"side": "universal",
+		"requiredOnClient": true,
+		"requiredOnServer": true,
+	"authors": [ "MaloriMakes" ],
+	"contributors": [ "Me uwu" ],
+	"dependencies": {
+		"playermodellib": "1.6.2"
+  }
+}

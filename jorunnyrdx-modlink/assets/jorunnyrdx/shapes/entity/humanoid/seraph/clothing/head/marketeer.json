@@ -1,0 +1,68 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 28,
+	"textureHeight": 20,
+	"textureSizes": {
+		"hat": [28,20]
+	},
+	"textures": {
+		"hat": "entity/humanoid/seraphclothes/head/marketeer"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "Head",
+			"from": [ -0.156, -0.26, -0.195 ],
+			"to": [ 7.254, 6.76, 6.695 ],
+			"unwrapMode": 4,
+			"uv": [ 1.5, 2.0 ],
+			"rotationOrigin": [ 2.925, 5.031, 4.16 ],
+			"rotationZ": 1.0,
+			"faces": {
+				"north": { "texture": "#hat", "uv": [ 1.5, 7.5, 7.0, 12.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"east": { "texture": "#hat", "uv": [ 17.5, 7.5, 22.5, 12.5 ], "autoUv": false },
+				"south": { "texture": "#hat", "uv": [ 12.0, 7.5, 17.5, 12.5 ], "autoUv": false },
+				"west": { "texture": "#hat", "uv": [ 7.0, 7.5, 12.0, 12.5 ], "autoUv": false },
+				"up": { "texture": "#hat", "uv": [ 7.0, 2.0, 12.0, 7.5 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#hat", "uv": [ 7.0, 12.5, 12.0, 18.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+			},
+			"children": [
+				{
+					"name": "neck",
+					"from": [ 2.08, -1.3, 1.43 ],
+					"to": [ 6.63, 0.0, 5.46 ],
+					"unwrapMode": 4,
+					"uv": [ 13.0, 4.0 ],
+					"rotationOrigin": [ 2.08, -1.3, 1.43 ],
+					"faces": {
+						"north": { "texture": "#hat", "uv": [ 13.0, 4.0, 16.5, 5.0 ], "autoUv": false },
+						"east": { "texture": "#hat", "uv": [ 23.0, 4.0, 26.0, 5.0 ], "autoUv": false },
+						"south": { "texture": "#hat", "uv": [ 19.5, 4.0, 23.0, 5.0 ], "autoUv": false },
+						"west": { "texture": "#hat", "uv": [ 16.5, 4.0, 19.5, 5.0 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 16.5, 4.0, 19.5, 7.5 ], "rotation": 90, "autoUv": false, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 16.5, 8.5, 19.5, 12.0 ], "rotation": 90, "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "Cube2",
+					"from": [ 0.013, 1.43, 2.795 ],
+					"to": [ 1.313, 2.73, 4.095 ],
+					"uv": [ 17.0, 2.0 ],
+					"rotationOrigin": [ 0.0, 2.08, 3.38 ],
+					"rotationX": 45.0,
+					"faces": {
+						"north": { "texture": "#hat", "uv": [ 17.0, 3.0, 18.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 18.0, 3.0, 19.0, 4.0 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#hat", "uv": [ 19.0, 3.0, 20.0, 4.0 ], "autoUv": false },
+						"west": { "texture": "#hat", "uv": [ 20.0, 3.0, 21.0, 4.0 ], "autoUv": false },
+						"up": { "texture": "#hat", "uv": [ 17.0, 2.0, 18.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#hat", "uv": [ 18.0, 2.0, 19.0, 3.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

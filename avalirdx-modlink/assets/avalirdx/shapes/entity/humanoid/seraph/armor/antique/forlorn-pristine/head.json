@@ -1,0 +1,132 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/avali-faceless",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"forlornhopeWIP": "entity/humanoid/serapharmor/forlorn/forlorn-pristine"
+	},
+	"elements": [
+		{
+			"name": "ArmorHead",
+			"stepParentName": "Head",
+			"from": [ 0.36, -0.09, -0.17 ],
+			"to": [ 9.35, 8.32, 8.82 ],
+			"autoUnwrap": false,
+			"uv": [ 7.0, 0.0 ],
+			"rotationOrigin": [ 0.365, -0.09, 3.89 ],
+			"faces": {
+				"north": { "texture": "#forlornhopeWIP", "uv": [ 45.0, 5.0, 51.0, 10.5 ], "autoUv": false },
+				"east": { "texture": "#forlornhopeWIP", "uv": [ 43.5, 6.0, 49.5, 11.5 ], "autoUv": false },
+				"south": { "texture": "#forlornhopeWIP", "uv": [ 45.0, 5.5, 51.0, 11.0 ], "autoUv": false },
+				"west": { "texture": "#forlornhopeWIP", "uv": [ 44.5, 6.5, 50.5, 12.0 ], "autoUv": false },
+				"up": { "texture": "#forlornhopeWIP", "uv": [ 45.0, 5.5, 51.0, 11.5 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#forlornhopeWIP", "uv": [ 51.5, 0.0, 57.5, 6.0 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "ArmorVisor",
+					"from": [ -2.755, 0.87, 0.87 ],
+					"to": [ 3.045, 6.67, 8.12 ],
+					"autoUnwrap": false,
+					"uv": [ 23.5, 3.0 ],
+					"rotationOrigin": [ 0.145, 3.915, 4.495 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#forlornhopeWIP", "uv": [ 23.5, 2.0, 27.5, 6.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 4.0, 5.0, 9.0, 9.0 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#forlornhopeWIP", "uv": [ 32.5, 2.0, 36.5, 6.0 ], "autoUv": false },
+						"west": { "texture": "#forlornhopeWIP", "uv": [ 29.0, 9.5, 34.0, 13.5 ], "autoUv": false },
+						"up": { "texture": "#forlornhopeWIP", "uv": [ 27.5, 0.0, 32.5, 4.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 4.0, 0.0, 8.0, 5.0 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorHelmetNose",
+					"from": [ -5.075, 7.105, 3.77 ],
+					"to": [ 0.725, 7.83, 5.22 ],
+					"autoUnwrap": false,
+					"uv": [ 25.0, 0.5 ],
+					"rotationOrigin": [ -0.87, 7.83, 4.64 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#forlornhopeWIP", "uv": [ 35.5, 0.0, 39.5, 0.5 ], "autoUv": false },
+						"east": { "texture": "#forlornhopeWIP", "uv": [ 39.5, 0.5, 40.0, 1.5 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#forlornhopeWIP", "uv": [ 35.5, 1.5, 39.5, 2.0 ], "autoUv": false },
+						"west": { "texture": "#forlornhopeWIP", "uv": [ 35.0, 0.5, 35.5, 1.5 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#forlornhopeWIP", "uv": [ 35.5, 0.5, 39.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 4.0, 0.0, 8.0, 1.0 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorRidgeTop",
+					"from": [ 0.29, 7.83, 4.06 ],
+					"to": [ 8.265, 8.845, 4.93 ],
+					"autoUnwrap": false,
+					"uv": [ 11.5, 4.0 ],
+					"rotationOrigin": [ 0.435, 7.83, 4.64 ],
+					"faces": {
+						"north": { "texture": "#forlornhopeWIP", "uv": [ 11.5, 4.5, 17.0, 5.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 5.5, 0.5, 6.0, 1.0 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#forlornhopeWIP", "uv": [ 11.5, 3.5, 17.0, 4.0 ], "autoUv": false },
+						"west": { "texture": "#null", "uv": [ 11.5, 0.5, 12.0, 1.0 ], "autoUv": false, "enabled": false },
+						"up": { "texture": "#forlornhopeWIP", "uv": [ 11.5, 4.0, 17.0, 4.5 ], "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 5.5, 0.0, 11.0, 0.5 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorRidgeBack",
+					"from": [ 8.265, 1.45, 4.06 ],
+					"to": [ 9.28, 8.845, 4.93 ],
+					"uv": [ 34.0, 6.5 ],
+					"rotationOrigin": [ 8.265, 1.45, 4.06 ],
+					"faces": {
+						"north": { "texture": "#forlornhopeWIP", "uv": [ 34.0, 7.0, 34.5, 12.0 ], "autoUv": false },
+						"east": { "texture": "#forlornhopeWIP", "uv": [ 34.5, 7.0, 35.0, 12.0 ], "autoUv": false },
+						"south": { "texture": "#forlornhopeWIP", "uv": [ 35.0, 7.0, 35.5, 12.0 ], "autoUv": false },
+						"west": { "texture": "#null", "uv": [ 35.5, 7.0, 36.0, 12.0 ], "autoUv": false, "enabled": false },
+						"up": { "texture": "#forlornhopeWIP", "uv": [ 34.0, 6.5, 34.5, 7.0 ], "autoUv": false },
+						"down": { "texture": "#forlornhopeWIP", "uv": [ 34.5, 6.5, 35.0, 7.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "ArmorVisor2",
+					"from": [ -3.77, -1.015, 0.754 ],
+					"to": [ 7.83, 3.77, 8.2215 ],
+					"autoUnwrap": false,
+					"uv": [ 23.5, 3.0 ],
+					"rotationOrigin": [ -0.87, 2.03, 4.495 ],
+					"faces": {
+						"north": { "texture": "#forlornhopeWIP", "uv": [ 44.0, 4.0, 52.0, 7.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#null", "uv": [ 8.0, 5.0, 13.0, 8.0 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#forlornhopeWIP", "uv": [ 46.0, 6.5, 54.0, 9.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#forlornhopeWIP", "uv": [ 27.5, 3.5, 32.5, 6.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#forlornhopeWIP", "uv": [ 27.5, 0.0, 32.5, 8.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#forlornhopeWIP", "uv": [ 20.5, 34.0, 28.5, 39.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "ArmorNeck",
+			"stepParentName": "Neck",
+			"from": [ -0.2, 0.6, -0.1 ],
+			"to": [ 3.1, 2.2, 3.1 ],
+			"autoUnwrap": false,
+			"uv": [ 11.5, 3.0 ],
+			"rotationOrigin": [ -0.2, 0.6, 1.5 ],
+			"faces": {
+				"north": { "texture": "#forlornhopeWIP", "uv": [ 11.0, 0.0, 14.0, 1.5 ] },
+				"east": { "texture": "#forlornhopeWIP", "uv": [ 20.0, 0.0, 23.0, 1.5 ] },
+				"south": { "texture": "#forlornhopeWIP", "uv": [ 17.0, 0.0, 20.0, 1.5 ] },
+				"west": { "texture": "#forlornhopeWIP", "uv": [ 14.0, 0.0, 17.0, 1.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 3.0 ], "enabled": false }
+			}
+		}
+	]}

@@ -1,0 +1,11 @@
+[
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "raincoats" }],
+	"value": {
+		"raincoats:entity/humanoid/seraph/clothing/foot/froogboot": "rhasaboldrdx:entity/humanoid/seraph/mods/frogboot/froogboot"
+		}
+	}
+]

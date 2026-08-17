@@ -1,0 +1,74 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_knitty",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 4,
+	"textureSizes": {
+		"squire-bracers": [24,4]
+	},
+	"textures": {
+		"squire-bracers": "entity/humanoid/seraphclothes/arm/squire-bracers"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmL",
+			"from": [ 1.0, 1.0, 0.9 ],
+			"to": [ 1.0, 1.0, 0.9 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ 1.0, 1.0, 0.9 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 999.0, 999.5, 999.5, 1000.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 999.5, 999.5, 1000.0, 1000.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 1000.0, 999.5, 1000.5, 1000.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 1000.5, 999.5, 1001.0, 1000.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 999.0, 999.0, 999.5, 999.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 999.5, 999.0, 1000.0, 999.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "bandL",
+					"stepParentName": "LowerArmL",
+					"from": [ -0.36, 0.65, -0.46 ],
+					"to": [ 3.02, 3.9, 2.47 ],
+					"unwrapMode": 3,
+					"uv": [ 2.0, 1.0 ],
+					"rotationOrigin": [ -0.365, 0.65, -0.465 ],
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#squire-bracers", "uv": [ 8.5, 1.0, 11.0, 3.5 ], "autoUv": false },
+						"east": { "texture": "#squire-bracers", "uv": [ 6.5, 1.0, 8.5, 3.5 ], "autoUv": false },
+						"south": { "texture": "#squire-bracers", "uv": [ 4.0, 1.0, 6.5, 3.5 ], "autoUv": false },
+						"west": { "texture": "#squire-bracers", "uv": [ 2.0, 1.0, 4.0, 3.5 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 4.0, 1.0, 6.5, 3.0 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 4.0, 3.5, 6.5, 7.5 ], "rotation": 180, "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "bandR",
+					"stepParentName": "LowerArmR",
+					"from": [ -0.065, 0.65, -0.065 ],
+					"to": [ 3.315, 3.9, 2.865 ],
+					"unwrapMode": 1,
+					"uv": [ 13.0, 1.0 ],
+					"rotationOrigin": [ -0.065, 0.65, -0.065 ],
+					"rotationZ": 0.1,
+					"faces": {
+						"north": { "texture": "#squire-bracers", "uv": [ 15.0, 1.0, 17.5, 3.5 ], "autoUv": false },
+						"east": { "texture": "#squire-bracers", "uv": [ 13.0, 1.0, 15.0, 3.5 ], "autoUv": false },
+						"south": { "texture": "#squire-bracers", "uv": [ 19.5, 1.0, 22.0, 3.5 ], "autoUv": false },
+						"west": { "texture": "#squire-bracers", "uv": [ 17.5, 1.0, 19.5, 3.5 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 15.0, 1.0, 17.5, 3.0 ], "rotation": 180, "autoUv": false, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 15.0, 3.5, 17.5, 7.5 ], "autoUv": false, "enabled": false }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

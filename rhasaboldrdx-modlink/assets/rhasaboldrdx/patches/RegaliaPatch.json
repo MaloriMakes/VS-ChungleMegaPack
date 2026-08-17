@@ -1,0 +1,19 @@
+[
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "regalia" }],
+	"value": {
+		"regalia:blackgown": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/blackgown",
+		"regalia:cardigan": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/cardigan",
+		"regalia:darknobledress": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/darknobledress",
+		"regalia:finegown": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/finegown",
+		"regalia:rednobledress": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/rednobledress",
+		"regalia:summerdress": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/summerdress",
+		"regalia:tailcoat": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/tailcoat",
+		"regalia:trimmedtunic": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/trimmedtunic",
+		"regalia:weddingdress": "rhasaboldrdx:entity/humanoid/seraph/mods/regalia/weddingdress"
+		}
+	}
+]

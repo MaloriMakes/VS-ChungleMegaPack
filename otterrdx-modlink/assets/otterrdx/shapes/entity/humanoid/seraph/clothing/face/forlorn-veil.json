@@ -1,0 +1,53 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"mask": "entity/humanoid/seraphclothes/face/forlorn-veil"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "Head",
+			"from": [ -0.5, 2.0, 2.875 ],
+			"to": [ -0.5, 2.0, 2.875 ],
+			"uv": [ 999.0, 999.0 ],
+			"rotationOrigin": [ -0.5, 2.0, 2.875 ],
+			"rotationZ": 3.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Mask",
+					"from": [ -1.37, -5.95, -2.9375 ],
+					"to": [ 7.105, 0.425, 3.4375 ],
+					"renderPass": 1,
+					"unwrapMode": 4,
+					"autoUnwrap": false,
+					"uv": [ 1.0, 1.5 ],
+					"rotationOrigin": [ -0.125, -5.95, -3.0 ],
+					"faces": {
+						"north": { "texture": "#mask", "uv": [ 1.5, 1.5, 9.5, 7.0 ], "autoUv": false },
+						"east": { "texture": "#mask", "uv": [ 17.5, 1.5, 22.5, 7.0 ], "autoUv": false },
+						"south": { "texture": "#mask", "uv": [ 12.0, 1.5, 20.0, 7.0 ], "autoUv": false },
+						"west": { "texture": "#mask", "uv": [ 7.0, 1.5, 12.0, 7.0 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "enabled": false }
+					}
+				}
+			]
+		}
+	]}

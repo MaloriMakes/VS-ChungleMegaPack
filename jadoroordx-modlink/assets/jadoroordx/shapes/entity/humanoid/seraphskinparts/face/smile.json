@@ -1,0 +1,17 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop",
+		"collapsedPaths": ",Root/eyesroot",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 76,
+	"textureSizes": {
+		"jadoroobodytex": [64,64],
+		"playermodellib-iris": [8,8]
+	},
+	"textures": {
+	},
+	"elements": [
+	]}

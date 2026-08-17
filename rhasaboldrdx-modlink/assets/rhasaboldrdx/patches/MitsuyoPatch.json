@@ -1,0 +1,17 @@
+﻿[
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "mitsuyoninjafork" }],
+	"value": {
+		"mitsuyoninja:entity/armor/kitsune/suneate": "rhasaboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/kitsune/suneate",
+		"mitsuyoninja:entity/armor/kitsune/yukata": "rhasaboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/kitsune/yukata",
+		"mitsuyoninja:entity/armor/ninja/ninja-head": "rhasaboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/ninja/ninja-head",
+		"mitsuyoninja:entity/armor/ninja/ninja-legs": "rhasaboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/ninja/ninja-legs",
+		"mitsuyoninja:entity/armor/ninja/ninja-torso": "rhasaboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/ninja/ninja-torso",
+		"mitsuyoninja:entity/armor/sam/domaru": "rhasaboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/sam/domaru",
+		"mitsuyoninja:entity/armor/sam/hakama": "rhasaboldrdx:entity/humanoid/seraph/mods/mitsuyoninja/armor/sam/hakama"
+		}
+	}
+]

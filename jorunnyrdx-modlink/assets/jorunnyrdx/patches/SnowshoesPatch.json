@@ -1,0 +1,28 @@
+[
+	{
+	"file": "jorunnyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jorunnyrdx:jorunny",
+	"dependsOn": [{ "modid": "snowshoes" }],
+	"value": {
+		"snowshoes:item/snowshoes/old/fur": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/old/fur",
+		"snowshoes:item/snowshoes/old/plain": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/old/plain",
+		"snowshoes:item/snowshoes/wooden/crude/plain": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/crude/plain",
+		"snowshoes:item/snowshoes/metal/aluminum/fur": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/metal/aluminum/fur",
+		"snowshoes:item/snowshoes/metal/aluminum/nadiyanblue": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/metal/aluminum/nadiyanblue",
+		"snowshoes:item/snowshoes/metal/aluminum/nadiyanbrown": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/metal/aluminum/nadiyanbrown",
+		"snowshoes:item/snowshoes/metal/aluminum/plain": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/metal/aluminum/plain",
+		"snowshoes:item/snowshoes/metal/aluminum/reindeer": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/metal/aluminum/reindeer",
+		"snowshoes:item/snowshoes/wooden/carved/fur": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/fur",
+		"snowshoes:item/snowshoes/wooden/carved/nadiyanblue": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/nadiyanblue",
+		"snowshoes:item/snowshoes/wooden/carved/nadiyanbrown": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/nadiyanbrown",
+		"snowshoes:item/snowshoes/wooden/carved/plain": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/plain",
+		"snowshoes:item/snowshoes/wooden/carved/reindeer": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/reindeer",
+		"snowshoes:item/snowshoes/wooden/carved/treated/fur": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/treated/fur",
+		"snowshoes:item/snowshoes/wooden/carved/treated/nadiyanblue": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/treated/nadiyanblue",
+		"snowshoes:item/snowshoes/wooden/carved/treated/nadiyanbrown": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/treated/nadiyanbrown",
+		"snowshoes:item/snowshoes/wooden/carved/treated/plain": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/treated/plain",
+		"snowshoes:item/snowshoes/wooden/carved/treated/reindeer": "jorunnyrdx:entity/humanoid/seraph/item/snowshoes/wooden/carved/treated/reindeer",
+		}
+	}
+]

@@ -1,0 +1,18 @@
+[
+	{
+	"file": "avalirdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/avalirdx:avali",
+	"dependsOn": [{ "modid": "dressedtokillredux" }],
+	"value": {
+		"dressedtokillredux:foot": "avalirdx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokill:foot": "avalirdx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokillredux:lowerbody": "avalirdx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokill:lowerbody": "avalirdx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokillredux:upperbody": "avalirdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokill:upperbody": "avalirdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokillredux:upperbodyover": "avalirdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokill:upperbodyover": "avalirdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover"
+		}
+	}
+]

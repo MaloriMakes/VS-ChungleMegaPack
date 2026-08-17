@@ -1,0 +1,88 @@
+{
+	"jorunny": {
+		"Group": "temporal",
+		"Icon": "jorunnyrdx:icons/jorunny",
+		"GroupIcon": "playermodellib:icons/temporal",
+		"ShapePath": "jorunnyrdx:entity/humanoid/jorunny-faceless",
+		"MainTextureCode": "jorunnybodytex",
+		"SizeRange": [ 0.51, 0.51 ],
+		"ScaleColliderWithSizeHorizontally": true,
+		"ScaleColliderWithSizeVertically": true,
+		"MaxCollisionBox": [ 0.8, 2.7 ],
+		"MinCollisionBox": [ 0.1, 0.1 ],
+		"MaxEyeHeight":	0.9,
+		"MinEyeHeight":	0.9,
+        "SneakEyeHeightMultiplier": 0.75,
+		"AddTags": ["temporal","construct","jorunny"],
+		"RemoveTags": ["seraph"],
+		"SkinnableParts": [
+			{
+				"code": "baseskin",
+				"type": "texture",
+				"textureTarget": "jorunnybodytex",
+				"targetSkinParts": ["base", "chest","facialexpression"],
+				"overlayTexture": false,
+				"overlayMode": "Normal",
+				"textureTemplate": "jorunnyrdx:entity/humanoid/seraphskinparts/body/{code}",
+				"variants": [
+					{ "code": "jorunnyskin1", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "eyecolor",
+				"type": "texture",
+				"textureTarget": "jorunnyeyetex",
+				"targetSkinParts": ["base"],
+				"overlayTexture": false,
+				"overlayMode": "Normal",
+				"textureTemplate": "jorunnyrdx:entity/humanoid/seraphskinparts/face/{code}",
+				"variants": [
+					{ "code": "jorunnyeyetex", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "altoflute", "sound": "sounds/voice/altoflute" },
+					{ "code": "harmonica", "sound": "sounds/voice/harmonica" },
+					{ "code": "oboe", "sound": "sounds/voice/oboe" },
+					{ "code": "clarinet", "sound": "sounds/voice/clarinet" },
+					{ "code": "accordion", "sound": "sounds/voice/accordion" },
+					{ "code": "trumpet", "sound": "sounds/voice/trumpet" },
+					{ "code": "sax", "sound": "sounds/voice/sax" },
+					{ "code": "tuba", "sound": "sounds/voice/tuba" },
+					{ "code": "frog", "sound": "jorunnyrdx:sounds/voice/treefrog" },
+					{ "code": "gecko", "sound": "jorunnyrdx:sounds/voice/tokay" },
+					{ "code": "meep", "sound": "jorunnyrdx:sounds/voice/meep" },
+					{ "code": "none", "sound": "jorunnyrdx:sounds/voice/none" }
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "verylow" },
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "chest",
+				"type": "shape",
+				"shapeTemplate": { "base": "jorunnyrdx:entity/humanoid/seraphskinparts/chest/{code}" },
+				"variants": [
+					{ "code": "none"},
+					{ "code": "yes"}
+				],
+				"disableElementsByVariantCode": {
+					"none": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"]
+				}
+			}
+		],
+		"ExtraTraits": ["geppettin-swimming", "geppettin-hide"]
+	}
+}

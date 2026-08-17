@@ -1,0 +1,42 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/Avali",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"avalibodytex": "avalirdx:textures/entity/humanoid/avalibodytex"
+	},
+	"elements": [
+		{
+			"name": "hidefacialhair",
+			"stepParentName": "Head",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ -3.1, 1.6, 2.0 ],
+					"to": [ -2.6, 2.2, 3.0 ],
+					"uv": [ 29.25, 0.75 ],
+					"rotationOrigin": [ -3.1, 1.6, 2.0 ],
+					"faces": {
+						"north": { "texture": "#avalibodytex", "uv": [ 29.5, 2.0, 30.0, 2.5 ] },
+						"east": { "texture": "#avalibodytex", "uv": [ 30.0, 2.0, 31.0, 2.5 ] },
+						"south": { "texture": "#avalibodytex", "uv": [ 31.0, 2.0, 31.5, 2.5 ] },
+						"west": { "texture": "#avalibodytex", "uv": [ 31.5, 2.0, 32.5, 2.5 ] },
+						"up": { "texture": "#avalibodytex", "uv": [ 29.5, 1.0, 30.0, 2.0 ] },
+						"down": { "texture": "#avalibodytex", "uv": [ 30.0, 1.0, 30.5, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

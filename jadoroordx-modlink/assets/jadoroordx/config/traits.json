@@ -1,0 +1,19 @@
+[
+    {
+        code: "jadoroo-movement",
+        type: "positive",
+        attributes: {
+            "jumpHeightMul": 0.5,
+            "buoyancyFactor": -1
+        }
+    },
+    {
+        code: "jadoroo-bigboi",
+        type: "positive",
+        attributes: {
+            "ArmorWalkSpeedAffectedness": -0.05,
+            "miningSpeedMul": 0.15,
+            "dairyNutritionFactor": 0.1
+        }
+    }
+]

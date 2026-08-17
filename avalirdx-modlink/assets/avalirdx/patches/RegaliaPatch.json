@@ -1,0 +1,19 @@
+[
+	{
+	"file": "avalirdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/avalirdx:avali",
+	"dependsOn": [{ "modid": "regalia" }],
+	"value": {
+		"regalia:blackgown": "avalirdx:entity/humanoid/seraph/clothing/regalia/blackgown",
+		"regalia:cardigan": "avalirdx:entity/humanoid/seraph/clothing/regalia/cardigan",
+		"regalia:darknobledress": "avalirdx:entity/humanoid/seraph/clothing/regalia/darknobledress",
+		"regalia:finegown": "avalirdx:entity/humanoid/seraph/clothing/regalia/finegown",
+		"regalia:rednobledress": "avalirdx:entity/humanoid/seraph/clothing/regalia/rednobledress",
+		"regalia:summerdress": "avalirdx:entity/humanoid/seraph/clothing/regalia/summerdress",
+		"regalia:tailcoat": "avalirdx:entity/humanoid/seraph/clothing/regalia/tailcoat",
+		"regalia:trimmedtunic": "avalirdx:entity/humanoid/seraph/clothing/regalia/trimmedtunic",
+		"regalia:weddingdress": "avalirdx:entity/humanoid/seraph/clothing/regalia/weddingdress"
+		}
+	}
+]

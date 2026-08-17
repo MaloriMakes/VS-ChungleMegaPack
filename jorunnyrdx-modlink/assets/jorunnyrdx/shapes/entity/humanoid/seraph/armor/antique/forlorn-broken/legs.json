@@ -1,0 +1,69 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"forlornhope-destroyed": "entity/humanoid/serapharmor/forlorn/forlorn-broken"
+	},
+	"elements": [
+		{
+			"name": "ArmorUpperLegR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.2, 1.5, -0.3 ],
+			"to": [ 4.4, 7.0, 3.5 ],
+			"autoUnwrap": false,
+			"uv": [ 16.0, 33.0 ],
+			"rotationOrigin": [ -0.2, 1.5, -0.3 ],
+			"faces": {
+				"north": { "texture": "#forlornhope-destroyed", "uv": [ 16.0, 33.0, 20.5, 38.5 ] },
+				"east": { "texture": "#forlornhope-destroyed", "uv": [ 28.5, 33.0, 32.0, 38.5 ] },
+				"south": { "texture": "#forlornhope-destroyed", "uv": [ 24.0, 33.0, 28.5, 38.5 ] },
+				"west": { "texture": "#forlornhope-destroyed", "uv": [ 20.5, 33.0, 24.0, 38.5 ] },
+				"up": { "texture": "#forlornhope-destroyed", "uv": [ 16.0, 29.5, 20.5, 33.0 ] },
+				"down": { "texture": "#forlornhope-destroyed", "uv": [ 24.0, 29.5, 28.5, 33.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "ArmorUpperLegL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.2, -0.1, -0.3 ],
+			"to": [ 4.4, 6.9, 3.5 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 33.0 ],
+			"rotationOrigin": [ -0.2, -0.1, -0.3 ],
+			"faces": {
+				"north": { "texture": "#forlornhope-destroyed", "uv": [ 0.0, 33.0, 4.5, 40.0 ] },
+				"east": { "texture": "#forlornhope-destroyed", "uv": [ 12.5, 33.0, 16.0, 40.0 ] },
+				"south": { "texture": "#forlornhope-destroyed", "uv": [ 8.0, 33.0, 12.5, 40.0 ] },
+				"west": { "texture": "#forlornhope-destroyed", "uv": [ 4.5, 33.0, 8.0, 40.0 ] },
+				"up": { "texture": "#forlornhope-destroyed", "uv": [ 0.0, 29.5, 4.5, 33.0 ] },
+				"down": { "texture": "#forlornhope-destroyed", "uv": [ 8.0, 29.5, 12.5, 33.0 ] }
+			}
+		},
+		{
+			"name": "ArmorLowerLegL",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.3, -0.2, -0.25 ],
+			"to": [ 3.4, 6.3, 3.25 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 44.0 ],
+			"rotationOrigin": [ -0.3, -0.2, -0.4 ],
+			"faces": {
+				"north": { "texture": "#forlornhope-destroyed", "uv": [ 0.0, 46.0, 3.5, 52.5 ] },
+				"east": { "texture": "#forlornhope-destroyed", "uv": [ 12.5, 46.0, 16.0, 52.5 ] },
+				"south": { "texture": "#forlornhope-destroyed", "uv": [ 8.0, 46.0, 11.5, 52.5 ] },
+				"west": { "texture": "#forlornhope-destroyed", "uv": [ 4.5, 46.0, 8.0, 52.5 ] },
+				"up": { "texture": "#forlornhope-destroyed", "uv": [ 0.0, 41.5, 3.5, 45.0 ] },
+				"down": { "texture": "#forlornhope-destroyed", "uv": [ 8.0, 41.5, 11.5, 45.0 ] }
+			}
+		}
+	],
+	"animations": [
+	]
+}

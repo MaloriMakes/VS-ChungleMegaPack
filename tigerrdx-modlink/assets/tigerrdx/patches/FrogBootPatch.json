@@ -1,0 +1,11 @@
+[
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "raincoats" }],
+	"value": {
+		"raincoats:entity/humanoid/seraph/clothing/foot/froogboot": "tigerrdx:entity/humanoid/seraph/mods/frogboot/froogboot"
+		}
+	}
+]

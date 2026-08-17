@@ -1,0 +1,86 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"otterbodytex": [64,64]
+	},
+	"textures": {
+		"otterbodytex": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/textures/entity/humanoid/otterbodytex"
+	},
+	"elements": [
+		{
+			"name": "HornR1",
+			"stepParentName": "Head",
+			"from": [ 4.0, 3.0, 0.2 ],
+			"to": [ 8.0, 5.0, 2.2 ],
+			"autoUnwrap": false,
+			"uv": [ 36.5, 0.5 ],
+			"rotationOrigin": [ 4.0, 3.0, 0.0 ],
+			"rotationZ": 22.5,
+			"faces": {
+				"north": { "texture": "#otterbodytex", "uv": [ 36.5, 2.5, 40.5, 4.5 ] },
+				"east": { "texture": "#otterbodytex", "uv": [ 40.5, 2.5, 42.5, 4.5 ] },
+				"south": { "texture": "#otterbodytex", "uv": [ 41.5, 2.0, 45.5, 4.0 ] },
+				"west": { "texture": "#otterbodytex", "uv": [ 42.5, 0.0, 44.5, 2.0 ] },
+				"up": { "texture": "#otterbodytex", "uv": [ 36.5, 0.5, 40.5, 2.5 ] },
+				"down": { "texture": "#otterbodytex", "uv": [ 40.5, 0.5, 44.5, 2.5 ] }
+			},
+			"children": [
+				{
+					"name": "HornR2",
+					"from": [ 4.0, 0.25, 0.25 ],
+					"to": [ 6.0, 1.75, 1.75 ],
+					"uv": [ 39.0, 0.0 ],
+					"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#otterbodytex", "uv": [ 39.0, 1.5, 41.0, 3.0 ] },
+						"east": { "texture": "#otterbodytex", "uv": [ 41.0, 1.5, 42.5, 3.0 ] },
+						"south": { "texture": "#otterbodytex", "uv": [ 42.5, 1.5, 44.5, 3.0 ] },
+						"west": { "texture": "#otterbodytex", "uv": [ 44.5, 1.5, 46.0, 3.0 ] },
+						"up": { "texture": "#otterbodytex", "uv": [ 39.0, 0.0, 41.0, 1.5 ] },
+						"down": { "texture": "#otterbodytex", "uv": [ 41.0, 0.0, 43.0, 1.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "HornL1",
+			"stepParentName": "Head",
+			"from": [ 4.0, 3.0, 2.8 ],
+			"to": [ 8.0, 5.0, 4.8 ],
+			"autoUnwrap": false,
+			"uv": [ 36.0, 0.0 ],
+			"rotationOrigin": [ 4.0, 3.0, 0.0 ],
+			"rotationZ": 22.5,
+			"faces": {
+				"north": { "texture": "#otterbodytex", "uv": [ 36.0, 2.0, 40.0, 4.0 ] },
+				"east": { "texture": "#otterbodytex", "uv": [ 40.0, 2.0, 42.0, 4.0 ] },
+				"south": { "texture": "#otterbodytex", "uv": [ 42.0, 2.0, 46.0, 4.0 ] },
+				"west": { "texture": "#otterbodytex", "uv": [ 40.5, 0.0, 42.5, 2.0 ] },
+				"up": { "texture": "#otterbodytex", "uv": [ 36.0, 0.0, 40.0, 2.0 ] },
+				"down": { "texture": "#otterbodytex", "uv": [ 40.0, 0.0, 44.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "HornL2",
+					"from": [ 4.0, 0.25, 0.25 ],
+					"to": [ 6.0, 1.75, 1.75 ],
+					"uv": [ 38.5, 0.0 ],
+					"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#otterbodytex", "uv": [ 38.5, 1.5, 40.5, 3.0 ] },
+						"east": { "texture": "#otterbodytex", "uv": [ 40.5, 1.5, 42.0, 3.0 ] },
+						"south": { "texture": "#otterbodytex", "uv": [ 42.0, 1.5, 44.0, 3.0 ] },
+						"west": { "texture": "#otterbodytex", "uv": [ 44.0, 1.5, 45.5, 3.0 ] },
+						"up": { "texture": "#otterbodytex", "uv": [ 38.5, 0.0, 40.5, 1.5 ] },
+						"down": { "texture": "#otterbodytex", "uv": [ 40.5, 0.0, 42.5, 1.5 ] }
+					}
+				}
+			]
+		}
+	]}

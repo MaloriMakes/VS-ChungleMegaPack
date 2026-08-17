@@ -1,0 +1,14 @@
+[
+	{
+	"file": "avalirdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/avalirdx:avali",
+	"dependsOn": [{ "modid": "astriaporta" }],
+	"value": {
+		"astriaporta:entity/humanoid/seraph/clothing/foot/sgc_boots": "avalirdx:entity/humanoid/seraph/clothing/astriaporta/foot/sgc_boots",
+		"astriaporta:entity/humanoid/seraph/clothing/lowerbody/sgc_pants": "avalirdx:entity/humanoid/seraph/clothing/astriaporta/lowerbody/sgc_pants",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbody/sgc_shirt": "avalirdx:entity/humanoid/seraph/clothing/astriaporta/upperbody/sgc_shirt",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbodyover/sgc_tacticalvest": "avalirdx:entity/humanoid/seraph/clothing/astriaporta/upperbodyover/sgc_tacticalvest"
+		}
+	}
+]

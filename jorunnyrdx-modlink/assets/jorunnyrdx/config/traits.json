@@ -1,0 +1,18 @@
+[
+    {
+        code: "geppettin-swimming",
+        type: "positive",
+        attributes: {
+            "breathType": 1,
+            "canSwim": -1,
+            "buoyancyFactor": -1
+        }
+    },
+    {
+        code: "geppettin-hide",
+        type: "positive",
+        attributes: {
+            "fireDamageFactor": 0.15
+        }
+    }
+]

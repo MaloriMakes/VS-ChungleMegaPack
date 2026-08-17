@@ -1,0 +1,298 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop",
+		"collapsedPaths": "Root/hidelowerarm/origin,Root/hidelowerarm/origin11,Root/hidelowerarm/origin6",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"bracelets2": [16,16]
+	},
+	"textures": {
+		"bracelets2": "entity/humanoid/seraphclothes/arm/bracelets2"
+	},
+	"elements": [
+		{
+			"name": "hidelowerarm",
+			"stepParentName": "LowerArmR",
+			"from": [ -8.03, -11.66, -3.18 ],
+			"to": [ -6.93, -10.56, -2.08 ],
+			"rotationOrigin": [ -8.03, 2.86, -4.28 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "origin11",
+					"from": [ 8.8, 14.52, 4.4 ],
+					"to": [ 8.8, 14.52, 4.4 ],
+					"rotationOrigin": [ 8.8, 14.52, 4.4 ],
+					"rotationX": 2.0,
+					"faces": {
+						"north": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"east": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"west": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"up": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube15",
+							"from": [ 0.55, -1.21, -1.54 ],
+							"to": [ 1.1, 0.66, -0.99 ],
+							"rotationOrigin": [ 0.55, -1.21, -1.43 ],
+							"rotationX": -2.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 14.5, 1.5, 15.0, 3.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 2.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 14.0, 2.5, 14.5, 4.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 2.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 1.0 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 13.0, 2.0, 13.5, 2.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube16",
+							"from": [ -0.55, -1.21, -1.54 ],
+							"to": [ 0.0, 0.66, -0.99 ],
+							"rotationOrigin": [ 0.0, -1.21, -1.43 ],
+							"rotationX": -2.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 14.5, 2.0, 15.0, 3.5 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 2.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 14.0, 2.5, 14.5, 4.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 2.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 1.0 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 13.0, 2.0, 13.5, 2.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "big gem",
+							"from": [ -0.22, -0.88, -1.65 ],
+							"to": [ 0.88, 0.22, -1.32 ],
+							"rotationOrigin": [ 0.88, 0.22, -1.54 ],
+							"rotationX": -2.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 15.0, 1.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 14.5, 1.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 15.0, 1.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 14.5, 1.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 15.0, 0.5 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 14.0, 0.5, 15.0, 1.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube18",
+							"from": [ -1.1, -1.21, -1.1 ],
+							"to": [ -0.55, 0.66, -0.55 ],
+							"rotationOrigin": [ -0.55, -1.21, -0.99 ],
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 2.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 14.0, 2.5, 14.5, 4.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 2.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 7.0, 0.0, 7.5, 1.5 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 13.0, 0.5, 13.5, 1.0 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 13.0, 2.0, 13.5, 2.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "small gem 1",
+							"from": [ -1.1, 0.11, -0.88 ],
+							"to": [ -0.55, 0.66, -0.33 ],
+							"rotationOrigin": [ -0.55, 0.66, -0.88 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 14.5, 0.5 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 14.5, 0.5 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 14.0, 0.5, 14.5, 1.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 14.5, 0.5 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 14.5, 0.0, 15.0, 0.5 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 14.0, 0.5, 14.5, 1.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "small gem 2",
+							"from": [ -1.1, -0.99, -0.88 ],
+							"to": [ -0.55, -0.44, -0.33 ],
+							"rotationOrigin": [ -0.55, -0.44, -0.88 ],
+							"rotationX": 45.0,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 14.5, 0.5, 15.0, 1.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 14.5, 0.5, 15.0, 1.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 14.0, 0.0, 14.5, 0.5 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 14.5, 0.5, 15.0, 1.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 14.5, 0.0, 15.0, 0.5 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 14.0, 0.5, 14.5, 1.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "origin6",
+					"from": [ 9.13, 14.52, 4.4 ],
+					"to": [ 9.13, 14.52, 4.4 ],
+					"rotationOrigin": [ 9.13, 14.52, 4.4 ],
+					"rotationX": 2.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"north": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"east": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"west": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"up": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube7",
+							"from": [ -1.21, 0.0, -1.54 ],
+							"to": [ 1.54, 0.55, -0.99 ],
+							"rotationOrigin": [ -1.21, 0.0, -0.99 ],
+							"rotationY": 0.1,
+							"rotationZ": 0.1,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 2.0, 2.5, 4.5, 3.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 6.0, 1.5, 8.5, 2.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 9.5, 1.0, 10.0, 1.5 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 6.5, 0.5, 9.0, 1.0 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 8.0, 0.5, 10.5, 1.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube8",
+							"from": [ -1.1, 0.0, 0.88 ],
+							"to": [ 1.65, 0.55, 1.43 ],
+							"rotationOrigin": [ -1.1, 0.0, 0.88 ],
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 6.5, 1.5, 9.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 10.5, 1.0, 11.0, 1.5 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 4.0, 0.0, 6.5, 0.5 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 9.0, 0.0, 9.5, 0.5 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 4.5, 0.5, 7.0, 1.0 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 6.5, 0.0, 9.0, 0.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube9",
+							"from": [ -1.32, 0.0, -1.43 ],
+							"to": [ -0.77, 0.55, 1.32 ],
+							"rotationOrigin": [ -1.32, 0.0, -1.43 ],
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 9.0, 0.5, 9.5, 1.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 6.0, 1.5, 8.5, 2.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 6.5, 1.0, 7.0, 1.5 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 7.5, 0.5, 10.0, 1.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 3.5, 1.0, 6.0, 1.5 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 7.0, 1.0, 9.5, 1.5 ], "rotation": 90, "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube10",
+							"from": [ 1.21, 0.0, -1.54 ],
+							"to": [ 1.76, 0.55, 1.21 ],
+							"rotationOrigin": [ 1.21, 0.0, -1.54 ],
+							"rotationZ": 0.1,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 5.0, 0.5, 5.5, 1.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 6.5, 3.0, 9.0, 3.5 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 7.5, 1.0, 8.0, 1.5 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 5.0, 1.5, 7.5, 2.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 3.5, 1.0, 6.0, 1.5 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 7.5, 0.5, 10.0, 1.0 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "origin",
+					"from": [ 9.13, 13.42, 4.4 ],
+					"to": [ 9.13, 13.42, 4.4 ],
+					"rotationOrigin": [ 9.13, 13.42, 4.4 ],
+					"rotationX": 2.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"north": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"east": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"west": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"up": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#bracelets2", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube19",
+							"from": [ -1.21, 0.0, -1.54 ],
+							"to": [ 1.54, 0.55, -0.99 ],
+							"rotationOrigin": [ -1.21, 0.0, -0.99 ],
+							"rotationY": 0.1,
+							"rotationZ": 0.1,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 4.5, 2.5, 7.0, 3.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 0.5, 2.5, 1.0, 3.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 7.0, 3.5, 9.5, 4.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 10.0, 2.0, 10.5, 2.5 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 7.5, 2.5, 10.0, 3.0 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 9.0, 2.5, 11.5, 3.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube3",
+							"from": [ -1.1, 0.0, 0.88 ],
+							"to": [ 1.65, 0.55, 1.43 ],
+							"rotationOrigin": [ -1.1, 0.0, 0.88 ],
+							"rotationZ": 0.1,
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 5.5, 1.5, 8.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 8.5, 2.5, 9.0, 3.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 4.0, 3.0, 6.5, 3.5 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 8.5, 2.0, 9.0, 2.5 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 6.0, 2.0, 8.5, 2.5 ], "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 5.0, 2.5, 7.5, 3.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube1",
+							"from": [ -1.32, 0.0, -1.43 ],
+							"to": [ -0.77, 0.55, 1.32 ],
+							"rotationOrigin": [ -1.32, 0.0, -1.43 ],
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 9.0, 3.0, 9.5, 3.5 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 2.0, 1.5, 4.5, 2.0 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 7.5, 2.5, 8.0, 3.0 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 5.5, 2.5, 8.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 3.5, 2.0, 6.0, 2.5 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 8.0, 2.5, 10.5, 3.0 ], "rotation": 90, "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube5",
+							"from": [ 1.21, 0.0, -1.54 ],
+							"to": [ 1.76, 0.55, 1.21 ],
+							"rotationOrigin": [ 1.21, 0.0, -1.54 ],
+							"faces": {
+								"north": { "texture": "#bracelets2", "uv": [ 2.0, 3.0, 2.5, 3.5 ], "autoUv": false },
+								"east": { "texture": "#bracelets2", "uv": [ 4.0, 3.0, 6.5, 3.5 ], "autoUv": false },
+								"south": { "texture": "#bracelets2", "uv": [ 3.0, 3.0, 3.5, 3.5 ], "autoUv": false },
+								"west": { "texture": "#bracelets2", "uv": [ 1.5, 3.5, 4.0, 4.0 ], "autoUv": false },
+								"up": { "texture": "#bracelets2", "uv": [ 4.5, 2.5, 7.0, 3.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#bracelets2", "uv": [ 6.5, 2.0, 9.0, 2.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

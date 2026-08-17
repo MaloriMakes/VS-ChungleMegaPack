@@ -1,0 +1,91 @@
+[
+	{
+		"op": "replace",
+		"path": "/jorunny/SkinnableParts/12/variants",
+		"value": [
+			{
+				"code": "breeches",
+				"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/breeches"
+			},
+			{
+				"code": "leotard",
+				"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/leotard"
+			},
+			{
+				"code": "loincloth",
+				"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/loincloth"
+			},
+			{
+				"code": "thong",
+				"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/thong"
+			},
+			{
+				"code": "none",
+				"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/none"
+			},
+			{
+				"code": "speedo",
+				"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/speedo"
+			}
+		],
+		"file": "jorunnyrdx:config/customplayermodels/jorunny.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	},
+	{
+		"op": "addmerge",
+		"path": "/jorunny/SkinnableParts/-",
+		"value": {
+			"useDropDown": true,
+			"code": "undergarment",
+			"type": "texture",
+			"textureTarget": "jorunnybodytex",
+			"targetSkinParts": ["base", "chest"],
+			"overlayTexture": true,
+			"overlayMode": "Normal",
+			"variants": [
+				{
+					"type": "texture",
+					"code": "none",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/none"
+				},
+				{
+					"type": "texture",
+					"code": "twopiece",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/twopiece"
+				},
+				{
+					"type": "texture",
+					"code": "undershirt",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/undershirt"
+				},
+				{
+					"type": "texture",
+					"code": "camisole",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/camisole"
+				},
+				{
+					"type": "texture",
+					"code": "straplesstwopiece",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/straplesstwopiece"
+				},
+				{
+					"type": "texture",
+					"code": "binder",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/binder"
+				},
+				{
+					"type": "texture",
+					"code": "sarashibinder",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/sarashibinder"
+				},
+				{
+					"type": "texture",
+					"code": "obibinder",
+					"texture": "jorunnyrdx:entity/humanoid/seraphskinparts/underwear/obibinder"
+				}
+			]
+		},
+		"file": "jorunnyrdx:config/customplayermodels/jorunny.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	}
+]

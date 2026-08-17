@@ -1,0 +1,145 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Cal/Desktop/boobold",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"hunterboots": "hunterboots"
+	},
+	"elements": [
+		{
+			"name": "lowbootl",
+			"stepParentName": "PawL",
+			"from": [ -0.2, -0.2, -0.2 ],
+			"to": [ 3.2, 7.3, 3.2 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.2 ],
+			"faces": {
+				"north": { "texture": "#hunterboots", "uv": [ 4.0, 0.0, 10.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#hunterboots", "uv": [ 4.0, 0.0, 10.0, 15.0 ], "autoUv": false },
+				"south": { "texture": "#hunterboots", "uv": [ 0.0, 0.0, 6.0, 15.0 ], "autoUv": false },
+				"west": { "texture": "#hunterboots", "uv": [ 4.0, 0.0, 9.0, 15.0 ], "autoUv": false },
+				"up": { "texture": "#hunterboots", "uv": [ 0.0, 4.0, 3.0, 7.0 ] },
+				"down": { "texture": "#hunterboots", "uv": [ 0.0, 3.0, 3.0, 6.0 ] }
+			},
+			"children": [
+				{
+					"name": "shinguardlow",
+					"from": [ -0.2, 0.5, 0.3 ],
+					"to": [ 0.2, 3.5, 3.0 ],
+					"uv": [ 11.0, 11.0 ],
+					"rotationOrigin": [ -0.2, 0.5, 0.3 ],
+					"faces": {
+						"north": { "texture": "#hunterboots", "uv": [ 14.0, 13.0, 15.0, 16.0 ] },
+						"east": { "texture": "#hunterboots", "uv": [ 11.0, 13.0, 13.0, 16.0 ] },
+						"south": { "texture": "#hunterboots", "uv": [ 14.0, 13.0, 15.0, 16.0 ] },
+						"west": { "texture": "#hunterboots", "uv": [ 11.0, 11.0, 15.0, 15.0 ], "rotation": 270, "autoUv": false },
+						"up": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] },
+						"down": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "shinguardhigh",
+					"from": [ -0.2, 3.5, 0.3 ],
+					"to": [ 0.2, 5.5, 3.0 ],
+					"uv": [ 11.0, 7.0 ],
+					"rotationOrigin": [ -0.2, 3.5, 0.3 ],
+					"rotationZ": 12.0,
+					"faces": {
+						"north": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] },
+						"east": { "texture": "#hunterboots", "uv": [ 11.0, 10.0, 13.0, 12.0 ] },
+						"south": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] },
+						"west": { "texture": "#hunterboots", "uv": [ 11.0, 7.0, 15.0, 11.0 ], "autoUv": false },
+						"up": { "texture": "#hunterboots", "uv": [ 11.0, 12.0, 12.0, 16.0 ], "autoUv": false },
+						"down": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "highbootl",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.2, -0.2, -0.2 ],
+			"to": [ 3.4, 5.0, 3.4 ],
+			"uv": [ 4.0, 1.0 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.2 ],
+			"faces": {
+				"north": { "texture": "#hunterboots", "uv": [ 4.0, 4.0, 7.0, 9.0 ] },
+				"east": { "texture": "#hunterboots", "uv": [ 12.0, 0.0, 16.0, 3.0 ], "autoUv": false },
+				"south": { "texture": "#hunterboots", "uv": [ 7.0, 4.0, 10.0, 9.0 ] },
+				"west": { "texture": "#hunterboots", "uv": [ 12.0, 0.0, 16.0, 3.0 ], "autoUv": false },
+				"up": { "texture": "#hunterboots", "uv": [ 4.0, 1.0, 7.0, 4.0 ] },
+				"down": { "texture": "#hunterboots", "uv": [ 7.0, 1.0, 10.0, 4.0 ] }
+			}
+		},
+		{
+			"name": "lowbootl2",
+			"stepParentName": "PawR",
+			"from": [ -0.2, -0.2, -0.2 ],
+			"to": [ 3.2, 7.3, 3.2 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.2 ],
+			"faces": {
+				"north": { "texture": "#hunterboots", "uv": [ 2.0, 0.0, 8.0, 15.0 ], "autoUv": false },
+				"east": { "texture": "#hunterboots", "uv": [ 10.0, 0.0, 4.0, 15.0 ], "autoUv": false },
+				"south": { "texture": "#hunterboots", "uv": [ 2.0, 6.0, 5.0, 13.0 ] },
+				"west": { "texture": "#hunterboots", "uv": [ 4.0, 0.0, 9.0, 15.0 ], "autoUv": false },
+				"up": { "texture": "#hunterboots", "uv": [ 0.0, 4.0, 3.0, 7.0 ] },
+				"down": { "texture": "#hunterboots", "uv": [ 0.0, 4.0, 3.0, 7.0 ] }
+			},
+			"children": [
+				{
+					"name": "shinguardlow2",
+					"from": [ -0.2, 0.5, 0.3 ],
+					"to": [ 0.2, 3.5, 3.0 ],
+					"uv": [ 11.0, 12.0 ],
+					"rotationOrigin": [ -0.2, 0.5, 0.3 ],
+					"faces": {
+						"north": { "texture": "#hunterboots", "uv": [ 14.0, 13.0, 15.0, 16.0 ] },
+						"east": { "texture": "#hunterboots", "uv": [ 11.0, 13.0, 13.0, 16.0 ] },
+						"south": { "texture": "#hunterboots", "uv": [ 14.0, 13.0, 15.0, 16.0 ] },
+						"west": { "texture": "#hunterboots", "uv": [ 11.0, 12.0, 15.0, 16.0 ], "autoUv": false },
+						"up": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] },
+						"down": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "shinguardhigh2",
+					"from": [ -0.2, 3.5, 0.3 ],
+					"to": [ 0.2, 5.5, 3.0 ],
+					"uv": [ 11.0, 8.0 ],
+					"rotationOrigin": [ -0.2, 3.5, 0.3 ],
+					"rotationZ": 12.0,
+					"faces": {
+						"north": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] },
+						"east": { "texture": "#hunterboots", "uv": [ 11.0, 10.0, 13.0, 12.0 ] },
+						"south": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] },
+						"west": { "texture": "#hunterboots", "uv": [ 11.0, 8.0, 15.0, 12.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#hunterboots", "uv": [ 14.0, 12.0, 15.0, 16.0 ], "autoUv": false },
+						"down": { "texture": "#hunterboots", "uv": [ 14.0, 14.0, 15.0, 16.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "highbootl2",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.2, -0.2, -0.2 ],
+			"to": [ 3.4, 5.0, 3.4 ],
+			"uv": [ 1.0, 2.0 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.2 ],
+			"faces": {
+				"north": { "texture": "#hunterboots", "uv": [ 12.0, 0.0, 16.0, 3.0 ], "autoUv": false },
+				"east": { "texture": "#hunterboots", "uv": [ 12.0, 0.0, 16.0, 3.0 ], "autoUv": false },
+				"south": { "texture": "#hunterboots", "uv": [ 1.0, 5.0, 4.0, 10.0 ] },
+				"west": { "texture": "#hunterboots", "uv": [ 12.0, 0.0, 15.0, 4.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#hunterboots", "uv": [ 1.0, 2.0, 4.0, 5.0 ] },
+				"down": { "texture": "#hunterboots", "uv": [ 4.0, 2.0, 7.0, 5.0 ] }
+			}
+		}
+	]}

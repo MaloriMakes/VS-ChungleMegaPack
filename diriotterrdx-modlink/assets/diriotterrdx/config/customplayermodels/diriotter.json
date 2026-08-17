@@ -1,0 +1,115 @@
+{
+	"diriotter": {
+		"Group": "beasts",
+		"Icon": "diriotterrdx:icons/diriotter",
+		"GroupIcon": "playermodellib:icons/beasts",
+		"ShapePath": "diriotterrdx:entity/humanoid/diriotter-faceless",
+		"MainTextureCode": "diriotterbodytex",
+		"SizeRange": [ 0.65, 0.65 ],
+		"ScaleColliderWithSizeHorizontally": true,
+		"ScaleColliderWithSizeVertically": true,
+		"MaxCollisionBox": [ 0.8, 2.7 ],
+		"MinCollisionBox": [ 0.1, 0.1 ],
+		"MaxEyeHeight":	1.2,
+		"MinEyeHeight":	1.2,
+        "SneakEyeHeightMultiplier": 0.75,
+		"AddTags": ["beasts","diriotter"],
+		"RemoveTags": ["seraph"],
+		"SkinnableParts": [
+			{
+				"code": "baseskin",
+				"type": "texture",
+				"textureTarget": "diriotterbodytex",
+				"targetSkinParts": ["base", "chest","facialexpression"],
+				"overlayTexture": false,
+				"overlayMode": "Normal",
+				"textureTemplate": "diriotterrdx:entity/humanoid/seraphskinparts/body/{code}",
+				"variants": [
+					{ "code": "diriotterskin5", "texture": "skin5" }
+				]
+			},
+			{
+				"code": "eyecolor",
+				"type": "texture",
+				"textureTarget": "playermodellib-iris",
+				"targetSkinParts": ["facialexpression"],
+				"textureTemplate": "playermodellib:eyes/{code}",
+				"variants": [
+					{ "code": "ruby", "texture": "ruby" },
+				
+					{ "code": "topaz", "texture": "topaz" },
+					{ "code": "cadmium-orange", "texture": "cadmium-orange" },
+					{ "code": "goldenrod", "texture": "goldenrod" },
+					{ "code": "sand", "texture": "sand" },
+					
+					{ "code": "citron", "texture": "citron" },
+					{ "code": "acid-green", "texture": "acid-green" },
+					{ "code": "bitter-lemon", "texture": "bitter-lemon" },
+					
+					{ "code": "dark-green", "texture": "dark-green" },
+					{ "code": "forest-green", "texture": "forest-green" },
+					{ "code": "malachite", "texture": "malachite" },
+					{ "code": "mantis", "texture": "mantis" },
+					
+					{ "code": "jonas", "texture": "jonas" },
+					
+					{ "code": "phthalo-blue", "texture": "phthalo-blue" },
+					{ "code": "sapphire", "texture": "sapphire" },
+					{ "code": "azure", "texture": "azure" },
+					{ "code": "jade", "texture": "jade" },
+					{ "code": "aquamarine", "texture": "aquamarine" },
+					
+					{ "code": "midnight", "texture": "midnight" },
+					{ "code": "purple", "texture": "purple" },
+					{ "code": "lavander", "texture": "lavander" },
+					
+					{ "code": "white", "texture": "white" }
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "altoflute", "sound": "sounds/voice/altoflute" },
+					{ "code": "harmonica", "sound": "sounds/voice/harmonica" },
+					{ "code": "oboe", "sound": "sounds/voice/oboe" },
+					{ "code": "clarinet", "sound": "sounds/voice/clarinet" },
+					{ "code": "accordion", "sound": "sounds/voice/accordion" },
+					{ "code": "trumpet", "sound": "sounds/voice/trumpet" },
+					{ "code": "sax", "sound": "sounds/voice/sax" },
+					{ "code": "tuba", "sound": "sounds/voice/tuba" },
+					{ "code": "frog", "sound": "diriotterrdx:sounds/voice/treefrog" },
+					{ "code": "gecko", "sound": "diriotterrdx:sounds/voice/tokay" },
+					{ "code": "meep", "sound": "diriotterrdx:sounds/voice/meep" },
+					{ "code": "none", "sound": "diriotterrdx:sounds/voice/none" }
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "verylow" },
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "chest",
+				"type": "shape",
+				"shapeTemplate": { "base": "diriotterrdx:entity/humanoid/seraphskinparts/chest/{code}" },
+				"variants": [
+					{ "code": "none"},
+					{ "code": "yes"}
+				],
+				"disableElementsByVariantCode": {
+					"none": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
+					"yes": []
+				}
+			}
+		],
+		"ExtraTraits": ["otter-hide", "otter-nutrition", "otter-speed"]
+	}
+}

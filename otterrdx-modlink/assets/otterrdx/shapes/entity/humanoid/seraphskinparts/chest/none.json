@@ -1,0 +1,30 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"birch": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "none",
+			"stepParentName": "Chest",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+				"east": { "texture": "#null", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+				"south": { "texture": "#null", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+				"west": { "texture": "#null", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+			}
+		}
+	]}

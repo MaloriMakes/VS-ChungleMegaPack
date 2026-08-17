@@ -1,0 +1,35 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 16,
+	"textureSizes": {
+		"surgeon": [24,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "hidehat",
+			"stepParentName": "Head",
+			"from": [ -0.93, -3.809, -0.325 ],
+			"to": [ 6.74, 7.111, 6.695 ],
+			"renderPass": 1,
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 0.5, 0.5 ],
+			"rotationOrigin": [ 2.0925, 1.521, 3.38 ],
+			"rotationZ": 2.0,
+			"faces": {
+				"north": { "texture": "#surgeon", "uv": [ 0.0, 8.0, 5.5, 16.0 ], "autoUv": false },
+				"east": { "texture": "#surgeon", "uv": [ 17.0, 8.0, 22.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#surgeon", "uv": [ 11.5, 8.0, 17.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#surgeon", "uv": [ 6.0, 8.0, 11.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#surgeon", "uv": [ 6.0, 2.5, 11.0, 8.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#null", "uv": [ 5.5, 0.0, 11.0, 5.0 ], "autoUv": false, "enabled": false }
+			}
+		}
+	]}

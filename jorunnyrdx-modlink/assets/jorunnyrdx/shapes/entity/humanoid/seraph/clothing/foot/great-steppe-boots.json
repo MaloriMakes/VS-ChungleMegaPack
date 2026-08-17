@@ -1,0 +1,229 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"great-steppe-boots-L": "entity/humanoid/seraphclothes/foot/great-steppe-boots-L"
+	},
+	"elements": [
+		{
+			"name": "shoeL",
+			"stepParentName": "PawL",
+			"from": [ -0.1, -0.1, -0.2 ],
+			"to": [ 3.1, 5.4, 3.0 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ -0.1, -0.1, -0.2 ],
+			"faces": {
+				"north": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 10.5, 3.0, 16.0 ] },
+				"east": { "texture": "#great-steppe-boots-L", "uv": [ 11.0, 10.5, 14.0, 16.0 ] },
+				"south": { "texture": "#great-steppe-boots-L", "uv": [ 7.0, 10.5, 10.0, 16.0 ] },
+				"west": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 10.5, 7.0, 16.0 ] },
+				"up": { "texture": "#great-steppe-boots-L", "uv": [ 0.5, 0.0, 3.5, 3.0 ], "rotation": 90 },
+				"down": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 4.0, 3.0, 7.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "hideshoeL",
+					"from": [ 0.0, 5.5, 0.0 ],
+					"to": [ 1.0, 6.5, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 5.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "N fold 20",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 3.2, 1.5, 0.2 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.2 ],
+							"rotationX": -4.0,
+							"faces": {
+								"north": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 0.5, 3.0, 2.0 ] },
+								"east": { "texture": "#great-steppe-boots-L", "uv": [ 3.0, 0.5, 3.5, 2.0 ] },
+								"south": { "texture": "#great-steppe-boots-L", "uv": [ 3.5, 0.5, 6.5, 2.0 ] },
+								"west": { "texture": "#great-steppe-boots-L", "uv": [ 6.5, 0.5, 7.0, 2.0 ] },
+								"up": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "rotation": 180 },
+								"down": { "texture": "#great-steppe-boots-L", "uv": [ 3.0, 0.0, 6.0, 0.5 ] }
+							}
+						},
+						{
+							"name": "S fold 21",
+							"from": [ 0.0, 0.0, 3.0 ],
+							"to": [ 3.2, 1.5, 3.2 ],
+							"uv": [ 4.0, 1.5 ],
+							"rotationOrigin": [ 0.0, 0.0, 3.0 ],
+							"rotationX": 8.0,
+							"faces": {
+								"north": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 2.0, 7.0, 3.5 ] },
+								"east": { "texture": "#great-steppe-boots-L", "uv": [ 7.0, 2.0, 7.5, 3.5 ] },
+								"south": { "texture": "#great-steppe-boots-L", "uv": [ 7.5, 2.0, 10.5, 3.5 ] },
+								"west": { "texture": "#great-steppe-boots-L", "uv": [ 10.5, 2.0, 11.0, 3.5 ] },
+								"up": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 1.5, 7.0, 2.0 ] },
+								"down": { "texture": "#great-steppe-boots-L", "uv": [ 7.0, 1.5, 10.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "back fold 22",
+							"from": [ 3.0, 0.0, 0.0 ],
+							"to": [ 3.2, 1.5, 3.2 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 3.0, 0.0, 0.0 ],
+							"rotationZ": -8.0,
+							"faces": {
+								"north": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 3.0, 0.5, 4.5 ] },
+								"east": { "texture": "#great-steppe-boots-L", "uv": [ 0.5, 3.0, 3.5, 4.5 ] },
+								"south": { "texture": "#great-steppe-boots-L", "uv": [ 3.5, 3.0, 4.0, 4.5 ] },
+								"west": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 3.0, 7.0, 4.5 ] },
+								"up": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "rotation": 270 },
+								"down": { "texture": "#great-steppe-boots-L", "uv": [ 3.0, 0.0, 3.5, 3.0 ] }
+							},
+							"children": [
+								{
+									"name": "Cube23",
+									"from": [ 0.0, 0.0, 2.7 ],
+									"to": [ 0.2, 1.5, 3.2 ],
+									"uv": [ 11.0, 9.0 ],
+									"rotationOrigin": [ 0.0, 1.5, 2.7 ],
+									"rotationZ": 10.0,
+									"faces": {
+										"north": { "texture": "#great-steppe-boots-L", "uv": [ 11.0, 9.0, 11.5, 10.5 ] },
+										"east": { "texture": "#great-steppe-boots-L", "uv": [ 11.0, 9.0, 11.5, 10.5 ] },
+										"south": { "texture": "#great-steppe-boots-L", "uv": [ 11.0, 9.0, 11.5, 10.5 ] },
+										"west": { "texture": "#great-steppe-boots-L", "uv": [ 11.0, 9.0, 11.5, 10.5 ] },
+										"up": { "texture": "#great-steppe-boots-L", "uv": [ 11.0, 9.0, 11.5, 9.5 ] },
+										"down": { "texture": "#great-steppe-boots-L", "uv": [ 11.0, 10.0, 11.5, 10.5 ] }
+									}
+								},
+								{
+									"name": "Cube24",
+									"from": [ 0.0, 0.0, 0.6 ],
+									"to": [ 0.2, 1.5, 1.1 ],
+									"uv": [ 13.0, 9.0 ],
+									"rotationOrigin": [ 0.0, 1.5, 0.6 ],
+									"rotationZ": 10.0,
+									"faces": {
+										"north": { "texture": "#great-steppe-boots-L", "uv": [ 13.0, 9.0, 13.5, 10.5 ] },
+										"east": { "texture": "#great-steppe-boots-L", "uv": [ 13.0, 9.0, 13.5, 10.5 ] },
+										"south": { "texture": "#great-steppe-boots-L", "uv": [ 13.0, 9.0, 13.5, 10.5 ] },
+										"west": { "texture": "#great-steppe-boots-L", "uv": [ 13.0, 9.0, 13.5, 10.5 ] },
+										"up": { "texture": "#great-steppe-boots-L", "uv": [ 13.0, 9.0, 13.5, 9.5 ] },
+										"down": { "texture": "#great-steppe-boots-L", "uv": [ 13.0, 10.0, 13.5, 10.5 ] }
+									}
+								},
+								{
+									"name": "Cube25",
+									"from": [ 0.0, -0.5, 1.6 ],
+									"to": [ 0.2, 1.5, 2.1 ],
+									"uv": [ 12.0, 9.0 ],
+									"rotationOrigin": [ 0.0, 1.5, 1.6 ],
+									"rotationZ": 10.0,
+									"faces": {
+										"north": { "texture": "#great-steppe-boots-L", "uv": [ 12.0, 9.0, 12.5, 11.0 ] },
+										"east": { "texture": "#great-steppe-boots-L", "uv": [ 12.0, 9.0, 12.5, 11.0 ] },
+										"south": { "texture": "#great-steppe-boots-L", "uv": [ 12.0, 9.0, 12.5, 11.0 ] },
+										"west": { "texture": "#great-steppe-boots-L", "uv": [ 12.0, 9.0, 12.5, 11.0 ] },
+										"up": { "texture": "#great-steppe-boots-L", "uv": [ 12.0, 9.0, 12.5, 9.5 ] },
+										"down": { "texture": "#great-steppe-boots-L", "uv": [ 12.0, 10.5, 12.5, 11.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "front fold 26",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.2, 1.5, 3.2 ],
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+							"rotationZ": 61.0,
+							"faces": {
+								"north": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 9.0, 4.5, 10.5 ] },
+								"east": { "texture": "#great-steppe-boots-L", "uv": [ 7.5, 1.0, 10.5, 2.5 ] },
+								"south": { "texture": "#great-steppe-boots-L", "uv": [ 7.0, 9.0, 7.5, 10.5 ] },
+								"west": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 9.0, 7.0, 10.5 ] },
+								"up": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 9.0, 7.0, 9.5 ], "rotation": 90 },
+								"down": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 0.0, 0.5, 3.0 ] }
+							}
+						},
+						{
+							"name": "Cube27",
+							"from": [ -0.2, -0.51, 1.7 ],
+							"to": [ 2.0, -0.01, 3.4 ],
+							"uv": [ 4.0, 6.0 ],
+							"rotationOrigin": [ -0.1995, -0.5, 1.7 ],
+							"faces": {
+								"north": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 10.5, 6.0, 11.0 ] },
+								"east": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 6.0, 5.5, 6.5 ] },
+								"south": { "texture": "#great-steppe-boots-L", "uv": [ 7.0, 10.5, 9.0, 11.0 ] },
+								"west": { "texture": "#great-steppe-boots-L", "uv": [ 5.5, 10.5, 7.0, 11.0 ] },
+								"up": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 6.0, 5.5, 8.0 ], "rotation": 90 },
+								"down": { "texture": "#great-steppe-boots-L", "uv": [ 6.5, 6.0, 8.5, 7.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "Cube28",
+							"from": [ -0.2, -1.5, 1.7 ],
+							"to": [ 2.0, -1.0, 3.4 ],
+							"uv": [ 4.0, 6.0 ],
+							"rotationOrigin": [ -0.1995, -1.5, 1.7 ],
+							"faces": {
+								"north": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 11.5, 6.0, 12.0 ] },
+								"east": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 6.0, 5.5, 6.5 ] },
+								"south": { "texture": "#great-steppe-boots-L", "uv": [ 7.0, 11.5, 9.0, 12.0 ] },
+								"west": { "texture": "#great-steppe-boots-L", "uv": [ 5.5, 11.5, 7.0, 12.0 ] },
+								"up": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 6.0, 5.5, 8.0 ], "rotation": 90 },
+								"down": { "texture": "#great-steppe-boots-L", "uv": [ 6.5, 6.0, 8.5, 7.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "Cube29",
+							"from": [ -0.2, -2.5, 1.7 ],
+							"to": [ 2.0, -2.0, 3.4 ],
+							"uv": [ 4.0, 6.0 ],
+							"rotationOrigin": [ -0.1995, -2.5, 1.7 ],
+							"faces": {
+								"north": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 12.5, 6.0, 13.0 ] },
+								"east": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 6.0, 5.5, 6.5 ] },
+								"south": { "texture": "#great-steppe-boots-L", "uv": [ 7.0, 12.5, 9.0, 13.0 ] },
+								"west": { "texture": "#great-steppe-boots-L", "uv": [ 5.5, 12.5, 7.0, 13.0 ] },
+								"up": { "texture": "#great-steppe-boots-L", "uv": [ 4.0, 6.0, 5.5, 8.0 ], "rotation": 90 },
+								"down": { "texture": "#great-steppe-boots-L", "uv": [ 6.5, 6.0, 8.5, 7.5 ], "rotation": 180 }
+							}
+						}
+					]
+				},
+				{
+					"name": "showshoeL",
+					"from": [ 0.0, 5.5, 0.0 ],
+					"to": [ 3.2, 7.0, 3.2 ],
+					"unwrapMode": 4,
+					"uv": [ 0.0, 9.0 ],
+					"rotationOrigin": [ 0.0, 5.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#great-steppe-boots-L", "uv": [ 0.0, 9.0, 3.0, 10.5 ] },
+						"east": { "texture": "#great-steppe-boots-L", "uv": [ 9.0, 9.0, 12.0, 10.5 ] },
+						"south": { "texture": "#great-steppe-boots-L", "uv": [ 6.0, 9.0, 9.0, 10.5 ] },
+						"west": { "texture": "#great-steppe-boots-L", "uv": [ 3.0, 9.0, 6.0, 10.5 ] },
+						"up": { "texture": "#null", "uv": [ 3.0, 9.0, 6.0, 12.0 ], "rotation": 90, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 3.0, 13.5, 6.0, 16.5 ], "rotation": 90, "enabled": false }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

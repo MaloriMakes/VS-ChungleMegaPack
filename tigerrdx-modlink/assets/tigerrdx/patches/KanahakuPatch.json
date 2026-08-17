@@ -1,0 +1,23 @@
+﻿[
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "spearexpantion" }],
+	"value": {
+		"game:entity/humanoid/seraph/armor/set/metal-nighthelmet": "tigerrdx:entity/humanoid/seraph/mods/kanahaku/metal-nighthelmet",
+		"game:entity/humanoid/seraph/armor/set/leather_reinforced-nighthelmet": "tigerrdx:entity/humanoid/seraph/mods/kanahaku/leather_reinforced-nighthelmet",
+		"game:entity/humanoid/seraph/armor/plate/head-temporalit": "tigerrdx:entity/humanoid/seraph/mods/plate/head-steel"
+		}
+	},
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "nightvisionhelmets" }],
+	"value": {
+		"game:entity/humanoid/seraph/armor/set/metal-nighthelmet": "tigerrdx:entity/humanoid/seraph/mods/kanahaku/metal-nighthelmet",
+		"game:entity/humanoid/seraph/armor/set/leather_reinforced-nighthelmet": "tigerrdx:entity/humanoid/seraph/mods/kanahaku/leather_reinforced-nighthelmet"
+		}
+	}
+]

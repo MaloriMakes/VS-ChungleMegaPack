@@ -1,0 +1,14 @@
+[
+	{
+	"file": "knittyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/knittyrdx:knitty",
+	"dependsOn": [{ "modid": "exoskeletons" }],
+	"value": {
+		"exoskeletons:armored/legs": "knittyrdx:entity/humanoid/seraph/armor/exoskeletons/armored/legs",
+		"exoskeletons:unarmored/legs": "knittyrdx:entity/humanoid/seraph/armor/exoskeletons/unarmored/legs",
+		"exoskeletons:armored/armor/legs": "knittyrdx:entity/humanoid/seraph/armor/exoskeletons/armored/armor/legs",
+		"exoskeletons:armored/armor/feet": "knittyrdx:entity/humanoid/seraph/armor/exoskeletons/armored/armor/feet"
+		}
+	}
+]

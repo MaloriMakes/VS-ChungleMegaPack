@@ -1,0 +1,39 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
+		"collapsedPaths": "Root/LowerTorso",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 76,
+	"textureSizes": {
+		"otterbodytex": [64,64]
+	},
+	"textures": {
+		"otterbodytex": "/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/textures/entity/humanoid/otterbodytex"
+	},
+	"elements": [
+		{
+			"name": "monoboob",
+			"stepParentName": "Chest",
+			"from": [ 0.0, 1.9, 0.1 ],
+			"to": [ 3.0, 3.9, 5.4 ],
+			"unwrapMode": 2,
+			"autoUnwrap": false,
+			"uv": [ 30.5, 3.375 ],
+			"rotationOrigin": [ -1.0, 2.6, 0.0 ],
+			"rotationZ": 55.0,
+			"faces": {
+				"north": { "texture": "#otterbodytex", "uv": [ 44.0, 5.5, 46.0, 8.5 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"east": { "texture": "#null", "uv": [ 3.0, 6.0, 9.0, 8.0 ], "autoUv": false, "enabled": false },
+				"south": { "texture": "#otterbodytex", "uv": [ 52.0, 5.5, 54.0, 8.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"west": { "texture": "#otterbodytex", "uv": [ 46.0, 8.0, 52.0, 10.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"up": { "texture": "#otterbodytex", "uv": [ 46.0, 5.5, 52.0, 8.5 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 6.0 ], "autoUv": false, "enabled": false }
+			}
+		}
+	],
+	"animations": [
+	]
+}

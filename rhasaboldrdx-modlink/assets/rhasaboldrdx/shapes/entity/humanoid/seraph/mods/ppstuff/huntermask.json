@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Cal/Desktop/boobold",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"huntermask": "huntermask"
+	},
+	"elements": [
+		{
+			"name": "mask",
+			"stepParentName": "Head",
+			"from": [ -0.5, -0.1, -0.15 ],
+			"to": [ 5.45, 1.9, 5.2 ],
+			"rotationOrigin": [ -0.5, -0.1, -0.15 ],
+			"rotationZ": -9.0,
+			"faces": {
+				"north": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 6.0 ], "autoUv": false },
+				"east": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 6.0 ], "autoUv": false },
+				"south": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 5.0 ], "autoUv": false },
+				"up": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube2",
+			"stepParentName": "Neck",
+			"from": [ -0.1, -0.1, -0.1 ],
+			"to": [ 3.1, 4.1, 3.1 ],
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 11.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 11.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 11.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 11.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "mask2",
+			"stepParentName": "Head",
+			"from": [ -2.9, -0.9, 0.85 ],
+			"to": [ 3.05, 2.2, 4.2 ],
+			"rotationOrigin": [ -2.9, -0.9, 0.85 ],
+			"rotationZ": -4.0,
+			"faces": {
+				"north": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 6.0 ], "autoUv": false },
+				"east": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 6.0 ], "autoUv": false },
+				"south": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 5.0 ], "autoUv": false },
+				"up": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#huntermask", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		}
+	]}

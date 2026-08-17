@@ -1,0 +1,91 @@
+[
+	{
+		"op": "replace",
+		"path": "/tiger/SkinnableParts/12/variants",
+		"value": [
+			{
+				"code": "breeches",
+				"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/breeches"
+			},
+			{
+				"code": "leotard",
+				"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/leotard"
+			},
+			{
+				"code": "loincloth",
+				"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/loincloth"
+			},
+			{
+				"code": "thong",
+				"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/thong"
+			},
+			{
+				"code": "none",
+				"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/none"
+			},
+			{
+				"code": "speedo",
+				"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/speedo"
+			}
+		],
+		"file": "tigerrdx:config/customplayermodels/tiger.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	},
+	{
+		"op": "addmerge",
+		"path": "/tiger/SkinnableParts/-",
+		"value": {
+			"useDropDown": true,
+			"code": "undergarment",
+			"type": "texture",
+			"textureTarget": "tigerbodytex",
+			"targetSkinParts": ["base", "chest"],
+			"overlayTexture": true,
+			"overlayMode": "Normal",
+			"variants": [
+				{
+					"type": "texture",
+					"code": "none",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/none"
+				},
+				{
+					"type": "texture",
+					"code": "twopiece",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/twopiece"
+				},
+				{
+					"type": "texture",
+					"code": "undershirt",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/undershirt"
+				},
+				{
+					"type": "texture",
+					"code": "camisole",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/camisole"
+				},
+				{
+					"type": "texture",
+					"code": "straplesstwopiece",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/straplesstwopiece"
+				},
+				{
+					"type": "texture",
+					"code": "binder",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/binder"
+				},
+				{
+					"type": "texture",
+					"code": "sarashibinder",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/sarashibinder"
+				},
+				{
+					"type": "texture",
+					"code": "obibinder",
+					"texture": "tigerrdx:entity/humanoid/seraphskinparts/underwear/obibinder"
+				}
+			]
+		},
+		"file": "tigerrdx:config/customplayermodels/tiger.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	}
+]

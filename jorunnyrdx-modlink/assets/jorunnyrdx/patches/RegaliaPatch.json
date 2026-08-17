@@ -1,0 +1,19 @@
+[
+	{
+	"file": "jorunnyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jorunnyrdx:jorunny",
+	"dependsOn": [{ "modid": "regalia" }],
+	"value": {
+		"regalia:blackgown": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/blackgown",
+		"regalia:cardigan": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/cardigan",
+		"regalia:darknobledress": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/darknobledress",
+		"regalia:finegown": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/finegown",
+		"regalia:rednobledress": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/rednobledress",
+		"regalia:summerdress": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/summerdress",
+		"regalia:tailcoat": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/tailcoat",
+		"regalia:trimmedtunic": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/trimmedtunic",
+		"regalia:weddingdress": "jorunnyrdx:entity/humanoid/seraph/clothing/regalia/weddingdress"
+		}
+	}
+]

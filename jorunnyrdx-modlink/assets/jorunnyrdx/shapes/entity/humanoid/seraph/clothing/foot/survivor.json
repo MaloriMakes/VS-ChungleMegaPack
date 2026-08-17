@@ -1,0 +1,153 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"collapsedPaths": "Root/shoeL/hideshoeL,Root/ShoeLanchor,Root/ShowRanchor,Root/shoeL/front16,Root/shoeL/LacesR1,Root/ShowRanchor/hideshoeR,Root/shoeL/LacesL1",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 28,
+	"textureSizes": {
+		"shoes": [16,28]
+	},
+	"textures": {
+		"shoes": "entity/humanoid/seraphclothes/foot/survivor"
+	},
+	"elements": [
+		{
+			"name": "shoeL",
+			"stepParentName": "PawL",
+			"from": [ -0.1, -0.1, -0.1 ],
+			"to": [ 3.1, 6.9, 3.1 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 7.0 ],
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#shoes", "uv": [ 0.0, 11.0, 3.0, 18.0 ] },
+				"east": { "texture": "#shoes", "uv": [ 11.0, 11.0, 14.0, 18.0 ] },
+				"south": { "texture": "#shoes", "uv": [ 7.0, 11.0, 10.0, 18.0 ] },
+				"west": { "texture": "#shoes", "uv": [ 4.0, 11.0, 7.0, 18.0 ] },
+				"up": { "texture": "#shoes", "uv": [ 1.5, 0.5, 5.5, 3.5 ], "autoUv": false },
+				"down": { "texture": "#shoes", "uv": [ 4.0, 4.0, 7.0, 7.0 ], "rotation": 90 }
+			}
+		},
+		{
+			"name": "ShoeLanchor",
+			"stepParentName": "LowerFootL",
+			"from": [ 0.0, -7.4, 0.0 ],
+			"to": [ 0.0, -7.4, 0.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 0.0, -7.4, 0.0 ],
+			"faces": {
+				"north": { "texture": "#shoes", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+				"east": { "texture": "#shoes", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+				"south": { "texture": "#shoes", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+				"west": { "texture": "#shoes", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+				"up": { "texture": "#shoes", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#shoes", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "showshoeL",
+					"from": [ 0.0, 7.0, 0.0 ],
+					"to": [ 3.4, 9.0, 3.2 ],
+					"unwrapMode": 4,
+					"uv": [ 0.0, 9.0 ],
+					"rotationOrigin": [ 0.0, 7.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#shoes", "uv": [ 0.0, 9.0, 3.0, 11.0 ] },
+						"east": { "texture": "#shoes", "uv": [ 9.0, 9.0, 12.0, 11.0 ] },
+						"south": { "texture": "#shoes", "uv": [ 6.0, 9.0, 9.0, 11.0 ] },
+						"west": { "texture": "#shoes", "uv": [ 3.0, 9.0, 6.0, 11.0 ] },
+						"up": { "texture": "#null", "uv": [ 3.0, 9.0, 6.0, 12.0 ], "rotation": 90, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 3.0, 14.0, 6.0, 17.0 ], "rotation": 90, "enabled": false }
+					}
+				},
+				{
+					"name": "hideshoeL",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 1.0, 1.0, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "LflapN",
+							"from": [ 0.0, 7.0, 0.0 ],
+							"to": [ 3.4, 9.0, 0.2 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 1.0 ],
+							"rotationOrigin": [ 0.0, 7.0, 0.2 ],
+							"rotationX": -8.0,
+							"faces": {
+								"north": { "texture": "#shoes", "uv": [ 0.0, 9.0, 3.0, 11.0 ] },
+								"east": { "texture": "#shoes", "uv": [ 0.0, 9.0, 0.5, 11.0 ] },
+								"south": { "texture": "#shoes", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+								"west": { "texture": "#shoes", "uv": [ 3.5, 9.0, 4.0, 11.0 ] },
+								"up": { "texture": "#shoes", "uv": [ 0.0, 9.0, 3.0, 9.5 ] },
+								"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "LflapS",
+							"from": [ 0.0, 7.0, 3.0 ],
+							"to": [ 3.4, 9.0, 3.2 ],
+							"autoUnwrap": false,
+							"uv": [ 6.5, 4.0 ],
+							"rotationOrigin": [ 0.0, 7.0, 3.0 ],
+							"rotationX": 8.0,
+							"faces": {
+								"north": { "texture": "#shoes", "uv": [ 0.0, 2.0, 3.0, 4.0 ] },
+								"east": { "texture": "#shoes", "uv": [ 10.5, 9.0, 11.0, 11.0 ] },
+								"south": { "texture": "#shoes", "uv": [ 7.0, 9.0, 10.0, 11.0 ] },
+								"west": { "texture": "#shoes", "uv": [ 7.0, 9.0, 7.5, 11.0 ] },
+								"up": { "texture": "#shoes", "uv": [ 7.0, 9.0, 10.0, 9.5 ] },
+								"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "LflapE",
+							"from": [ 3.2, 7.0, 0.0 ],
+							"to": [ 3.4, 9.0, 3.2 ],
+							"unwrapMode": 2,
+							"autoUnwrap": false,
+							"uv": [ 10.5, 8.5 ],
+							"rotationOrigin": [ 3.2, 7.0, 0.0 ],
+							"rotationZ": -7.0,
+							"faces": {
+								"north": { "texture": "#shoes", "uv": [ 13.5, 9.0, 14.0, 11.0 ] },
+								"east": { "texture": "#shoes", "uv": [ 11.0, 9.0, 14.0, 11.0 ] },
+								"south": { "texture": "#shoes", "uv": [ 11.0, 9.0, 11.5, 11.0 ] },
+								"west": { "texture": "#shoes", "uv": [ 4.0, 2.0, 7.0, 4.0 ] },
+								"up": { "texture": "#shoes", "uv": [ 11.0, 9.0, 14.0, 9.5 ], "rotation": 270 },
+								"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 3.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "LflapW",
+							"from": [ 0.0, 7.0, 0.0 ],
+							"to": [ 0.2, 9.0, 3.2 ],
+							"autoUnwrap": false,
+							"uv": [ 8.0, 5.5 ],
+							"rotationOrigin": [ 0.2, 7.0, 0.0 ],
+							"rotationZ": 8.0,
+							"faces": {
+								"north": { "texture": "#shoes", "uv": [ 4.0, 9.0, 4.5, 11.0 ] },
+								"east": { "texture": "#shoes", "uv": [ 4.0, 0.0, 7.0, 2.0 ] },
+								"south": { "texture": "#shoes", "uv": [ 6.5, 9.0, 7.0, 11.0 ] },
+								"west": { "texture": "#shoes", "uv": [ 4.0, 9.0, 7.0, 11.0 ] },
+								"up": { "texture": "#shoes", "uv": [ 4.0, 9.0, 7.0, 9.5 ], "rotation": 90 },
+								"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 3.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

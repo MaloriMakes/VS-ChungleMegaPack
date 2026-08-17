@@ -1,0 +1,14 @@
+[
+	{
+	"file": "diriotterrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/diriotterrdx:diriotter",
+	"dependsOn": [{ "modid": "astriaporta" }],
+	"value": {
+		"astriaporta:entity/humanoid/seraph/clothing/foot/sgc_boots": "diriotterrdx:entity/humanoid/seraph/clothing/astriaporta/foot/sgc_boots",
+		"astriaporta:entity/humanoid/seraph/clothing/lowerbody/sgc_pants": "diriotterrdx:entity/humanoid/seraph/clothing/astriaporta/lowerbody/sgc_pants",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbody/sgc_shirt": "diriotterrdx:entity/humanoid/seraph/clothing/astriaporta/upperbody/sgc_shirt",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbodyover/sgc_tacticalvest": "diriotterrdx:entity/humanoid/seraph/clothing/astriaporta/upperbodyover/sgc_tacticalvest"
+		}
+	}
+]

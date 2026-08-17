@@ -1,0 +1,14 @@
+[
+	{
+	"file": "jorunnyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jorunnyrdx:jorunny",
+	"dependsOn": [{ "modid": "exoskeletons" }],
+	"value": {
+		"exoskeletons:armored/legs": "jorunnyrdx:entity/humanoid/seraph/armor/exoskeletons/armored/legs",
+		"exoskeletons:unarmored/legs": "jorunnyrdx:entity/humanoid/seraph/armor/exoskeletons/unarmored/legs",
+		"exoskeletons:armored/armor/legs": "jorunnyrdx:entity/humanoid/seraph/armor/exoskeletons/armored/armor/legs",
+		"exoskeletons:armored/armor/feet": "jorunnyrdx:entity/humanoid/seraph/armor/exoskeletons/armored/armor/feet"
+		}
+	}
+]

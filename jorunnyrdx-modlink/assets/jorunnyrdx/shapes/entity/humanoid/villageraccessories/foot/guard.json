@@ -1,0 +1,158 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 28,
+	"textureSizes": {
+		"guard": [16,28]
+	},
+	"textures": {
+		"guard": "entity/humanoid/villagerclothes/foot/guard"
+	},
+	"elements": [
+		{
+			"name": "ShoeL",
+			"stepParentName": "PawL",
+			"from": [ -0.1, -0.1, -0.1 ],
+			"to": [ 3.1, 5.9, 3.1 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 8.0 ],
+			"rotationOrigin": [ 2.0, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#guard", "uv": [ 0.0, 11.0, 3.0, 17.0 ] },
+				"east": { "texture": "#guard", "uv": [ 11.0, 11.0, 14.0, 17.0 ] },
+				"south": { "texture": "#guard", "uv": [ 7.0, 11.0, 10.0, 17.0 ] },
+				"west": { "texture": "#guard", "uv": [ 4.0, 11.0, 7.0, 17.0 ] },
+				"up": { "texture": "#guard", "uv": [ 5.0, 0.0, 8.0, 3.0 ], "rotation": 90 },
+				"down": { "texture": "#guard", "uv": [ 12.0, 3.5, 15.0, 6.5 ] }
+			},
+			"children": [
+				{
+					"name": "hideshoeL",
+					"from": [ 0.0, 6.0, 0.0 ],
+					"to": [ 1.0, 7.0, 1.0 ],
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 6.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 1.0, 1.0, 2.0, 2.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 3.0, 1.0, 4.0, 2.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 1.0, 0.0, 2.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "FlapFrontL",
+							"from": [ 0.0, -1.1, 0.0 ],
+							"to": [ 0.2, 0.4, 3.2 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 6.0 ],
+							"rotationOrigin": [ 0.0, -1.1, 2.0 ],
+							"rotationX": 1.0,
+							"rotationZ": 45.0,
+							"faces": {
+								"north": { "texture": "#guard", "uv": [ 4.0, 9.5, 4.5, 11.0 ] },
+								"east": { "texture": "#guard", "uv": [ 4.0, 7.5, 7.0, 9.0 ] },
+								"south": { "texture": "#guard", "uv": [ 6.5, 9.5, 7.0, 11.0 ] },
+								"west": { "texture": "#guard", "uv": [ 4.0, 9.5, 7.0, 11.0 ] },
+								"up": { "texture": "#guard", "uv": [ 4.0, 9.5, 7.0, 10.0 ], "rotation": 90 },
+								"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 3.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "FlapBackL",
+							"from": [ 3.0, 0.0, 0.0 ],
+							"to": [ 3.2, 1.0, 3.2 ],
+							"autoUnwrap": false,
+							"uv": [ 1.5, 2.0 ],
+							"rotationOrigin": [ 3.2, 0.0, 2.0 ],
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#guard", "uv": [ 13.5, 10.0, 14.0, 11.0 ] },
+								"east": { "texture": "#guard", "uv": [ 11.0, 10.0, 14.0, 11.0 ] },
+								"south": { "texture": "#guard", "uv": [ 11.0, 10.0, 11.5, 11.0 ] },
+								"west": { "texture": "#guard", "uv": [ 11.0, 8.0, 14.0, 9.0 ] },
+								"up": { "texture": "#guard", "uv": [ 11.0, 9.5, 14.0, 10.0 ], "rotation": 90 },
+								"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 3.0 ], "enabled": false }
+							}
+						},
+						{
+							"name": "FlapNL",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 3.2, 1.0, 0.2 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 5.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -15.0,
+							"faces": {
+								"north": { "texture": "#guard", "uv": [ 0.0, 10.0, 3.0, 11.0 ] },
+								"east": { "texture": "#guard", "uv": [ 0.0, 10.0, 0.5, 11.0 ] },
+								"south": { "texture": "#guard", "uv": [ 0.0, 8.0, 3.0, 9.0 ] },
+								"west": { "texture": "#guard", "uv": [ 3.5, 10.0, 4.0, 11.0 ] },
+								"up": { "texture": "#guard", "uv": [ 0.0, 9.5, 3.0, 10.0 ] },
+								"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 0.5 ], "enabled": false }
+							}
+						},
+						{
+							"name": "FlapSL",
+							"from": [ 0.0, 0.0, 3.0 ],
+							"to": [ 3.2, 1.0, 3.2 ],
+							"autoUnwrap": false,
+							"uv": [ 2.5, 5.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 3.2 ],
+							"rotationX": 10.0,
+							"rotationZ": -1.0,
+							"faces": {
+								"north": { "texture": "#guard", "uv": [ 7.0, 8.0, 10.0, 9.0 ] },
+								"east": { "texture": "#guard", "uv": [ 10.5, 10.0, 11.0, 11.0 ] },
+								"south": { "texture": "#guard", "uv": [ 7.0, 10.0, 10.0, 11.0 ] },
+								"west": { "texture": "#guard", "uv": [ 7.0, 10.0, 7.5, 11.0 ] },
+								"up": { "texture": "#guard", "uv": [ 7.0, 9.5, 10.0, 10.0 ] },
+								"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "showshoeL",
+					"from": [ 0.0, 6.0, 0.0 ],
+					"to": [ 3.2, 7.0, 3.2 ],
+					"unwrapMode": 4,
+					"autoUnwrap": false,
+					"uv": [ 0.0, 6.0 ],
+					"rotationOrigin": [ 0.0, 6.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#guard", "uv": [ 0.0, 10.0, 3.0, 11.0 ] },
+						"east": { "texture": "#guard", "uv": [ 11.0, 10.0, 14.0, 11.0 ] },
+						"south": { "texture": "#guard", "uv": [ 7.0, 10.0, 10.0, 11.0 ] },
+						"west": { "texture": "#guard", "uv": [ 4.0, 10.0, 7.0, 11.0 ] },
+						"up": { "texture": "#guard", "uv": [ 12.0, 3.5, 15.0, 6.5 ] },
+						"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 3.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ 0.0, 1.0, 0.0 ],
+							"to": [ 0.2, 1.5, 3.2 ],
+							"unwrapMode": 4,
+							"autoUnwrap": false,
+							"uv": [ 3.5, 9.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#guard", "uv": [ 3.5, 9.5, 4.0, 10.0 ] },
+								"east": { "texture": "#guard", "uv": [ 7.5, 9.5, 10.5, 10.0 ] },
+								"south": { "texture": "#guard", "uv": [ 7.0, 9.5, 7.5, 10.0 ] },
+								"west": { "texture": "#guard", "uv": [ 4.0, 9.5, 7.0, 10.0 ] },
+								"up": { "texture": "#guard", "uv": [ 4.0, 9.5, 7.0, 10.0 ], "rotation": 90 },
+								"down": { "texture": "#null", "uv": [ 0.5, 0.0, 1.0, 3.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

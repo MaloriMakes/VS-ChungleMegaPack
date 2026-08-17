@@ -1,0 +1,154 @@
+[
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "forlornadditions" }],
+	"value": {
+		"forlornadditions:wearable/zealot/forlornzealot/legs": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/zealot/forlornzealot/legs",
+		"forlornadditions:wearable/zealot/forlornzealot/head": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/zealot/forlornzealot/head",
+		"forlornadditions:wearable/acolyte/forlornacolyte/legs": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/acolyte/forlornacolyte/legs"
+		}
+	},
+	{
+		"file": "forlornadditions:itemtypes/armor/armor.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "forlornadditions" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "forlornadditionsco" }],
+	"value": {
+		"forlornadditionsco:armor/antique/forlornzealot-pristine/legs": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/zealot/forlornzealot/legs",
+		"forlornadditionsco:armor/antique/forlornzealot-pristine/head": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/zealot/forlornzealot/head",
+		"forlornadditionsco:armor/antique/forlornzealot-pristine/head/opened": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/zealot/forlornzealot/opened",
+		"forlornadditionsco:armor/antique/forlornzealot-pristine/head/closed": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/zealot/forlornzealot/head",
+		"forlornadditionsco:armor/acolyte/forlornacolyte/legs": "tigerrdx:entity/humanoid/seraph/mods/forlornadditions/acolyte/forlornacolyte/legs"
+		}
+	},
+	{
+		"file": "forlornadditionsco:itemtypes/armor/armor.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "forlornadditionsco" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "blackguardadditions" }],
+	"value": {
+		"blackguardadditions:wearable/tracker/blackguardtracker/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/tracker/blackguardtracker/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-broken/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-broken/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/head",
+		"blackguardadditions:wearable/antique/blackguardwarden-damaged/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-damaged/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/head",
+		"blackguardadditions:wearable/antique/blackguardwarden-pristine/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-pristine/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/head"
+		}
+	},
+	{
+		"file": "blackguardadditions:itemtypes/armor/armor.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "blackguardadditions" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "blackguardadditionscoredux" }],
+	"value": {
+		"blackguardadditionscoredux:armor/tracker/blackguardtracker/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/tracker/blackguardtracker/legs",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-broken/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/legs",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-broken/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/head",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-damaged/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/legs",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-damaged/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/head",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-pristine/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/legs",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-pristine/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/head",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-pristine/head/opened": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/opened",
+		"blackguardadditionscoredux:armor/antique/blackguardwarden-pristine/head/closed": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/head"
+		}
+	},
+	{
+		"file": "blackguardadditionscoredux:itemtypes/armor/armor.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "blackguardadditionscoredux" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "blackguardadditionscombatoverhaulcompatible" }],
+	"value": {
+		"blackguardadditions:wearable/tracker/blackguardtracker/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/tracker/blackguardtracker/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-broken/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-broken/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/head",
+		"blackguardadditions:wearable/antique/blackguardwarden-damaged/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-damaged/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/head",
+		"blackguardadditions:wearable/antique/blackguardwarden-pristine/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-pristine/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/head"
+		}
+	},
+	{
+		"file": "blackguardadditions:itemtypes/armor/armor.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "blackguardadditionscombatoverhaulcompatible" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "bgacocadjust" }],
+	"value": {
+		"blackguardadditions:wearable/tracker/blackguardtracker/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/tracker/blackguardtracker/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-broken/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-broken/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-broken/head",
+		"blackguardadditions:wearable/antique/blackguardwarden-damaged/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-damaged/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-damaged/head",
+		"blackguardadditions:wearable/antique/blackguardwarden-pristine/legs": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/legs",
+		"blackguardadditions:wearable/antique/blackguardwarden-pristine/head": "tigerrdx:entity/humanoid/seraph/mods/blackguardadditions/antique/blackguardwarden-pristine/head"
+		}
+	},
+	{
+		"file": "blackguardadditions:itemtypes/armor/armor.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "bgacocadjust" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	}
+]

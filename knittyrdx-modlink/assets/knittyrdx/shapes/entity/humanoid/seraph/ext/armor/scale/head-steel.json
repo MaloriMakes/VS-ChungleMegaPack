@@ -1,0 +1,169 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_knitty",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "entity/humanoid/serapharmor/scale/steel"
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ 0.13, 0.0, -0.845 ],
+			"to": [ 8.58, 7.15, 7.345 ],
+			"unwrapMode": 1,
+			"uv": [ 36.0, 17.5 ],
+			"rotationOrigin": [ 0.13, 0.0, -0.845 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 42.0, 23.5, 48.5, 29.0 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 36.0, 23.5, 42.0, 29.0 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 54.5, 23.5, 61.0, 29.0 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 48.5, 23.5, 54.5, 29.0 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 42.0, 17.5, 48.5, 23.5 ], "rotation": 180, "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 42.0, 29.0, 48.5, 35.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "ArmorHelmetstrap",
+					"from": [ 0.65, -0.65, 0.26 ],
+					"to": [ 2.6, 0.65, 7.93 ],
+					"unwrapMode": 5,
+					"uv": [ 46.5, 1.0 ],
+					"rotationOrigin": [ 0.65, -0.65, 0.26 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 47.5, 1.0, 49.0, 2.0 ], "rotation": 180, "autoUv": false },
+						"east": { "texture": "#material", "uv": [ 49.0, 2.0, 50.0, 7.5 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#material", "uv": [ 47.5, 7.5, 49.0, 8.5 ], "autoUv": false },
+						"west": { "texture": "#material", "uv": [ 46.5, 2.0, 47.5, 7.5 ], "rotation": 270, "autoUv": false },
+						"up": { "texture": "#material", "uv": [ 47.5, 2.0, 49.0, 7.5 ], "autoUv": false },
+						"down": { "texture": "#material", "uv": [ 50.0, 2.0, 51.5, 7.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "ArmorHelmetFace",
+					"from": [ -0.91, 3.9, 0.0 ],
+					"to": [ 0.0, 7.15, 8.19 ],
+					"unwrapMode": 1,
+					"uv": [ 32.0, 35.5 ],
+					"rotationOrigin": [ -0.65, 3.9, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 32.0, 41.5, 32.5, 44.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 32.0, 41.5, 38.0, 44.0 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#material", "uv": [ 38.5, 41.5, 39.0, 44.0 ], "autoUv": false },
+						"west": { "texture": "#material", "uv": [ 32.5, 41.5, 38.5, 44.0 ], "autoUv": false },
+						"up": { "texture": "#material", "uv": [ 32.0, 35.5, 32.5, 41.5 ], "rotation": 180, "autoUv": false },
+						"down": { "texture": "#material", "uv": [ 32.0, 44.0, 32.5, 50.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "ArmorHelmetNasal",
+							"from": [ 0.0, -2.73, 3.38 ],
+							"to": [ 0.65, 0.0, 4.68 ],
+							"unwrapMode": 1,
+							"autoUnwrap": false,
+							"uv": [ 32.5, 35.5 ],
+							"rotationOrigin": [ 0.0, -2.73, 3.38 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 32.5, 35.5, 33.0, 37.5 ], "autoUv": false },
+								"east": { "texture": "#null", "uv": [ 0.5, 1.0, 1.5, 3.0 ], "autoUv": false, "enabled": false },
+								"south": { "texture": "#material", "uv": [ 32.5, 35.5, 33.0, 37.5 ], "autoUv": false },
+								"west": { "texture": "#material", "uv": [ 33.0, 35.0, 34.0, 37.0 ], "autoUv": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false, "enabled": false },
+								"down": { "texture": "#material", "uv": [ 32.0, 37.5, 32.5, 38.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "OcularL",
+							"from": [ 0.0, -2.34, 6.89 ],
+							"to": [ 0.91, 0.0, 8.19 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 0.0 ],
+							"rotationOrigin": [ 0.0, -2.34, 6.89 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 52.5, 31.0, 53.0, 32.5 ], "autoUv": false },
+								"east": { "texture": "#null", "uv": [ 0.5, 1.0, 1.5, 2.5 ], "autoUv": false, "enabled": false },
+								"south": { "texture": "#material", "uv": [ 52.5, 31.0, 53.0, 32.5 ], "autoUv": false },
+								"west": { "texture": "#material", "uv": [ 52.0, 31.0, 53.0, 32.5 ], "autoUv": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false, "enabled": false },
+								"down": { "texture": "#material", "uv": [ 52.5, 30.0, 53.0, 31.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "CheekL",
+									"from": [ 0.0, -0.39, -2.21 ],
+									"to": [ 0.65, 0.91, 0.0 ],
+									"autoUnwrap": false,
+									"uv": [ 53.5, 36.0 ],
+									"rotationOrigin": [ 0.0, -0.39, -2.21 ],
+									"faces": {
+										"north": { "texture": "#material", "uv": [ 52.5, 31.5, 53.0, 32.5 ], "autoUv": false },
+										"east": { "texture": "#null", "uv": [ 0.5, 1.5, 2.0, 2.5 ], "autoUv": false, "enabled": false },
+										"south": { "texture": "#material", "uv": [ 52.5, 30.0, 53.0, 31.0 ], "autoUv": false },
+										"west": { "texture": "#material", "uv": [ 52.5, 32.5, 54.0, 33.5 ], "autoUv": false },
+										"up": { "texture": "#material", "uv": [ 52.5, 31.5, 53.0, 33.0 ], "autoUv": false },
+										"down": { "texture": "#material", "uv": [ 52.5, 30.0, 53.0, 31.5 ], "autoUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "OcularR",
+							"from": [ 0.0, -2.34, 0.0 ],
+							"to": [ 0.91, 0.0, 1.3 ],
+							"autoUnwrap": false,
+							"uv": [ 54.5, 31.5 ],
+							"rotationOrigin": [ 0.0, -2.34, 0.0 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 52.5, 31.0, 53.0, 32.5 ], "autoUv": false },
+								"east": { "texture": "#null", "uv": [ 0.5, 1.0, 1.5, 2.5 ], "autoUv": false, "enabled": false },
+								"south": { "texture": "#material", "uv": [ 52.5, 31.0, 53.0, 32.5 ], "autoUv": false },
+								"west": { "texture": "#material", "uv": [ 52.5, 31.0, 53.5, 32.5 ], "autoUv": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false, "enabled": false },
+								"down": { "texture": "#material", "uv": [ 52.5, 30.0, 53.0, 31.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "CheekR",
+									"from": [ 0.0, -0.39, 1.3 ],
+									"to": [ 0.65, 0.91, 3.38 ],
+									"autoUnwrap": false,
+									"uv": [ 49.5, 39.0 ],
+									"rotationOrigin": [ 0.0, -0.39, 1.3 ],
+									"faces": {
+										"north": { "texture": "#material", "uv": [ 52.5, 31.0, 53.0, 32.0 ], "autoUv": false },
+										"east": { "texture": "#null", "uv": [ 0.5, 1.5, 2.0, 2.5 ], "autoUv": false, "enabled": false },
+										"south": { "texture": "#material", "uv": [ 52.5, 30.0, 53.0, 31.0 ], "autoUv": false },
+										"west": { "texture": "#material", "uv": [ 51.5, 32.5, 53.0, 33.5 ], "autoUv": false },
+										"up": { "texture": "#material", "uv": [ 52.5, 31.5, 53.0, 33.0 ], "autoUv": false },
+										"down": { "texture": "#material", "uv": [ 52.5, 32.0, 53.0, 33.5 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "ArmorHelmetTop",
+					"from": [ 0.65, 7.15, 0.65 ],
+					"to": [ 7.8, 8.19, 7.41 ],
+					"unwrapMode": 1,
+					"uv": [ 31.0, 30.0 ],
+					"rotationOrigin": [ 0.65, 7.15, 0.65 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 36.0, 35.0, 41.5, 35.5 ], "autoUv": false },
+						"east": { "texture": "#material", "uv": [ 31.0, 35.0, 36.0, 35.5 ], "autoUv": false },
+						"south": { "texture": "#material", "uv": [ 46.5, 35.0, 52.0, 35.5 ], "autoUv": false },
+						"west": { "texture": "#material", "uv": [ 41.5, 35.0, 46.5, 35.5 ], "autoUv": false },
+						"up": { "texture": "#material", "uv": [ 36.0, 30.0, 41.5, 35.0 ], "rotation": 180, "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 36.0, 35.5, 41.5, 40.5 ], "autoUv": false, "enabled": false }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,91 @@
+[
+	{
+		"op": "replace",
+		"path": "/otter/SkinnableParts/12/variants",
+		"value": [
+			{
+				"code": "breeches",
+				"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/breeches"
+			},
+			{
+				"code": "leotard",
+				"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/leotard"
+			},
+			{
+				"code": "loincloth",
+				"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/loincloth"
+			},
+			{
+				"code": "thong",
+				"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/thong"
+			},
+			{
+				"code": "none",
+				"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/none"
+			},
+			{
+				"code": "speedo",
+				"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/speedo"
+			}
+		],
+		"file": "otterrdx:config/customplayermodels/otter.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	},
+	{
+		"op": "addmerge",
+		"path": "/otter/SkinnableParts/-",
+		"value": {
+			"useDropDown": true,
+			"code": "undergarment",
+			"type": "texture",
+			"textureTarget": "otterbodytex",
+			"targetSkinParts": ["base", "chest"],
+			"overlayTexture": true,
+			"overlayMode": "Normal",
+			"variants": [
+				{
+					"type": "texture",
+					"code": "none",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/none"
+				},
+				{
+					"type": "texture",
+					"code": "twopiece",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/twopiece"
+				},
+				{
+					"type": "texture",
+					"code": "undershirt",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/undershirt"
+				},
+				{
+					"type": "texture",
+					"code": "camisole",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/camisole"
+				},
+				{
+					"type": "texture",
+					"code": "straplesstwopiece",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/straplesstwopiece"
+				},
+				{
+					"type": "texture",
+					"code": "binder",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/binder"
+				},
+				{
+					"type": "texture",
+					"code": "sarashibinder",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/sarashibinder"
+				},
+				{
+					"type": "texture",
+					"code": "obibinder",
+					"texture": "otterrdx:entity/humanoid/seraphskinparts/underwear/obibinder"
+				}
+			]
+		},
+		"file": "otterrdx:config/customplayermodels/otter.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	}
+]

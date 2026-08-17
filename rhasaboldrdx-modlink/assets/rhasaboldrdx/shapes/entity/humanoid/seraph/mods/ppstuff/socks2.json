@@ -1,0 +1,67 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Cal/Desktop/boobold",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"socks": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "bone",
+			"from": [ 15.3769, 0.4642, 16.5181 ],
+			"to": [ 15.3769, 0.4642, 16.5181 ],
+			"rotationOrigin": [ 15.3769, 0.4642, 16.5181 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "sock.l",
+					"stepParentName": "PawL",
+					"from": [ 0.45, -0.09, -0.57 ],
+					"to": [ 3.6361, 5.6978, 2.5721 ],
+					"rotationOrigin": [ 2.0, 2.7, 1.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#socks", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"east": { "texture": "#socks", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"south": { "texture": "#socks", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"west": { "texture": "#socks", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"up": { "texture": "#socks", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#socks", "uv": [ 16.0, 16.0, 0.0, 0.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "sock.r",
+					"stepParentName": "PawR",
+					"from": [ 0.35, -0.09, -0.57 ],
+					"to": [ 3.5361, 5.4978, 2.5721 ],
+					"rotationOrigin": [ 2.0, 2.7, 1.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#socks", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"east": { "texture": "#socks", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"south": { "texture": "#socks", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"west": { "texture": "#socks", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"up": { "texture": "#socks", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#socks", "uv": [ 0.0, 16.0, 16.0, 0.0 ], "rotation": 270, "autoUv": false, "snapUv": false }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

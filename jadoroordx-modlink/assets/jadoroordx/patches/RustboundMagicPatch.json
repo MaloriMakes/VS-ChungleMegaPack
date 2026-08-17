@@ -1,0 +1,32 @@
+[
+	{
+	"file": "jadoroordx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jadoroordx:jadoroo",
+	"dependsOn": [{ "modid": "rustboundmagic" }],
+	"value": {
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-inert": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/basic/basic-legs-inert",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-tier1": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/basic/basic-legs-tier1",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-tier2": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/basic/basic-legs-tier2",
+		"rustboundmagic:entities/humanoids/armor/basic/basic-legs-tier3": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/basic/basic-legs-tier3",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-legs-tier1": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/wanderer/wanderer-legs-tier1",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-legs-tier2": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/wanderer/wanderer-legs-tier2",
+		"rustboundmagic:entities/humanoids/armor/wanderer/wanderer-legs-tier3": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/wanderer/wanderer-legs-tier3",
+		"rustboundmagic:entities/humanoids/armor/rustyjonas/rustyjonas-legs": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/rustyjonas/rustyjonas-legs",
+		"rustboundmagic:entities/humanoids/armor/necromancer/necromancer-head": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/necromancer/necromancer-head",
+		"rustboundmagic:entities/humanoids/armor/necromancer/necromancer-legs": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/necromancer/necromancer-legs",
+		"rustboundmagic:entities/humanoids/armor/temporaljonas/temporaljonas-legs": "jadoroordx:entity/humanoid/seraph/armor/rustbound/armor/temporaljonas/temporaljonas-legs"
+		}
+	},
+	{
+		"file": "rustboundmagic:itemtypes/wearable/mainarmor/armorbody.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "rustboundmagic" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	}
+]

@@ -1,0 +1,42 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/diriotterplayerrdx_1.3.4/assets/diriotterrdx/shapes/entity/humanoid/BACKDROP",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 48,
+	"textureHeight": 48,
+	"textureSizes": {
+		"hair": [48,48]
+	},
+	"textures": {
+		"diriotterbodytex": "diriotterrdx:textures/entity/humanoid/diriotterbodytex"
+	},
+	"elements": [
+		{
+			"name": "hidefacialhair",
+			"stepParentName": "Head",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"uv": [ 0.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ -3.1, 1.6, 2.0 ],
+					"to": [ -2.6, 2.2, 3.0 ],
+					"uv": [ 29.25, 0.75 ],
+					"rotationOrigin": [ -3.1, 1.6, 2.0 ],
+					"faces": {
+						"north": { "texture": "#diriotterbodytex", "uv": [ 29.5, 2.0, 30.0, 2.5 ] },
+						"east": { "texture": "#diriotterbodytex", "uv": [ 30.0, 2.0, 31.0, 2.5 ] },
+						"south": { "texture": "#diriotterbodytex", "uv": [ 31.0, 2.0, 31.5, 2.5 ] },
+						"west": { "texture": "#diriotterbodytex", "uv": [ 31.5, 2.0, 32.5, 2.5 ] },
+						"up": { "texture": "#diriotterbodytex", "uv": [ 29.5, 1.0, 30.0, 2.0 ] },
+						"down": { "texture": "#diriotterbodytex", "uv": [ 30.0, 1.0, 30.5, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

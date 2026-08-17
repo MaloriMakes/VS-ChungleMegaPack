@@ -1,0 +1,96 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"socksr": [16,16],
+		"socksl": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "bone",
+			"from": [ 15.3769, 0.4642, 16.5181 ],
+			"to": [ 15.3769, 0.4642, 16.5181 ],
+			"rotationOrigin": [ 15.3769, 0.4642, 16.5181 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "sock.l",
+					"stepParentName": "LowerFootL",
+					"from": [ 0.45, 0.0, -0.57 ],
+					"to": [ 3.6361, 5.5, 3.5721 ],
+					"rotationOrigin": [ 2.0, 2.0, 1.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"east": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"south": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"west": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"up": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#socksl", "uv": [ 16.0, 16.0, 0.0, 0.0 ], "rotation": 90, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "sock.r",
+					"stepParentName": "LowerFootR",
+					"from": [ 0.35, 0.0, -0.57 ],
+					"to": [ 3.5361, 5.5, 3.5721 ],
+					"rotationOrigin": [ 2.0, 2.0, 1.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"east": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"south": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"west": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"up": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
+						"down": { "texture": "#socksr", "uv": [ 0.0, 16.0, 16.0, 0.0 ], "rotation": 270, "autoUv": false, "snapUv": false }
+					}
+				},
+				{
+					"name": "sock.l2",
+					"stepParentName": "PawL",
+					"from": [ 0.6, 2.0, -0.58 ],
+					"to": [ 3.6, 7.0, 2.57 ],
+					"rotationOrigin": [ 2.0, 4.0, 1.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false },
+						"east": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false },
+						"south": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false },
+						"west": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false },
+						"up": { "texture": "#socksl", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 270, "autoUv": false },
+						"down": { "texture": "#socksl", "uv": [ 16.0, 16.0, 0.0, 0.0 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "sock.r2",
+					"stepParentName": "PawR",
+					"from": [ 0.5, 2.0, -0.65 ],
+					"to": [ 3.5, 7.0, 2.45 ],
+					"rotationOrigin": [ 2.0, 4.0, 1.4 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false },
+						"west": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#socksr", "uv": [ 16.0, 0.0, 0.0, 16.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#socksr", "uv": [ 0.0, 16.0, 16.0, 0.0 ], "rotation": 270, "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

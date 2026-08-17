@@ -1,0 +1,14 @@
+[
+	{
+	"file": "avalirdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/avalirdx:avali",
+	"dependsOn": [{ "modid": "exoskeletons" }],
+	"value": {
+		"exoskeletons:armored/legs": "avalirdx:entity/humanoid/seraph/armor/exoskeletons/armored/legs",
+		"exoskeletons:unarmored/legs": "avalirdx:entity/humanoid/seraph/armor/exoskeletons/unarmored/legs",
+		"exoskeletons:armored/armor/legs": "avalirdx:entity/humanoid/seraph/armor/exoskeletons/armored/armor/legs",
+		"exoskeletons:armored/armor/feet": "avalirdx:entity/humanoid/seraph/armor/exoskeletons/armored/armor/feet"
+		}
+	}
+]

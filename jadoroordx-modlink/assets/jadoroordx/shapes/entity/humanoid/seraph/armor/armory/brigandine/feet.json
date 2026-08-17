@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "game:entity/humanoid/serapharmor/brigandine/iron"
+	},
+	"elements": [
+		{
+			"name": "ArmorLowerLegR",
+			"stepParentName": "PawR",
+			"from": [ -0.3, 2.8, -0.25 ],
+			"to": [ 3.2, 7.3, 3.25 ],
+			"uv": [ 16.0, 48.5 ],
+			"rotationOrigin": [ -0.3, 2.8, -0.4 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 16.0, 52.0, 20.5, 60.5 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 20.5, 52.0, 24.0, 60.5 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 24.0, 52.0, 28.5, 60.5 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 28.5, 52.0, 32.0, 60.5 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 16.0, 48.5, 20.5, 52.0 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 20.5, 48.5, 25.0, 52.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerLegL",
+			"stepParentName": "PawL",
+			"from": [ -0.3, 2.8, -0.25 ],
+			"to": [ 3.2, 7.3, 3.25 ],
+			"uv": [ 0.0, 48.5 ],
+			"rotationOrigin": [ -0.3, 2.8, -0.4 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 52.0, 4.5, 60.5 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 4.5, 52.0, 8.0, 60.5 ], "autoUv": false },
+				"south": { "texture": "#material", "uv": [ 8.0, 52.0, 12.5, 60.5 ], "autoUv": false },
+				"west": { "texture": "#material", "uv": [ 12.5, 52.0, 16.0, 60.5 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 0.0, 48.5, 4.5, 52.0 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 4.5, 48.5, 9.0, 52.0 ], "autoUv": false }
+			}
+		}
+	]}

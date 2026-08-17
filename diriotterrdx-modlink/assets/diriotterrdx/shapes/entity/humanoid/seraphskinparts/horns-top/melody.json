@@ -1,0 +1,231 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/diriotterplayerrdx_1.3.4/assets/diriotterrdx/shapes/entity/humanoid/BACKDROP",
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": false,
+		"singleTexture": false,
+		"vsFormatConverted": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"MaloriMakes.png": [128, 128]
+	},
+	"textures": {
+		"MaloriMakes.png": ""
+	},
+	"elements": [
+		{
+			"name": "root",
+			"from": [8, 0, 8],
+			"to": [8, 0, 8],
+			"rotationOrigin": [8, 0, 8],
+			"children": [
+				{
+					"name": "Hair",
+					"from": [0, 3.275, 0],
+					"to": [0, 3.275, 0],
+					"rotationOrigin": [0, 3.275, 0],
+					"children": [
+						{
+							"name": "Hairbit",
+							"from": [-2, -0.85, -6.275],
+							"to": [2, 1.3, 0],
+							"rotationOrigin": [0, -0.85, -1],
+							"uv": [0, 10],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [6, 16, 10, 18], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [0, 16, 6, 18], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [16, 16, 20, 18], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [10, 16, 16, 18], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [10, 16, 6, 10], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [14, 10, 10, 16], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -24.0882,
+							"rotationY": 33.0713,
+							"rotationZ": 13.71011,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						},
+						{
+							"name": "Hairbit",
+							"from": [-4.86657, -2.55774, -6.73579],
+							"to": [-1.74157, -1.25774, -4.68579],
+							"rotationOrigin": [-3.45, -1.725, -5.65],
+							"uv": [15, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [17, 2, 20, 4], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [15, 2, 17, 4], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [22, 2, 25, 4], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [20, 2, 22, 4], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [20, 2, 17, 0], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [23, 0, 20, 2], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -47.63083,
+							"rotationY": 25.67321,
+							"rotationZ": 25.40626,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						},
+						{
+							"name": "Hairbit",
+							"from": [-1.2, -1.6, -6.15],
+							"to": [2.925, 0.825, 0],
+							"rotationOrigin": [0.375, -1.6, -1],
+							"uv": [0, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [6, 6, 10, 9], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [0, 6, 6, 9], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [16, 6, 20, 9], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [10, 6, 16, 9], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [10, 6, 6, 0], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [14, 0, 10, 6], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 10.71987,
+							"rotationY": 5.58548,
+							"rotationZ": -7.11146,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						},
+						{
+							"name": "Hairbit",
+							"from": [-0.83905, -0.20917, -7.51876],
+							"to": [2.03595, 1.34083, -4.74376],
+							"rotationOrigin": [0.375, 1, -5.525],
+							"uv": [0, 19],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [2, 21, 4, 23], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [0, 21, 2, 23], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [6, 21, 8, 23], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [4, 21, 6, 23], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [4, 21, 2, 19], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [6, 19, 4, 21], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": -23.67192,
+							"rotationY": 8.61517,
+							"rotationZ": -2.72859,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						},
+						{
+							"name": "Hairbit",
+							"from": [-1.275, -1.6, -4.3],
+							"to": [2.2, 0.5, 2.4],
+							"rotationOrigin": [0.525, -1.6, 1.125],
+							"uv": [15, 4],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [21, 10, 24, 12], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [15, 10, 21, 12], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [30, 10, 33, 12], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [24, 10, 30, 12], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [24, 10, 21, 4], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [27, 4, 24, 10], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 33.71946,
+							"rotationY": -25.49956,
+							"rotationZ": -9.84708,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						},
+						{
+							"name": "Hairbit",
+							"from": [1.66608, 1.60169, -4.79979],
+							"to": [3.49108, 3.25169, -2.07479],
+							"rotationOrigin": [0.375, 2.025, -2.2],
+							"uv": [16, 22],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [18, 24, 19, 26], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [16, 24, 18, 26], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [21, 24, 22, 26], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [19, 24, 21, 26], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [19, 24, 18, 22], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [20, 22, 19, 24], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 0.01066,
+							"rotationY": -16.17464,
+							"rotationZ": -22.18903,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						},
+						{
+							"name": "Hairbit",
+							"from": [-3.575, -1.725, -3.225],
+							"to": [-0.05, 0.325, 2.575],
+							"rotationOrigin": [-1.975, -1.6, 2.2],
+							"uv": [16, 14],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [21, 19, 24, 21], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [16, 19, 21, 21], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [29, 19, 32, 21], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [24, 19, 29, 21], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [24, 19, 21, 14], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [27, 14, 24, 19], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 30.95812,
+							"rotationY": -1.95756,
+							"rotationZ": 1.14367,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						},
+						{
+							"name": "Hairbit",
+							"from": [-2.87067, 1.03388, -3.31561],
+							"to": [-0.49567, 2.18388, -1.21561],
+							"rotationOrigin": [-1.975, 1.825, -1.375],
+							"uv": [9, 20],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#missing_texture", "uv": [11, 22, 13, 24], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#missing_texture", "uv": [9, 22, 11, 24], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#missing_texture", "uv": [15, 22, 17, 24], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#missing_texture", "uv": [13, 22, 15, 24], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#missing_texture", "uv": [13, 22, 11, 20], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#missing_texture", "uv": [15, 20, 13, 22], "autoUv": false, "snapUv": false}
+							},
+							"rotationX": 18.20147,
+							"rotationY": -2.16167,
+							"rotationZ": 0.68331,
+							"stepParentName": "",
+							"climateColorMap": "",
+							"gradientShade": false,
+							"renderPass": 0,
+							"seasonColorMap": ""
+						}
+					],
+					"stepParentName": ""
+				}
+			],
+			"stepParentName": ""
+		}
+	],
+	"animations": []
+}

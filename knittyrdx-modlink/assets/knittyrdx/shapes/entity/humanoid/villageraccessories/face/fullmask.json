@@ -1,0 +1,35 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_knitty",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 16,
+	"textureSizes": {
+		"facetex": [24,16]
+	},
+	"textures": {
+		"facetex": "entity/humanoid/villagerclothes/face/barber"
+	},
+	"elements": [
+		{
+			"name": "hideme",
+			"stepParentName": "Head",
+			"from": [ -1.18, -2.21, -0.065 ],
+			"to": [ 6.59, 6.89, 6.565 ],
+			"renderPass": 1,
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 0.5, 0.5 ],
+			"rotationOrigin": [ 1.8425, 1.821, 3.38 ],
+			"faces": {
+				"north": { "texture": "#facetex", "uv": [ 0.0, 8.0, 5.5, 15.0 ], "autoUv": false },
+				"east": { "texture": "#facetex", "uv": [ 17.0, 8.0, 22.0, 15.0 ], "autoUv": false },
+				"south": { "texture": "#facetex", "uv": [ 11.5, 8.0, 17.0, 15.0 ], "autoUv": false },
+				"west": { "texture": "#facetex", "uv": [ 6.0, 8.0, 11.0, 15.0 ], "autoUv": false },
+				"up": { "texture": "#facetex", "uv": [ 6.0, 2.5, 11.0, 8.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#null", "uv": [ 8.0, 0.0, 13.5, 5.0 ], "autoUv": false, "enabled": false }
+			}
+		}
+	]}

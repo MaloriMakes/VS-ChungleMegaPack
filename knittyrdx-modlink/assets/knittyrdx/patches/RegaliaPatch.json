@@ -1,0 +1,19 @@
+[
+	{
+	"file": "knittyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/knittyrdx:knitty",
+	"dependsOn": [{ "modid": "regalia" }],
+	"value": {
+		"regalia:blackgown": "knittyrdx:entity/humanoid/seraph/clothing/regalia/blackgown",
+		"regalia:cardigan": "knittyrdx:entity/humanoid/seraph/clothing/regalia/cardigan",
+		"regalia:darknobledress": "knittyrdx:entity/humanoid/seraph/clothing/regalia/darknobledress",
+		"regalia:finegown": "knittyrdx:entity/humanoid/seraph/clothing/regalia/finegown",
+		"regalia:rednobledress": "knittyrdx:entity/humanoid/seraph/clothing/regalia/rednobledress",
+		"regalia:summerdress": "knittyrdx:entity/humanoid/seraph/clothing/regalia/summerdress",
+		"regalia:tailcoat": "knittyrdx:entity/humanoid/seraph/clothing/regalia/tailcoat",
+		"regalia:trimmedtunic": "knittyrdx:entity/humanoid/seraph/clothing/regalia/trimmedtunic",
+		"regalia:weddingdress": "knittyrdx:entity/humanoid/seraph/clothing/regalia/weddingdress"
+		}
+	}
+]

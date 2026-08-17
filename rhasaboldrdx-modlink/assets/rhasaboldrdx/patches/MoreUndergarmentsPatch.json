@@ -1,0 +1,91 @@
+[
+	{
+		"op": "replace",
+		"path": "/rhasabold/SkinnableParts/16/variants",
+		"value": [
+			{
+				"code": "breeches",
+				"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/breeches"
+			},
+			{
+				"code": "leotard",
+				"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/leotard"
+			},
+			{
+				"code": "loincloth",
+				"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/loincloth"
+			},
+			{
+				"code": "thong",
+				"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/thong"
+			},
+			{
+				"code": "none",
+				"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/none"
+			},
+			{
+				"code": "speedo",
+				"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/speedo"
+			}
+		],
+		"file": "rhasaboldrdx:config/customplayermodels/rhasabold.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	},
+	{
+		"op": "addmerge",
+		"path": "/rhasabold/SkinnableParts/-",
+		"value": {
+			"useDropDown": true,
+			"code": "undergarment",
+			"type": "texture",
+			"textureTarget": "rhasaboldbodytex",
+			"targetSkinParts": ["base", "chest"],
+			"overlayTexture": true,
+			"overlayMode": "Normal",
+			"variants": [
+				{
+					"type": "texture",
+					"code": "none",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/none"
+				},
+				{
+					"type": "texture",
+					"code": "twopiece",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/twopiece"
+				},
+				{
+					"type": "texture",
+					"code": "undershirt",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/undershirt"
+				},
+				{
+					"type": "texture",
+					"code": "camisole",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/camisole"
+				},
+				{
+					"type": "texture",
+					"code": "straplesstwopiece",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/straplesstwopiece"
+				},
+				{
+					"type": "texture",
+					"code": "binder",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/binder"
+				},
+				{
+					"type": "texture",
+					"code": "sarashibinder",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/sarashibinder"
+				},
+				{
+					"type": "texture",
+					"code": "obibinder",
+					"texture": "rhasaboldrdx:entity/humanoid/seraphskinparts/underwear/obibinder"
+				}
+			]
+		},
+		"file": "rhasaboldrdx:config/customplayermodels/rhasabold.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	}
+]

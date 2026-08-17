@@ -1,0 +1,91 @@
+[
+	{
+		"op": "replace",
+		"path": "/jadoroo/SkinnableParts/12/variants",
+		"value": [
+			{
+				"code": "breeches",
+				"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/breeches"
+			},
+			{
+				"code": "leotard",
+				"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/leotard"
+			},
+			{
+				"code": "loincloth",
+				"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/loincloth"
+			},
+			{
+				"code": "thong",
+				"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/thong"
+			},
+			{
+				"code": "none",
+				"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/none"
+			},
+			{
+				"code": "speedo",
+				"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/speedo"
+			}
+		],
+		"file": "jadoroordx:config/customplayermodels/jadoroo.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	},
+	{
+		"op": "addmerge",
+		"path": "/jadoroo/SkinnableParts/-",
+		"value": {
+			"useDropDown": true,
+			"code": "undergarment",
+			"type": "texture",
+			"textureTarget": "jadoroobodytex",
+			"targetSkinParts": ["base", "chest"],
+			"overlayTexture": true,
+			"overlayMode": "Normal",
+			"variants": [
+				{
+					"type": "texture",
+					"code": "none",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/none"
+				},
+				{
+					"type": "texture",
+					"code": "twopiece",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/twopiece"
+				},
+				{
+					"type": "texture",
+					"code": "undershirt",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/undershirt"
+				},
+				{
+					"type": "texture",
+					"code": "camisole",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/camisole"
+				},
+				{
+					"type": "texture",
+					"code": "straplesstwopiece",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/straplesstwopiece"
+				},
+				{
+					"type": "texture",
+					"code": "binder",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/binder"
+				},
+				{
+					"type": "texture",
+					"code": "sarashibinder",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/sarashibinder"
+				},
+				{
+					"type": "texture",
+					"code": "obibinder",
+					"texture": "jadoroordx:entity/humanoid/seraphskinparts/underwear/obibinder"
+				}
+			]
+		},
+		"file": "jadoroordx:config/customplayermodels/jadoroo.json",
+		"dependsOn": [{ "modid": "moreundergarmentsupdated" }]
+	}
+]

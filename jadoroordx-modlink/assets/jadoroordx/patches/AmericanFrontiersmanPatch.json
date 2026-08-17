@@ -1,0 +1,26 @@
+[
+	{
+	"file": "jadoroordx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jadoroordx:jadoroo",
+	"dependsOn": [{ "modid": "americanfrontiersman" }],
+	"value": {
+		"americanfrontiersman:item/bluejeans": "jadoroordx:entity/humanoid/seraph/clothing/americanfrontiersman/bluejeans",
+		"americanfrontiersman:item/mountaineerpants": "jadoroordx:entity/humanoid/seraph/clothing/americanfrontiersman/mountaineerpants",
+		"americanfrontiersman:item/mukluks": "jadoroordx:entity/humanoid/seraph/clothing/americanfrontiersman/mukluks",
+		"americanfrontiersman:item/chapsbasic": "jadoroordx:entity/humanoid/seraph/clothing/americanfrontiersman/chapsbasic",
+		"americanfrontiersman:item/chapsleather": "jadoroordx:entity/humanoid/seraph/clothing/americanfrontiersman/chapsleather",
+		"americanfrontiersman:item/cottonshirt": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirt",
+		"americanfrontiersman:item/cottonshirtlong": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirtlong",
+		"americanfrontiersman:item/cottonshirttucked": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirttucked",
+		"americanfrontiersman:item/cottonshirttuckedlong": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirttuckedlong",
+		"americanfrontiersman:item/dustercanvas": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/dustercanvas",
+		"americanfrontiersman:item/mountaineercoat": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/mountaineercoat",
+		"americanfrontiersman:item/mountaineercoatnofringe": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/mountaineercoatnofringe",
+		"americanfrontiersman:item/woolsweatermodel": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatermodel",
+		"americanfrontiersman:item/woolsweatershort": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatershort",
+		"americanfrontiersman:item/woolsweatertucked": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatertucked",
+		"americanfrontiersman:item/woolsweatertuckedshort": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatertuckedshort"
+		}
+	}
+]

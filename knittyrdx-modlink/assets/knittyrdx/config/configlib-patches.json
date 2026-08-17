@@ -1,0 +1,61 @@
+{
+	"version": 1,
+	"patches": {
+		"float": {
+			"knittyrdx:config/customplayermodels/knitty.json": {
+				"knitty/SizeRange/0": "sizeRangeMin",
+				"knitty/SizeRange/1": "sizeRangeMax",
+				"knitty/MinEyeHeight": "eyeHeightMin",
+				"knitty/MaxEyeHeight": "eyeHeightMax"
+			}
+		}
+	},
+	"settings": [
+		{
+			"code": "sizeRangeMin",
+			"type": "float",
+			"ingui": "knittyrdx:setting-size-range-min",
+			"default": 0.5,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		},
+		{
+			"code": "sizeRangeMax",
+			"type": "float",
+			"ingui": "knittyrdx:setting-size-range-max",
+			"default": 1.5,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		},
+		{
+			"code": "eyeHeightMin",
+			"type": "float",
+			"ingui": "knittyrdx:setting-eye-height-min",
+			"default": 0.8,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		},
+		{
+			"code": "eyeHeightMax",
+			"type": "float",
+			"ingui": "knittyrdx:setting-eye-height-max",
+			"default": 2.58,
+			"range": {
+				"min": 0.01,
+				"max": 100
+			}
+		}
+	],
+	"formatting": [
+		{
+			"type": "separator",
+			"weight": 1.0
+		}
+	]
+}

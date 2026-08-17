@@ -1,0 +1,26 @@
+[
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "americanfrontiersman" }],
+	"value": {
+		"americanfrontiersman:item/bluejeans": "rhasaboldrdx:entity/humanoid/seraph/mods/americanfrontiersman/bluejeans",
+		"americanfrontiersman:item/mountaineerpants": "rhasaboldrdx:entity/humanoid/seraph/mods/americanfrontiersman/mountaineerpants",
+		"americanfrontiersman:item/mukluks": "rhasaboldrdx:entity/humanoid/seraph/mods/americanfrontiersman/mukluks",
+		"americanfrontiersman:item/chapsbasic": "rhasaboldrdx:entity/humanoid/seraph/mods/americanfrontiersman/chapsbasic",
+		"americanfrontiersman:item/chapsleather": "rhasaboldrdx:entity/humanoid/seraph/mods/americanfrontiersman/chapsleather",
+		"americanfrontiersman:item/cottonshirt": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirt",
+		"americanfrontiersman:item/cottonshirtlong": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirtlong",
+		"americanfrontiersman:item/cottonshirttucked": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirttucked",
+		"americanfrontiersman:item/cottonshirttuckedlong": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/cottonshirttuckedlong",
+		"americanfrontiersman:item/dustercanvas": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/dustercanvas",
+		"americanfrontiersman:item/mountaineercoat": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/mountaineercoat",
+		"americanfrontiersman:item/mountaineercoatnofringe": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/mountaineercoatnofringe",
+		"americanfrontiersman:item/woolsweatermodel": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatermodel",
+		"americanfrontiersman:item/woolsweatershort": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatershort",
+		"americanfrontiersman:item/woolsweatertucked": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatertucked",
+		"americanfrontiersman:item/woolsweatertuckedshort": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/americanfrontiersman/woolsweatertuckedshort"
+		}
+	}
+]

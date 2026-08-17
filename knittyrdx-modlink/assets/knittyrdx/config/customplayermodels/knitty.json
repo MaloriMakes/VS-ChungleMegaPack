@@ -1,0 +1,162 @@
+{
+	"knitty": {
+		"Group": "temporal",
+		"Icon": "knittyrdx:icons/knitty",
+		"GroupIcon": "playermodellib:icons/temporal",
+		"ShapePath": "knittyrdx:entity/humanoid/knitty-faceless",
+		"MainTextureCode": "knittybodytex",
+		"SizeRange": [ 0.5, 0.5 ],
+		"ScaleColliderWithSizeHorizontally": true,
+		"ScaleColliderWithSizeVertically": true,
+		"MaxCollisionBox": [ 0.8, 2.7 ],
+		"MinCollisionBox": [ 0.1, 0.1 ],
+		"MaxEyeHeight":	0.9,
+		"MinEyeHeight":	0.9,
+        "SneakEyeHeightMultiplier": 0.75,
+		"AddTags": ["temporal","construct"],
+		"RemoveTags": ["seraph"],
+		"SkinnableParts": [
+			{
+				"code": "baseskin",
+				"type": "texture",
+				"textureTarget": "knittybodytex",
+				"targetSkinParts": ["base", "chest","facialexpression"],
+				"overlayTexture": false,
+				"overlayMode": "Normal",
+				"textureTemplate": "knittyrdx:entity/humanoid/seraphskinparts/body/{code}",
+				"variants": [
+					{ "code": "knittyskin2", "texture": "skin2" }
+				]
+			},
+			{
+				"code": "metal1",
+				"type": "texture",
+				"textureTarget": "copper5",
+				"targetSkinParts": ["base"],
+				"textureTemplate": "knittyrdx:block/metal/sheet/{code}",
+				"variants": [
+					{ "code": "copper5", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "metal2",
+				"type": "texture",
+				"textureTarget": "cupronickel1",
+				"targetSkinParts": ["base"],
+				"textureTemplate": "knittyrdx:block/metal/sheet/{code}",
+				"variants": [
+					{ "code": "cupronickel1", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "metal3",
+				"type": "texture",
+				"textureTarget": "cupronickel2",
+				"targetSkinParts": ["base"],
+				"textureTemplate": "knittyrdx:block/metal/sheet/{code}",
+				"variants": [
+					{ "code": "cupronickel2", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "metal4",
+				"type": "texture",
+				"textureTarget": "lead3",
+				"targetSkinParts": ["base"],
+				"textureTemplate": "knittyrdx:block/metal/sheet/{code}",
+				"variants": [
+					{ "code": "lead3", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "metal5",
+				"type": "texture",
+				"textureTarget": "platinum1",
+				"targetSkinParts": ["base"],
+				"textureTemplate": "knittyrdx:block/metal/sheet/{code}",
+				"variants": [
+					{ "code": "platinum1", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "bell",
+				"type": "texture",
+				"textureTarget": "bell-tobias",
+				"targetSkinParts": ["base"],
+				"textureTemplate": "knittyrdx:entity/{code}",
+				"variants": [
+					{ "code": "bell-tobias", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "gear",
+				"type": "texture",
+				"textureTarget": "temporal",
+				"targetSkinParts": ["base"],
+				"textureTemplate": "knittyrdx:item/resource/{code}",
+				"variants": [
+					{ "code": "temporalgear", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "altoflute", "sound": "sounds/voice/altoflute" },
+					{ "code": "harmonica", "sound": "sounds/voice/harmonica" },
+					{ "code": "oboe", "sound": "sounds/voice/oboe" },
+					{ "code": "clarinet", "sound": "sounds/voice/clarinet" },
+					{ "code": "accordion", "sound": "sounds/voice/accordion" },
+					{ "code": "trumpet", "sound": "sounds/voice/trumpet" },
+					{ "code": "sax", "sound": "sounds/voice/sax" },
+					{ "code": "tuba", "sound": "sounds/voice/tuba" },
+					{ "code": "frog", "sound": "knittyrdx:sounds/voice/treefrog" },
+					{ "code": "gecko", "sound": "knittyrdx:sounds/voice/tokay" },
+					{ "code": "meep", "sound": "knittyrdx:sounds/voice/meep" },
+					{ "code": "none", "sound": "knittyrdx:sounds/voice/none" }
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "verylow" },
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "underwear",
+				"type": "texture", 
+				"useDropDown": true,
+				"textureTarget": "knittybodytex",
+				"targetSkinParts": ["base", "chest"],
+				"overlayTexture": true,
+				"overlayMode": "normal",
+				"textureTemplate": "knittyrdx:entity/humanoid/seraphskinparts/underwear/{code}",
+				"variants": [
+					{ "code": "twopiece", "texture": "twopiece" },
+					{ "code": "leotard", "texture": "leotard" },
+					{ "code": "breeches", "texture": "breeches" },
+					{ "code": "none", "texture": "none" }
+				]
+			},
+			{
+				"code": "chest",
+				"type": "shape",
+				"shapeTemplate": { "base": "knittyrdx:entity/humanoid/seraphskinparts/chest/{code}" },
+				"variants": [
+					{ "code": "none"},
+					{ "code": "yes"}
+				],
+				"disableElementsByVariantCode": {
+					"none": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"]
+				}
+			}
+		],
+		"ExtraTraits": ["geppettin-swimming", "geppettin-hide"]
+	}
+}

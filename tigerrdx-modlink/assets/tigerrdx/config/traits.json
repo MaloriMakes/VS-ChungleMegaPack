@@ -1,0 +1,11 @@
+[
+    {
+        code: "tiger-buffs",
+        type: "positive",
+        attributes: {
+            "sprintSpeed": 0.1,
+            "proteinNutritionFactor": 0.1,
+            "grainNutritionFactor": -0.1
+        }
+    }
+]

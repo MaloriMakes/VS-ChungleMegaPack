@@ -1,0 +1,50 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Cal/Desktop/Rhasabold Player Redux/seraph-faceless",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"rhasaboldbodytex": [64,64]
+	},
+	"textures": {
+		"rhasaboldbodytex": "rhasaboldrdx:entity/humanoid/rhasaboldbodytex"
+	},
+	"elements": [
+		{
+			"name": "HornL",
+			"stepParentName": "Head",
+			"from": [ 0.2, 4.5, 3.0 ],
+			"to": [ 1.2, 7.5, 4.0 ],
+			"uv": [ 37.0, 0.375 ],
+			"rotationOrigin": [ 0.0, 4.0, 3.0 ],
+			"rotationZ": -36.0,
+			"faces": {
+				"north": { "texture": "#rhasaboldbodytex", "uv": [ 37.0, 1.5, 38.0, 4.5 ] },
+				"east": { "texture": "#rhasaboldbodytex", "uv": [ 38.0, 1.5, 39.0, 4.5 ] },
+				"south": { "texture": "#rhasaboldbodytex", "uv": [ 39.0, 1.5, 40.0, 4.5 ] },
+				"west": { "texture": "#rhasaboldbodytex", "uv": [ 40.0, 1.5, 41.0, 4.5 ] },
+				"up": { "texture": "#rhasaboldbodytex", "uv": [ 37.0, 0.5, 38.0, 1.5 ] },
+				"down": { "texture": "#rhasaboldbodytex", "uv": [ 38.0, 0.5, 39.0, 1.5 ] }
+			}
+		},
+		{
+			"name": "Cube2",
+			"stepParentName": "Head",
+			"from": [ 0.2, 4.5, 1.0 ],
+			"to": [ 1.2, 7.5, 2.0 ],
+			"uv": [ 41.0, 0.5 ],
+			"rotationOrigin": [ 0.0, 4.0, 1.0 ],
+			"rotationZ": -36.0,
+			"faces": {
+				"north": { "texture": "#rhasaboldbodytex", "uv": [ 41.0, 1.5, 42.0, 4.5 ] },
+				"east": { "texture": "#rhasaboldbodytex", "uv": [ 42.0, 1.5, 43.0, 4.5 ] },
+				"south": { "texture": "#rhasaboldbodytex", "uv": [ 43.0, 1.5, 44.0, 4.5 ] },
+				"west": { "texture": "#rhasaboldbodytex", "uv": [ 44.0, 1.5, 45.0, 4.5 ] },
+				"up": { "texture": "#rhasaboldbodytex", "uv": [ 41.0, 0.5, 42.0, 1.5 ] },
+				"down": { "texture": "#rhasaboldbodytex", "uv": [ 42.0, 0.5, 43.0, 1.5 ] }
+			}
+		}
+	]}

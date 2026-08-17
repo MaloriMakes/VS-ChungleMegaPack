@@ -1,0 +1,14 @@
+[
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "exoskeletons" }],
+	"value": {
+		"exoskeletons:armored/legs": "tigerrdx:entity/humanoid/seraph/mods/exoskeletons/armored/legs",
+		"exoskeletons:unarmored/legs": "tigerrdx:entity/humanoid/seraph/mods/exoskeletons/unarmored/legs",
+		"exoskeletons:armored/armor/legs": "tigerrdx:entity/humanoid/seraph/mods/exoskeletons/armored/armor/legs",
+		"exoskeletons:armored/armor/feet": "tigerrdx:entity/humanoid/seraph/mods/exoskeletons/armored/armor/feet"
+		}
+	}
+]

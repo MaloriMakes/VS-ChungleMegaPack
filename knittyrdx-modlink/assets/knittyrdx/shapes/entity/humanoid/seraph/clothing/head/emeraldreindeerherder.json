@@ -1,0 +1,104 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_knitty",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"lapland-cap": [16,16]
+	},
+	"textures": {
+		"lapland-cap": "entity/humanoid/seraphclothes/head/lapland-cap"
+	},
+	"elements": [
+		{
+			"name": "hidehat",
+			"stepParentName": "Head",
+			"from": [ 0.0, 0.1, 0.1 ],
+			"to": [ 6.875, 6.35, 6.35 ],
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 3.75, 3.85, 3.225 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 5.0, 5.5, 10.0 ], "autoUv": false, "enabled": false },
+				"east": { "texture": "#null", "uv": [ 5.5, 5.0, 10.5, 10.0 ], "autoUv": false, "enabled": false },
+				"south": { "texture": "#null", "uv": [ 10.5, 5.0, 16.0, 10.0 ], "autoUv": false, "enabled": false },
+				"west": { "texture": "#null", "uv": [ 16.0, 5.0, 21.0, 10.0 ], "autoUv": false, "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 5.0 ], "autoUv": false, "enabled": false },
+				"down": { "texture": "#null", "uv": [ 5.5, 0.0, 11.0, 5.0 ], "autoUv": false, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "cap",
+					"from": [ 0.875, 0.375, -0.25 ],
+					"to": [ 7.125, 6.5, 6.5 ],
+					"unwrapMode": 4,
+					"autoUnwrap": false,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 0.625, 4.375, 3.125 ],
+					"faces": {
+						"north": { "texture": "#lapland-cap", "uv": [ 0.0, 5.0, 5.0, 9.5 ], "autoUv": false },
+						"east": { "texture": "#lapland-cap", "uv": [ 10.0, 9.5, 15.0, 14.0 ], "autoUv": false },
+						"south": { "texture": "#lapland-cap", "uv": [ 10.0, 5.0, 15.0, 9.5 ], "autoUv": false },
+						"west": { "texture": "#lapland-cap", "uv": [ 5.0, 5.0, 10.0, 9.5 ], "autoUv": false },
+						"up": { "texture": "#lapland-cap", "uv": [ 5.0, 0.0, 10.0, 5.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#lapland-cap", "uv": [ 5.0, 9.5, 10.0, 14.5 ], "rotation": 90, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "forehead",
+							"from": [ -1.25, 4.075, 0.0 ],
+							"to": [ 0.0, 6.1375, 6.75 ],
+							"unwrapMode": 4,
+							"autoUnwrap": false,
+							"uv": [ 4.5, 4.5 ],
+							"rotationOrigin": [ 0.0, 6.25, 3.375 ],
+							"faces": {
+								"north": { "texture": "#lapland-cap", "uv": [ 4.5, 5.0, 5.5, 6.5 ], "autoUv": false },
+								"east": { "texture": "#null", "uv": [ 0.5, 5.0, 5.5, 6.5 ], "autoUv": false, "enabled": false },
+								"south": { "texture": "#lapland-cap", "uv": [ 10.0, 5.0, 11.0, 6.5 ], "autoUv": false },
+								"west": { "texture": "#lapland-cap", "uv": [ 0.0, 10.0, 5.0, 11.5 ], "autoUv": false },
+								"up": { "texture": "#lapland-cap", "uv": [ 5.0, 4.5, 10.0, 5.5 ], "rotation": 270, "autoUv": false },
+								"down": { "texture": "#lapland-cap", "uv": [ 5.0, 6.5, 10.0, 7.5 ], "rotation": 90, "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "R",
+					"from": [ 2.5, -0.5, -0.25 ],
+					"to": [ 5.0, 4.5, 0.375 ],
+					"unwrapMode": 1,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ 3.75, 4.5, -0.25 ],
+					"rotationX": 5.0,
+					"faces": {
+						"north": { "texture": "#lapland-cap", "uv": [ 0.5, 0.0, 2.5, 4.0 ], "autoUv": false },
+						"east": { "texture": "#lapland-cap", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "autoUv": false },
+						"south": { "texture": "#lapland-cap", "uv": [ 3.0, 0.0, 5.0, 4.0 ], "autoUv": false },
+						"west": { "texture": "#lapland-cap", "uv": [ 2.5, 0.0, 3.0, 4.0 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 0.5, 0.0, 2.5, 0.5 ], "rotation": 180, "autoUv": false, "enabled": false },
+						"down": { "texture": "#lapland-cap", "uv": [ 0.5, 4.0, 2.5, 4.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "L",
+					"from": [ 2.5, -0.5, 5.875 ],
+					"to": [ 5.0, 4.5, 6.5 ],
+					"unwrapMode": 3,
+					"uv": [ 10.0, 0.0 ],
+					"rotationOrigin": [ 3.75, 4.5, 6.5 ],
+					"rotationX": -5.0,
+					"faces": {
+						"north": { "texture": "#lapland-cap", "uv": [ 13.0, 0.0, 15.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#lapland-cap", "uv": [ 12.5, 0.0, 13.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#lapland-cap", "uv": [ 10.5, 0.0, 12.5, 4.0 ], "autoUv": false },
+						"west": { "texture": "#lapland-cap", "uv": [ 10.0, 0.0, 10.5, 4.0 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 10.5, 0.0, 12.5, 0.5 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#lapland-cap", "uv": [ 10.5, 4.0, 12.5, 4.5 ], "rotation": 180, "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

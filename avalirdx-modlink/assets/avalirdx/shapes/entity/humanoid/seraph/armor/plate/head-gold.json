@@ -1,0 +1,121 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/avali-faceless",
+		"collapsedPaths": "Root/ArmorHelmet",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"gold": "entity/humanoid/serapharmor/plate/gold"
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ 0.26, -0.03, -0.54 ],
+			"to": [ 10.555, 8.67, 8.595 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 27.0, 14.5 ],
+			"rotationOrigin": [ 0.26, -0.025, -0.5425 ],
+			"faces": {
+				"north": { "texture": "#gold", "uv": [ 26.5, 20.5, 33.5, 26.5 ], "autoUv": false },
+				"east": { "texture": "#gold", "uv": [ 45.5, 20.5, 51.5, 26.5 ], "autoUv": false },
+				"south": { "texture": "#gold", "uv": [ 39.0, 20.5, 46.0, 26.5 ], "autoUv": false },
+				"west": { "texture": "#gold", "uv": [ 45.5, 20.5, 51.5, 26.5 ], "autoUv": false },
+				"up": { "texture": "#gold", "uv": [ 33.0, 14.5, 39.0, 21.5 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#gold", "uv": [ 33.0, 25.5, 39.0, 32.5 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "ArmorHelmetFront",
+					"from": [ -3.335, 0.0145, 1.769 ],
+					"to": [ 3.1175, 8.6928, 8.2215 ],
+					"autoUnwrap": false,
+					"uv": [ 48.5, 26.0 ],
+					"rotationOrigin": [ -0.58, 0.87, 4.64 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#gold", "uv": [ 34.0, 21.0, 38.0, 26.5 ], "autoUv": false },
+						"east": { "texture": "#gold", "uv": [ 46.5, 20.5, 50.5, 26.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#gold", "uv": [ 38.0, 20.5, 42.0, 26.0 ], "autoUv": false },
+						"west": { "texture": "#gold", "uv": [ 34.0, 21.0, 38.0, 26.5 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 33.0, 14.5, 37.0, 18.5 ], "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 34.5, 14.5, 38.5, 18.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "FaceplateR",
+					"from": [ 4.35, 2.9, -0.725 ],
+					"to": [ 7.25, 5.8, 0.0 ],
+					"autoUnwrap": false,
+					"uv": [ 27.0, 8.0 ],
+					"rotationOrigin": [ 4.35, 2.9, -0.87 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#gold", "uv": [ 41.5, 8.0, 43.5, 10.0 ], "autoUv": false },
+						"east": { "texture": "#gold", "uv": [ 42.0, 3.0, 42.5, 5.0 ], "autoUv": false },
+						"south": { "texture": "#null", "uv": [ 2.5, 0.5, 4.5, 2.5 ], "autoUv": false, "enabled": false },
+						"west": { "texture": "#gold", "uv": [ 42.5, 3.0, 43.0, 5.0 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 41.5, 1.0, 43.5, 1.5 ], "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 41.5, 1.5, 43.5, 2.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "FaceplateL",
+					"from": [ 4.35, 2.9, 9.135 ],
+					"to": [ 7.25, 5.8, 9.86 ],
+					"autoUnwrap": false,
+					"uv": [ 33.0, 8.0 ],
+					"rotationOrigin": [ 4.35, 2.9, 9.28 ],
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.5, 2.0, 2.5 ], "autoUv": false, "enabled": false },
+						"east": { "texture": "#gold", "uv": [ 41.5, 3.0, 42.0, 5.0 ], "autoUv": false },
+						"south": { "texture": "#gold", "uv": [ 41.5, 6.0, 43.5, 8.0 ], "autoUv": false },
+						"west": { "texture": "#gold", "uv": [ 43.0, 3.0, 43.5, 5.0 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 41.5, 2.5, 43.5, 3.0 ], "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 41.5, 2.0, 43.5, 2.5 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "JawArmor",
+					"from": [ -1.015, -0.87, 1.595 ],
+					"to": [ 6.235, 2.03, 7.54 ],
+					"autoUnwrap": false,
+					"uv": [ 41.0, 30.5 ],
+					"rotationOrigin": [ -1.015, -0.87, 1.595 ],
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#gold", "uv": [ 3.5, 58.5, 8.5, 60.5 ], "autoUv": false },
+						"east": { "texture": "#gold", "uv": [ 10.5, 58.5, 14.5, 60.5 ], "autoUv": false },
+						"south": { "texture": "#gold", "uv": [ 19.0, 59.5, 24.0, 61.5 ], "autoUv": false },
+						"west": { "texture": "#gold", "uv": [ 18.5, 58.0, 22.5, 60.0 ], "autoUv": false },
+						"up": { "texture": "#gold", "uv": [ 11.5, 43.0, 15.5, 48.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#gold", "uv": [ 11.0, 56.5, 15.0, 61.5 ], "rotation": 90, "autoUv": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "ArmorNeck",
+			"stepParentName": "Neck",
+			"from": [ -0.3, 0.6, -0.3 ],
+			"to": [ 3.3, 2.4, 3.3 ],
+			"unwrapMode": 4,
+			"uv": [ 12.0, 5.5 ],
+			"rotationOrigin": [ -0.3, 2.6, -0.3 ],
+			"faces": {
+				"north": { "texture": "#gold", "uv": [ 12.0, 5.5, 15.5, 7.0 ] },
+				"east": { "texture": "#gold", "uv": [ 22.5, 5.5, 26.0, 7.0 ] },
+				"south": { "texture": "#gold", "uv": [ 19.0, 5.5, 22.5, 7.0 ] },
+				"west": { "texture": "#gold", "uv": [ 15.5, 5.5, 19.0, 7.0 ] },
+				"up": { "texture": "#null", "uv": [ 15.5, 5.5, 19.0, 9.0 ], "rotation": 90, "enabled": false },
+				"down": { "texture": "#null", "uv": [ 15.5, 10.5, 19.0, 14.0 ], "rotation": 90, "enabled": false }
+			}
+		}
+	]}

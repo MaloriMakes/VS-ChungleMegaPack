@@ -1,0 +1,55 @@
+{
+    "chance": {
+        "ShapePath": "chancerdx:entity/humanoid/chance-faceless",
+        "BaseShapeCode": "playermodellib:seraph",
+        "Group": "temporal",
+        "Icon": "chancerdx:icons/chance",
+        "GroupIcon": "playermodellib:icons/temporal",
+        "CollisionBox": [ 0.6, 1.85 ],
+        "EyeHeight": 1.7,
+        "SizeRange": [1.05, 1.05],
+        "ScaleColliderWithSizeHorizontally": true,
+        "ScaleColliderWithSizeVertically": true,
+        "MaxCollisionBox": [ 1.0, 1.99 ],
+        "MinCollisionBox": [ 0.1, 0.1 ],
+        "MaxEyeHeight": 1.95,
+        "MinEyeHeight": 0.3,
+        "AddTags": ["temporal","ooze"],
+        "RemoveTags": ["seraph"],
+        "ModelSizeFactor": 0.9,
+        "HeadBobbingScale": 1.0,
+        "GuiModelScale": 1.0,
+        "Enabled": true,
+        "WalkEyeHeightMultiplier": 0.9,
+        "SprintEyeHeightMultiplier": 0.8,
+        "SneakEyeHeightMultiplier": 0.8,
+        "StepHeight": 1.2,
+        "Skinnable Parts": [
+            {
+                "code": "baseskin",
+                "type": "texture",
+                "textureTarget": "chancebodytex",
+                "overlayTexture": false,
+                "variants": [
+                    { "code": "chance", "texture": "chancerdx:entity/humanoid/seraphskinparts/body/chancebodytex"}
+                ]
+            },
+			{
+				"code": "voicetype",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "frog", "sound": "knittyrdx:sounds/voice/treefrog" }
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "verylow" }
+				]
+			}
+        ]
+    }
+}

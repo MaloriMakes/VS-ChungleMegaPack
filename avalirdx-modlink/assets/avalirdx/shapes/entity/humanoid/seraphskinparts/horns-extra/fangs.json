@@ -1,0 +1,33 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/Avali",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"avalibodytex": [64,64]
+	},
+	"textures": {
+		"avalibodytex": "avalirdx:textures/entity/humanoid/avalibodytex"
+	},
+	"elements": [
+		{
+			"name": "ToothR",
+			"stepParentName": "Head",
+			"from": [ -2.0, -0.8, 1.045 ],
+			"to": [ -1.5, 0.2, 1.545 ],
+			"uv": [ 51.875, 2.5 ],
+			"rotationOrigin": [ -2.0, 1.0, 1.0 ],
+			"rotationZ": 22.5,
+			"faces": {
+				"north": { "texture": "#avalibodytex", "uv": [ 52.0, 3.0, 52.5, 4.0 ] },
+				"east": { "texture": "#avalibodytex", "uv": [ 52.5, 3.0, 53.0, 4.0 ] },
+				"south": { "texture": "#avalibodytex", "uv": [ 53.0, 3.0, 53.5, 4.0 ] },
+				"west": { "texture": "#avalibodytex", "uv": [ 53.5, 3.0, 54.0, 4.0 ] },
+				"up": { "texture": "#avalibodytex", "uv": [ 52.0, 2.5, 52.5, 3.0 ] },
+				"down": { "texture": "#avalibodytex", "uv": [ 52.5, 2.5, 53.0, 3.0 ] }
+			}
+		}
+	]}

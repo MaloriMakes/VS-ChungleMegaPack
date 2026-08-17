@@ -1,0 +1,180 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"collapsedPaths": "Root/bandN/toothR1,Root/bandN/toothL1,Root/LowertorsoWparented",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 36,
+	"textureSizes": {
+		"pants": [32,36],
+		"Mukluks 1": [20,20],
+		"homespun-pants": [32,36],
+		"mountainerpants": [32,36],
+		"mountainerpants2": [32,36],
+		"mountaineerpants2": [32,36],
+		"mountaineerpants": [32,36]
+	},
+	"textures": {
+		"mountaineerpants": "americanfrontiersman:item/lowerbody/mountaineerpants/brown"
+	},
+	"elements": [
+		{
+			"name": "LowertorsoWparented",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 0.49, 3.49, 6.01 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 12.9, 2.5 ],
+			"rotationOrigin": [ -0.01, 3.5, -0.05 ],
+			"faces": {
+				"north": { "texture": "#mountaineerpants", "uv": [ 13.0, 2.5, 13.5, 6.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#mountaineerpants", "uv": [ 9.5, 7.0, 15.5, 10.5 ] },
+				"south": { "texture": "#mountaineerpants", "uv": [ 19.5, 2.5, 20.0, 6.0 ] },
+				"west": { "texture": "#mountaineerpants", "uv": [ 13.5, 2.5, 19.5, 6.0 ] },
+				"up": { "texture": "#mountaineerpants", "uv": [ 13.5, 2.0, 19.5, 2.5 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "LowertorsoN",
+					"from": [ 0.5, 0.0, 0.0 ],
+					"to": [ 4.52, 3.5, 0.5 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 9.0, 2.0 ],
+					"rotationOrigin": [ 0.5, 3.55, 0.0 ],
+					"faces": {
+						"north": { "texture": "#mountaineerpants", "uv": [ 9.0, 2.5, 13.0, 6.0 ] },
+						"south": { "texture": "#mountaineerpants", "uv": [ 10.5, 7.0, 14.5, 10.5 ] },
+						"up": { "texture": "#mountaineerpants", "uv": [ 9.0, 2.0, 13.0, 2.5 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "LowertorsoS",
+					"from": [ 0.5, 0.0, 5.52 ],
+					"to": [ 4.52, 3.5, 6.02 ],
+					"unwrapMode": 3,
+					"autoUnwrap": false,
+					"uv": [ 20.0, 2.0 ],
+					"rotationOrigin": [ 0.5, 5.0, 5.5 ],
+					"faces": {
+						"north": { "texture": "#mountaineerpants", "uv": [ 14.5, 7.0, 18.5, 10.5 ] },
+						"south": { "texture": "#mountaineerpants", "uv": [ 20.0, 2.5, 24.0, 6.0 ] },
+						"up": { "texture": "#mountaineerpants", "uv": [ 20.0, 2.0, 24.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "LowertorsoE",
+					"from": [ 4.52, 0.0, 0.0 ],
+					"to": [ 5.02, 3.5, 6.02 ],
+					"unwrapMode": 2,
+					"autoUnwrap": false,
+					"uv": [ 23.9, 2.0 ],
+					"rotationOrigin": [ 4.52, 5.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#mountaineerpants", "uv": [ 30.5, 2.5, 31.0, 6.0 ] },
+						"east": { "texture": "#mountaineerpants", "uv": [ 24.5, 2.5, 30.5, 6.0 ] },
+						"south": { "texture": "#mountaineerpants", "uv": [ 24.0, 2.5, 24.5, 6.0 ] },
+						"west": { "texture": "#mountaineerpants", "uv": [ 13.5, 7.0, 19.5, 10.5 ] },
+						"up": { "texture": "#mountaineerpants", "uv": [ 24.5, 2.0, 30.5, 2.5 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "LowertorsoD",
+					"from": [ -0.01, 0.0, -0.01 ],
+					"to": [ 5.09, 2.0, 6.01 ],
+					"unwrapMode": 6,
+					"unwrapRotation": 1,
+					"autoUnwrap": false,
+					"uv": [ 1.5, 1.0 ],
+					"faces": {
+						"down": { "texture": "#mountaineerpants", "uv": [ 1.5, 1.0, 7.5, 6.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Lowertorso Blackout",
+					"from": [ 0.4, 2.4, 0.4 ],
+					"to": [ 4.6, 3.4, 5.6 ],
+					"autoUnwrap": false,
+					"uv": [ 0.5, 6.5 ],
+					"rotationOrigin": [ 0.4, 2.4, 0.4 ],
+					"faces": {
+						"north": { "texture": "#mountaineerpants", "uv": [ 24.0, 11.0, 28.0, 12.0 ] },
+						"east": { "texture": "#mountaineerpants", "uv": [ 24.0, 7.0, 25.0, 12.0 ], "rotation": 90 },
+						"south": { "texture": "#mountaineerpants", "uv": [ 24.0, 10.0, 28.0, 11.0 ] },
+						"west": { "texture": "#mountaineerpants", "uv": [ 25.0, 7.0, 26.0, 12.0 ], "rotation": 90 },
+						"up": { "texture": "#mountaineerpants", "uv": [ 24.0, 7.0, 28.0, 12.0 ] },
+						"down": { "texture": "#mountaineerpants", "uv": [ 24.0, 7.0, 28.0, 12.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "upper foot R",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.01, -0.01, -0.11 ],
+			"to": [ 4.21, 9.01, 3.21 ],
+			"unwrapMode": 4,
+			"uv": [ 1.5, 8.5 ],
+			"rotationOrigin": [ 0.0, 9.0, -0.1 ],
+			"faces": {
+				"north": { "texture": "#mountaineerpants", "uv": [ 1.5, 12.5, 5.5, 21.5 ] },
+				"east": { "texture": "#mountaineerpants", "uv": [ 12.5, 12.5, 15.5, 21.5 ] },
+				"south": { "texture": "#mountaineerpants", "uv": [ 8.5, 12.5, 12.5, 21.5 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#mountaineerpants", "uv": [ 5.5, 12.5, 8.5, 21.5 ] },
+				"up": { "texture": "#mountaineerpants", "uv": [ 5.5, 8.5, 8.5, 12.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#mountaineerpants", "uv": [ 5.5, 21.5, 8.5, 25.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "upper foot L",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.01, -0.01, -0.11 ],
+			"to": [ 4.21, 9.01, 3.21 ],
+			"unwrapMode": 4,
+			"uv": [ 16.5, 8.5 ],
+			"rotationOrigin": [ 0.0, 9.0, 2.9 ],
+			"faces": {
+				"north": { "texture": "#mountaineerpants", "uv": [ 16.5, 12.5, 20.5, 21.5 ] },
+				"east": { "texture": "#mountaineerpants", "uv": [ 27.5, 12.5, 30.5, 21.5 ] },
+				"south": { "texture": "#mountaineerpants", "uv": [ 23.5, 12.5, 27.5, 21.5 ] },
+				"west": { "texture": "#mountaineerpants", "uv": [ 20.5, 12.5, 23.5, 21.5 ] },
+				"up": { "texture": "#mountaineerpants", "uv": [ 20.5, 8.5, 23.5, 12.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#mountaineerpants", "uv": [ 20.5, 21.5, 23.5, 25.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "lower foot R",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.01, -1.01, -0.01 ],
+			"to": [ 3.41, 5.01, 3.01 ],
+			"unwrapMode": 4,
+			"uv": [ 2.5, 23.5 ],
+			"rotationOrigin": [ 0.0, -1.0, -0.1 ],
+			"faces": {
+				"north": { "texture": "#mountaineerpants", "uv": [ 2.5, 26.5, 5.5, 32.5 ] },
+				"east": { "texture": "#mountaineerpants", "uv": [ 11.5, 26.5, 14.5, 32.5 ] },
+				"south": { "texture": "#mountaineerpants", "uv": [ 8.5, 26.5, 11.5, 32.5 ] },
+				"west": { "texture": "#mountaineerpants", "uv": [ 5.5, 26.5, 8.5, 32.5 ] },
+				"up": { "texture": "#mountaineerpants", "uv": [ 5.5, 23.5, 8.5, 26.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "lower foot L",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.01, -1.01, -0.01 ],
+			"to": [ 3.41, 5.01, 3.01 ],
+			"unwrapMode": 4,
+			"uv": [ 17.5, 23.0 ],
+			"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#mountaineerpants", "uv": [ 17.5, 26.0, 20.5, 32.0 ] },
+				"east": { "texture": "#mountaineerpants", "uv": [ 26.5, 26.0, 29.5, 32.0 ] },
+				"south": { "texture": "#mountaineerpants", "uv": [ 23.5, 26.0, 26.5, 32.0 ] },
+				"west": { "texture": "#mountaineerpants", "uv": [ 20.5, 26.0, 23.5, 32.0 ] },
+				"up": { "texture": "#mountaineerpants", "uv": [ 20.5, 23.0, 23.5, 26.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

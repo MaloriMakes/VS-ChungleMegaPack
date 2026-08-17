@@ -1,0 +1,18 @@
+[
+	{
+	"file": "knittyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/knittyrdx:knitty",
+	"dependsOn": [{ "modid": "dressedtokillredux" }],
+	"value": {
+		"dressedtokillredux:foot": "knittyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokill:foot": "knittyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokillredux:lowerbody": "knittyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokill:lowerbody": "knittyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokillredux:upperbody": "knittyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokill:upperbody": "knittyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokillredux:upperbodyover": "knittyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokill:upperbodyover": "knittyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover"
+		}
+	}
+]

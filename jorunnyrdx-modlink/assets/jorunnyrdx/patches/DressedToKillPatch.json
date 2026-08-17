@@ -1,0 +1,18 @@
+[
+	{
+	"file": "jorunnyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jorunnyrdx:jorunny",
+	"dependsOn": [{ "modid": "dressedtokillredux" }],
+	"value": {
+		"dressedtokillredux:foot": "jorunnyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokill:foot": "jorunnyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokillredux:lowerbody": "jorunnyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokill:lowerbody": "jorunnyrdx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokillredux:upperbody": "jorunnyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokill:upperbody": "jorunnyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokillredux:upperbodyover": "jorunnyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokill:upperbodyover": "jorunnyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover"
+		}
+	}
+]

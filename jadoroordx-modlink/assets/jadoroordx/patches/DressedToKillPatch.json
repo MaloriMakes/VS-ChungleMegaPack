@@ -1,0 +1,18 @@
+[
+	{
+	"file": "jadoroordx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jadoroordx:jadoroo",
+	"dependsOn": [{ "modid": "dressedtokillredux" }],
+	"value": {
+		"dressedtokillredux:foot": "jadoroordx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokill:foot": "jadoroordx:entity/humanoid/seraph/clothing/dressedtokillredux/foot",
+		"dressedtokillredux:lowerbody": "jadoroordx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokill:lowerbody": "jadoroordx:entity/humanoid/seraph/clothing/dressedtokillredux/lowerbody",
+		"dressedtokillredux:upperbody": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokill:upperbody": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokillredux:upperbodyover": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokill:upperbodyover": "jadoroordx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover"
+		}
+	}
+]

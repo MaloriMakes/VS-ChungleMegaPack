@@ -1,0 +1,146 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"linen": "entity/humanoid/serapharmor/padded/linen"
+	},
+	"elements": [
+		{
+			"name": "ArmorUpperLegR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.21, -0.1, -0.1 ],
+			"to": [ 4.39, 6.9, 4.0 ],
+			"uv": [ 16.0, 35.0 ],
+			"rotationOrigin": [ -0.2, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 16.0, 38.5, 20.5, 49.0 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 20.5, 38.5, 24.0, 49.0 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 24.0, 38.5, 28.5, 49.0 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 28.5, 38.5, 32.0, 49.0 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 16.0, 35.0, 20.5, 38.5 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 20.5, 35.0, 25.0, 38.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorUpperLegL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.21, -0.1, -0.1 ],
+			"to": [ 4.39, 6.9, 4.1 ],
+			"uv": [ 0.0, 35.0 ],
+			"rotationOrigin": [ -0.2, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 0.0, 38.5, 4.5, 49.0 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 4.5, 38.5, 8.0, 49.0 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 8.0, 38.5, 12.5, 49.0 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 12.5, 38.5, 16.0, 49.0 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 0.0, 35.0, 4.5, 38.5 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 4.5, 35.0, 9.0, 38.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerLegR",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.3, -0.1, -0.15 ],
+			"to": [ 3.4, 4.6, 3.35 ],
+			"uv": [ 16.0, 49.0 ],
+			"rotationOrigin": [ -0.3, -0.1, -0.3 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 16.0, 52.5, 19.5, 59.5 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 19.5, 52.5, 23.0, 59.5 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 23.0, 52.5, 26.5, 59.5 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 26.5, 52.5, 30.0, 59.5 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 16.0, 49.0, 19.5, 52.5 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 19.5, 49.0, 23.0, 52.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerLegL",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.3, -0.1, -0.05 ],
+			"to": [ 3.4, 4.5, 3.45 ],
+			"uv": [ 0.0, 49.0 ],
+			"rotationOrigin": [ -0.3, -0.1, -0.2 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 0.0, 52.5, 3.5, 59.5 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 3.5, 52.5, 7.0, 59.5 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 7.0, 52.5, 10.5, 59.5 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 10.5, 52.5, 14.0, 59.5 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 0.0, 49.0, 3.5, 52.5 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 3.5, 49.0, 7.0, 52.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Tail1gam",
+			"stepParentName": "Tail1",
+			"from": [ 0.0, -0.2, -0.15 ],
+			"to": [ 7.8, 4.5, 5.07 ],
+			"uv": [ 0.0, 51.5 ],
+			"rotationOrigin": [ 0.0, 0.3, -0.2 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 0.0, 55.5, 7.0, 59.5 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 7.0, 55.5, 11.0, 59.5 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 11.0, 55.5, 18.0, 59.5 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 18.0, 55.5, 22.0, 59.5 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 0.0, 51.5, 7.0, 55.5 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 7.0, 51.5, 14.0, 55.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Tail2gam",
+			"stepParentName": "Tail2",
+			"from": [ 0.0, -0.2, -0.25 ],
+			"to": [ 5.6, 3.9, 4.35 ],
+			"uv": [ 0.0, 51.5 ],
+			"rotationOrigin": [ 0.0, 0.3, -0.3 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 0.0, 55.0, 5.0, 58.5 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 5.0, 55.0, 8.5, 58.5 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 8.5, 55.0, 13.5, 58.5 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 13.5, 55.0, 17.0, 58.5 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 0.0, 51.5, 5.0, 55.0 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 5.0, 51.5, 10.0, 55.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Tail3gam",
+			"stepParentName": "Tail3",
+			"from": [ 0.0, -0.2, -0.15 ],
+			"to": [ 5.6, 3.4, 3.75 ],
+			"uv": [ 0.0, 51.5 ],
+			"rotationOrigin": [ 0.0, 0.3, -0.1 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 0.0, 54.5, 5.0, 57.5 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 5.0, 54.5, 8.0, 57.5 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 8.0, 54.5, 13.0, 57.5 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 13.0, 54.5, 16.0, 57.5 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 0.0, 51.5, 5.0, 54.5 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 5.0, 51.5, 10.0, 54.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Tail4gam",
+			"stepParentName": "Tail4",
+			"from": [ 0.0, -0.2, -0.25 ],
+			"to": [ 5.1, 2.3, 2.75 ],
+			"uv": [ 0.0, 51.5 ],
+			"rotationOrigin": [ 0.0, 0.3, -0.2 ],
+			"faces": {
+				"north": { "texture": "#linen", "uv": [ 0.0, 53.5, 4.5, 55.5 ], "autoUv": false },
+				"east": { "texture": "#linen", "uv": [ 4.5, 53.5, 6.5, 55.5 ], "autoUv": false },
+				"south": { "texture": "#linen", "uv": [ 6.5, 53.5, 11.0, 55.5 ], "autoUv": false },
+				"west": { "texture": "#linen", "uv": [ 11.0, 53.5, 13.0, 55.5 ], "autoUv": false },
+				"up": { "texture": "#linen", "uv": [ 0.0, 51.5, 4.5, 53.5 ], "autoUv": false },
+				"down": { "texture": "#linen", "uv": [ 4.5, 51.5, 9.0, 53.5 ], "autoUv": false }
+			}
+		}
+	],
+	"animations": [
+	]
+}

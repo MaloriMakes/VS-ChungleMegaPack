@@ -1,0 +1,49 @@
+[
+	{
+	"file": "avalirdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/avalirdx:avali",
+	"dependsOn": [{ "modid": "elstoneforge" }],
+	"value": {
+		"elstoneforge:entity/armor/stoneforge/heavy/stoneforgeheavylegs": "avalirdx:entity/humanoid/seraph/armor/elstoneforge/stoneforge/heavy/stoneforgeheavylegs",
+		"elstoneforge:entity/armor/stoneforge/heavy/stoneforgeheavyhead": "avalirdx:entity/humanoid/seraph/armor/elstoneforge/stoneforge/heavy/stoneforgeheavyhead",
+		"elstoneforge:entity/armor/viking/heavy/vikingheavybearlegs": "avalirdx:entity/humanoid/seraph/armor/elstoneforge/viking/heavy/vikingheavybearlegs",
+		"elstoneforge:entity/armor/viking/heavy/vikingheavylegs": "avalirdx:entity/humanoid/seraph/armor/elstoneforge/viking/heavy/vikingheavylegs",
+		"elstoneforge:entity/armor/viking/heavy/vikingvendelbearhead": "avalirdx:entity/humanoid/seraph/armor/elstoneforge/viking/heavy/vikingvendelbearhead",
+		"elstoneforge:entity/armor/viking/heavy/vikingvendelhead": "avalirdx:entity/humanoid/seraph/armor/elstoneforge/viking/heavy/vikingvendelhead"
+		}
+	},
+	{
+		"file": "elstoneforge:itemtypes/wearable/stoneforge/el-stoneforge-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "elstoneforge" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "avalirdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/avalirdx:avali",
+	"dependsOn": [{ "modid": "eltrench" }],
+	"value": {
+		"eltrench:entity/armor/trenchmen/trenchmenbrodiehead": "avalirdx:entity/humanoid/seraph/armor/eltrench/trenchmenbrodiehead",
+		"eltrench:entity/armor/trenchmen/trenchmenlegs": "avalirdx:entity/humanoid/seraph/armor/eltrench/trenchmenlegs",
+		"eltrench:entity/armor/trenchmen/trenchmenpickelhaubehead": "avalirdx:entity/humanoid/seraph/armor/eltrench/trenchmenpickelhaubehead"
+		}
+	},
+	{
+		"file": "eltrench:itemtypes/wearable/trenchmen/el-trenchmen-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "eltrench" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	}
+]

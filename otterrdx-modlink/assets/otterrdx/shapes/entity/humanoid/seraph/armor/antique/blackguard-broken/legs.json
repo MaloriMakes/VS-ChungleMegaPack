@@ -1,0 +1,86 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"blackguard-destroyed": "entity/humanoid/serapharmor/blackguard/blackguard-broken"
+	},
+	"elements": [
+		{
+			"name": "ArmorUpperLegR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.2, -0.5, -0.3 ],
+			"to": [ 4.4, 7.0, 4.1 ],
+			"autoUnwrap": false,
+			"uv": [ 16.0, 33.0 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.3 ],
+			"faces": {
+				"north": { "texture": "#blackguard-destroyed", "uv": [ 16.0, 36.5, 20.5, 44.0 ], "autoUv": false },
+				"east": { "texture": "#blackguard-destroyed", "uv": [ 28.5, 36.5, 32.0, 44.0 ], "autoUv": false },
+				"south": { "texture": "#blackguard-destroyed", "uv": [ 24.0, 36.5, 28.5, 44.0 ], "autoUv": false },
+				"west": { "texture": "#blackguard-destroyed", "uv": [ 20.5, 36.5, 24.0, 44.0 ], "autoUv": false },
+				"up": { "texture": "#blackguard-destroyed", "uv": [ 16.0, 33.0, 20.5, 36.5 ], "autoUv": false },
+				"down": { "texture": "#blackguard-destroyed", "uv": [ 24.0, 33.0, 28.5, 36.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorUpperLegL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.2, -0.5, -0.3 ],
+			"to": [ 4.4, 7.0, 4.0 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 33.0 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.3 ],
+			"faces": {
+				"north": { "texture": "#blackguard-destroyed", "uv": [ 0.0, 36.5, 4.5, 44.0 ], "autoUv": false },
+				"east": { "texture": "#blackguard-destroyed", "uv": [ 12.5, 36.5, 16.0, 44.0 ], "autoUv": false },
+				"south": { "texture": "#blackguard-destroyed", "uv": [ 8.0, 36.5, 12.5, 44.0 ], "autoUv": false },
+				"west": { "texture": "#blackguard-destroyed", "uv": [ 4.5, 36.5, 8.0, 44.0 ], "autoUv": false },
+				"up": { "texture": "#blackguard-destroyed", "uv": [ 0.0, 33.0, 4.5, 36.5 ], "autoUv": false },
+				"down": { "texture": "#blackguard-destroyed", "uv": [ 8.0, 33.0, 12.5, 36.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerLegR",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.3, -1.2, -0.25 ],
+			"to": [ 3.5, 4.3, 3.35 ],
+			"autoUnwrap": false,
+			"uv": [ 16.0, 44.0 ],
+			"rotationOrigin": [ -0.3, -1.2, -0.4 ],
+			"faces": {
+				"north": { "texture": "#blackguard-destroyed", "uv": [ 16.0, 47.5, 19.5, 54.0 ], "autoUv": false },
+				"east": { "texture": "#blackguard-destroyed", "uv": [ 28.5, 47.5, 32.0, 54.0 ], "autoUv": false },
+				"south": { "texture": "#blackguard-destroyed", "uv": [ 24.0, 47.5, 27.5, 54.0 ], "autoUv": false },
+				"west": { "texture": "#blackguard-destroyed", "uv": [ 20.5, 47.5, 24.0, 54.0 ], "autoUv": false },
+				"up": { "texture": "#blackguard-destroyed", "uv": [ 16.0, 44.0, 19.5, 47.5 ], "autoUv": false },
+				"down": { "texture": "#blackguard-destroyed", "uv": [ 24.0, 44.0, 27.5, 47.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerLegL",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.3, -0.2, -0.25 ],
+			"to": [ 3.5, 4.3, 3.45 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 44.0 ],
+			"rotationOrigin": [ -0.3, -0.2, -0.4 ],
+			"faces": {
+				"north": { "texture": "#blackguard-destroyed", "uv": [ 0.0, 47.5, 3.5, 53.0 ], "autoUv": false },
+				"east": { "texture": "#blackguard-destroyed", "uv": [ 12.5, 47.5, 16.0, 53.0 ], "autoUv": false },
+				"south": { "texture": "#blackguard-destroyed", "uv": [ 8.0, 47.5, 11.5, 53.0 ], "autoUv": false },
+				"west": { "texture": "#blackguard-destroyed", "uv": [ 4.5, 47.5, 8.0, 53.0 ], "autoUv": false },
+				"up": { "texture": "#blackguard-destroyed", "uv": [ 0.0, 44.0, 3.5, 47.5 ], "autoUv": false },
+				"down": { "texture": "#blackguard-destroyed", "uv": [ 8.0, 44.0, 11.5, 47.5 ], "autoUv": false }
+			}
+		}
+	],
+	"animations": [
+	]
+}

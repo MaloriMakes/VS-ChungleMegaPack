@@ -1,0 +1,11 @@
+[
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "wool" }],
+	"value": {
+		"wool:item/wearable/sweater": "rhasaboldrdx:entity/humanoid/seraph/chestcompat/mods/wool/sweater"
+		}
+	}
+]

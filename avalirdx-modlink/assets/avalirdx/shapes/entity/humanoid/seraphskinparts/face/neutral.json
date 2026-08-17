@@ -1,0 +1,18 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/avali-faceless",
+		"collapsedPaths": ",Root/root/LowerTorso,Root/eyesroot",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 76,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+	],
+	"animations": [
+	]
+}

@@ -1,0 +1,20 @@
+[
+    {
+        code: "avali-movement",
+        type: "positive",
+        attributes: {
+            "sneakSpeed": 0.1,
+            "gliderLiftMax": 0.1,
+            "gliderSpeedMax": 0.1,
+            "jumpHeightMul": 0.2,
+            "buoyancyFactor": 1
+        }
+    },
+    {
+        code: "avali-nutrition",
+        type: "positive",
+        attributes: {
+            "proteinNutritionFactor": 1.1
+        }
+    }
+]

@@ -1,0 +1,47 @@
+﻿[
+	{
+	"file": "knittyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/knittyrdx:knitty",
+	"dependsOn": [{ "modid": "combatoverhaul" }],
+	"value": {
+		"game:combatoverhaul/armor/antique/blackguard-broken/legs": "knittyrdx:entity/humanoid/seraph/armor/antique/blackguard-broken/legs",
+		"game:combatoverhaul/armor/antique/blackguard-damaged/legs": "knittyrdx:entity/humanoid/seraph/armor/antique/blackguard-damaged/legs",
+		"game:combatoverhaul/armor/antique/blackguard-pristine/head": "knittyrdx:entity/humanoid/seraph/armor/antique/blackguard-pristine/head",
+		"game:combatoverhaul/armor/antique/blackguard-pristine/legs": "knittyrdx:entity/humanoid/seraph/armor/antique/blackguard-pristine/legs",
+		"game:combatoverhaul/armor/antique/forlorn-broken/legs": "knittyrdx:entity/humanoid/seraph/armor/antique/forlorn-broken/legs",
+		"game:combatoverhaul/armor/antique/forlorn-damaged/legs": "knittyrdx:entity/humanoid/seraph/armor/antique/forlorn-damaged/legs",
+		"game:combatoverhaul/armor/antique/forlorn-pristine/head": "knittyrdx:entity/humanoid/seraph/armor/antique/forlorn-pristine/head",
+		"game:combatoverhaul/armor/antique/forlorn-pristine/legs": "knittyrdx:entity/humanoid/seraph/armor/antique/forlorn-pristine/legs",
+		"game:combatoverhaul/armor/brigandine/legs": "knittyrdx:entity/humanoid/seraph/armor/brigandine/legs",
+		"game:combatoverhaul/armor/chain/legs": "knittyrdx:entity/humanoid/seraph/armor/chain/legs",
+		"game:combatoverhaul/armor/gambeson/legs": "knittyrdx:entity/humanoid/seraph/armor/gambeson/legs",
+		"game:combatoverhaul/armor/hide/bear/legs": "knittyrdx:entity/humanoid/seraph/armor/hide/bear/legs",
+		"game:combatoverhaul/armor/improvised/body-full": "knittyrdx:entity/humanoid/seraph/armor/improvised/body-full",
+		"game:combatoverhaul/armor/jerkin/legs": "knittyrdx:entity/humanoid/seraph/armor/jerkin/legs",
+		"game:combatoverhaul/armor/lamellar/legs": "knittyrdx:entity/humanoid/seraph/armor/lamellar/legs",
+		"game:combatoverhaul/armor/leather/legs": "knittyrdx:entity/humanoid/seraph/armor/leather/legs",
+		"game:combatoverhaul/armor/padded/legs": "knittyrdx:entity/humanoid/seraph/armor/padded/legs",
+		"game:combatoverhaul/armor/plate/legs": "knittyrdx:entity/humanoid/seraph/armor/plate/legs",
+		"game:combatoverhaul/armor/scale/legs": "knittyrdx:entity/humanoid/seraph/armor/scale/legs",
+		"game:combatoverhaul/armor/plate/head-copper": "knittyrdx:entity/humanoid/seraph/armor/plate/head-copper",
+		"game:combatoverhaul/armor/plate/head-gold": "knittyrdx:entity/humanoid/seraph/armor/plate/head-gold",
+		"game:combatoverhaul/armor/plate/head-meteoriciron": "knittyrdx:entity/humanoid/seraph/armor/plate/head-meteoriciron",
+		"game:combatoverhaul/armor/plate/head-silver": "knittyrdx:entity/humanoid/seraph/armor/plate/head-silver",
+		"game:combatoverhaul/armor/plate/head-steel": "knittyrdx:entity/humanoid/seraph/armor/plate/head-steel",
+		"game:item/jonas/nightvision": "knittyrdx:item/jonas/nightvision"
+		}
+	},
+	{
+	"file": "knittyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/knittyrdx:knitty",
+	"dependsOn": [{ "modid": "armory" }],
+	"value": {
+		"armory:armor/plate/legs": "knittyrdx:entity/humanoid/seraph/armor/armory/plate/legs",
+		"armory:armor/plate/feet": "knittyrdx:entity/humanoid/seraph/armor/armory/plate/feet",
+		"armory:armor/brigandine/feet": "knittyrdx:entity/humanoid/seraph/armor/armory/brigandine/feet",
+		"armory:armor/brigandine/feet": "knittyrdx:entity/humanoid/seraph/armor/armory/brigandine/feet",
+		}
+	}
+]

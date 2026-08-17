@@ -1,0 +1,14 @@
+[
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "astriaporta" }],
+	"value": {
+		"astriaporta:entity/humanoid/seraph/clothing/foot/sgc_boots": "tigerrdx:entity/humanoid/seraph/mods/astriaporta/foot/sgc_boots",
+		"astriaporta:entity/humanoid/seraph/clothing/lowerbody/sgc_pants": "tigerrdx:entity/humanoid/seraph/mods/astriaporta/lowerbody/sgc_pants",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbody/sgc_shirt": "tigerrdx:entity/humanoid/seraph/mods/astriaporta/upperbody/sgc_shirt",
+		"astriaporta:entity/humanoid/seraph/clothing/upperbodyover/sgc_tacticalvest": "tigerrdx:entity/humanoid/seraph/mods/astriaporta/upperbodyover/sgc_tacticalvest"
+		}
+	}
+]

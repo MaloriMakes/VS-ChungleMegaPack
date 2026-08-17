@@ -1,0 +1,87 @@
+{
+	"editor": {
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
+		"collapsedPaths": "Root/HoodChest,Root/HoodChest/Broach,Root/Cowl,Root/ShoulderR,Root/Cowl/MaskR1,Root/ShoulderL",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"tracker": [64,64]
+	},
+	"textures": {
+		"tracker": "blackguardadditions:tracker"
+	},
+	"elements": [
+		{
+			"name": "BootR",
+			"stepParentName": "LowerFootR",
+			"from": [ -0.25, -0.15, -0.25 ],
+			"to": [ 3.35, 4.85, 3.25 ],
+			"faces": {
+				"north": { "texture": "#tracker", "uv": [ 23.5, 50.5, 27.0, 55.5 ] },
+				"east": { "texture": "#tracker", "uv": [ 12.0, 51.0, 15.5, 56.0 ] },
+				"south": { "texture": "#tracker", "uv": [ 15.5, 50.5, 19.0, 55.5 ] },
+				"west": { "texture": "#tracker", "uv": [ 20.0, 50.5, 23.5, 55.5 ] },
+				"up": { "texture": "#tracker", "uv": [ 56.5, 34.0, 60.0, 37.5 ] },
+				"down": { "texture": "#tracker", "uv": [ 15.5, 59.5, 19.0, 63.0 ] }
+			}
+		},
+		{
+			"name": "ThighR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.15, -0.2, -0.1 ],
+			"to": [ 4.35, 9.05, 3.4 ],
+			"faces": {
+				"north": { "texture": "#tracker", "uv": [ 15.5, 31.5, 20.0, 40.5 ] },
+				"east": { "texture": "#tracker", "uv": [ 12.0, 31.5, 15.5, 40.5 ] },
+				"south": { "texture": "#tracker", "uv": [ 23.5, 31.5, 28.0, 40.5 ] },
+				"west": { "texture": "#tracker", "uv": [ 20.0, 31.5, 23.5, 40.5 ] },
+				"up": { "texture": "#tracker", "uv": [ 15.5, 28.0, 20.0, 31.5 ] },
+				"down": { "texture": "#tracker", "uv": [ 15.5, 41.5, 20.0, 45.0 ] }
+			},
+			"children": [
+				{
+					"name": "Sash",
+					"from": [ -0.45, -3.0, -0.25 ],
+					"to": [ 4.8, 8.0, 3.25 ],
+					"rotationOrigin": [ 0.0, -3.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#tracker", "uv": [ 3.5, 32.5, 8.5, 43.5 ] },
+						"east": { "texture": "#tracker", "uv": [ 0.0, 32.5, 3.5, 43.5 ] },
+						"west": { "texture": "#tracker", "uv": [ 8.0, 32.5, 11.5, 43.5 ] },
+						"up": { "texture": "#tracker", "uv": [ 41.5, 5.0, 46.5, 8.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "BootR2",
+			"stepParentName": "LowerFootL",
+			"from": [ -0.25, -0.15, -0.25 ],
+			"to": [ 3.45, 4.85, 3.25 ],
+			"faces": {
+				"north": { "texture": "#tracker", "uv": [ 36.5, 50.5, 40.0, 55.5 ] },
+				"east": { "texture": "#tracker", "uv": [ 33.0, 50.5, 36.5, 55.5 ] },
+				"south": { "texture": "#tracker", "uv": [ 28.5, 50.5, 32.0, 55.5 ] },
+				"west": { "texture": "#tracker", "uv": [ 41.0, 50.5, 44.5, 55.5 ] },
+				"up": { "texture": "#tracker", "uv": [ 56.5, 34.0, 60.0, 37.5 ] },
+				"down": { "texture": "#tracker", "uv": [ 36.5, 59.5, 40.0, 63.0 ] }
+			}
+		},
+		{
+			"name": "ThighL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.15, -0.2, -0.15 ],
+			"to": [ 4.35, 9.05, 3.35 ],
+			"faces": {
+				"north": { "texture": "#tracker", "uv": [ 28.5, 31.5, 33.0, 40.5 ] },
+				"east": { "texture": "#tracker", "uv": [ 33.0, 31.5, 36.5, 40.5 ] },
+				"south": { "texture": "#tracker", "uv": [ 36.5, 31.5, 41.0, 40.5 ] },
+				"west": { "texture": "#tracker", "uv": [ 41.0, 31.5, 44.5, 40.5 ] },
+				"up": { "texture": "#tracker", "uv": [ 36.5, 28.0, 41.0, 31.5 ] },
+				"down": { "texture": "#tracker", "uv": [ 36.5, 41.5, 41.0, 45.0 ] }
+			}
+		}
+	]}

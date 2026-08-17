@@ -1,0 +1,33 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/Cal/Desktop/boobold",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"rhasaboldbodytex": [64,64]
+	},
+	"textures": {
+		"rhasaboldbodytex": "rhasaboldrdx:entity/humanoid/rhasaboldbodytex"
+	},
+	"elements": [
+		{
+			"name": "ToothR",
+			"stepParentName": "Head",
+			"from": [ -2.0, -0.8, 1.045 ],
+			"to": [ -1.5, 0.2, 1.545 ],
+			"uv": [ 51.875, 2.5 ],
+			"rotationOrigin": [ -2.0, 1.0, 1.0 ],
+			"rotationZ": 22.5,
+			"faces": {
+				"north": { "texture": "#rhasaboldbodytex", "uv": [ 52.0, 3.0, 52.5, 4.0 ] },
+				"east": { "texture": "#rhasaboldbodytex", "uv": [ 52.5, 3.0, 53.0, 4.0 ] },
+				"south": { "texture": "#rhasaboldbodytex", "uv": [ 53.0, 3.0, 53.5, 4.0 ] },
+				"west": { "texture": "#rhasaboldbodytex", "uv": [ 53.5, 3.0, 54.0, 4.0 ] },
+				"up": { "texture": "#rhasaboldbodytex", "uv": [ 52.0, 2.5, 52.5, 3.0 ] },
+				"down": { "texture": "#rhasaboldbodytex", "uv": [ 52.5, 2.5, 53.0, 3.0 ] }
+			}
+		}
+	]}

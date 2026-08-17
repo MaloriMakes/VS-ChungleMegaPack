@@ -1,0 +1,19 @@
+[
+	{
+	"file": "tigerrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/tigerrdx:tiger",
+	"dependsOn": [{ "modid": "regalia" }],
+	"value": {
+		"regalia:blackgown": "tigerrdx:entity/humanoid/seraph/mods/regalia/blackgown",
+		"regalia:cardigan": "tigerrdx:entity/humanoid/seraph/mods/regalia/cardigan",
+		"regalia:darknobledress": "tigerrdx:entity/humanoid/seraph/mods/regalia/darknobledress",
+		"regalia:finegown": "tigerrdx:entity/humanoid/seraph/mods/regalia/finegown",
+		"regalia:rednobledress": "tigerrdx:entity/humanoid/seraph/mods/regalia/rednobledress",
+		"regalia:summerdress": "tigerrdx:entity/humanoid/seraph/mods/regalia/summerdress",
+		"regalia:tailcoat": "tigerrdx:entity/humanoid/seraph/mods/regalia/tailcoat",
+		"regalia:trimmedtunic": "tigerrdx:entity/humanoid/seraph/mods/regalia/trimmedtunic",
+		"regalia:weddingdress": "tigerrdx:entity/humanoid/seraph/mods/regalia/weddingdress"
+		}
+	}
+]

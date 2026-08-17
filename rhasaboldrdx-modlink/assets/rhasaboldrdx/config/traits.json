@@ -1,0 +1,18 @@
+[
+    {
+        code: "kobold-sunlight",
+        type: "positive",
+        attributes: {
+            "nightHealingFactor": 0.1,
+            "dayHealingFactor": -0.1,
+            "sneakSpeed": 0.1
+        }
+    },
+    {
+        code: "kobold-nutrition",
+        type: "positive",
+        attributes: {
+            "proteinNutritionFactor": 1.1
+        }
+    }
+]

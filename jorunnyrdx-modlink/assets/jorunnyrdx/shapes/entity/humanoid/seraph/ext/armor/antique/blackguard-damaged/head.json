@@ -1,0 +1,152 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"blackguard-damaged": "entity/humanoid/serapharmor/blackguard/blackguard-damaged"
+	},
+	"elements": [
+		{
+			"name": "ArmorHead",
+			"stepParentName": "Head",
+			"from": [ -1.03, -0.26, -0.25 ],
+			"to": [ 6.68, 6.76, 6.77 ],
+			"autoUnwrap": false,
+			"uv": [ 7.0, 0.0 ],
+			"rotationOrigin": [ -1.03, -0.26, 3.38 ],
+			"faces": {
+				"north": { "texture": "#blackguard-damaged", "uv": [ 0.0, 6.0, 5.5, 11.0 ], "autoUv": false },
+				"east": { "texture": "#blackguard-damaged", "uv": [ 17.0, 6.0, 22.0, 11.0 ], "autoUv": false },
+				"south": { "texture": "#blackguard-damaged", "uv": [ 11.5, 6.0, 17.0, 11.0 ], "autoUv": false },
+				"west": { "texture": "#blackguard-damaged", "uv": [ 6.0, 6.0, 11.0, 11.0 ], "autoUv": false },
+				"up": { "texture": "#blackguard-damaged", "uv": [ 6.0, 0.0, 11.0, 5.5 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#blackguard-damaged", "uv": [ 0.5, 0.5, 5.5, 6.0 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "ArmorNeck",
+					"stepParentName": "Neck",
+					"from": [ -0.13, 1.04, -0.13 ],
+					"to": [ 4.03, 3.12, 4.03 ],
+					"autoUnwrap": false,
+					"uv": [ 11.5, 3.0 ],
+					"rotationOrigin": [ -0.13, 1.04, 1.95 ],
+					"faces": {
+						"north": { "texture": "#blackguard-damaged", "uv": [ 11.0, 0.0, 14.0, 1.5 ], "autoUv": false },
+						"east": { "texture": "#blackguard-damaged", "uv": [ 20.0, 0.0, 23.0, 1.5 ], "autoUv": false },
+						"south": { "texture": "#blackguard-damaged", "uv": [ 17.0, 0.0, 20.0, 1.5 ], "autoUv": false },
+						"west": { "texture": "#blackguard-damaged", "uv": [ 14.0, 0.0, 17.0, 1.5 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 3.0 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorVisor",
+					"from": [ -1.95, 1.95, 0.13 ],
+					"to": [ 1.95, 5.85, 6.89 ],
+					"autoUnwrap": false,
+					"uv": [ 16.0, -0.5 ],
+					"rotationOrigin": [ 0.0, 3.9, 3.38 ],
+					"rotationX": 6.0,
+					"rotationY": 2.0,
+					"rotationZ": -45.0,
+					"faces": {
+						"north": { "texture": "#blackguard-damaged", "uv": [ 22.5, 2.0, 25.5, 5.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 3.0, 5.0, 8.0, 8.0 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#blackguard-damaged", "uv": [ 30.5, 2.0, 33.5, 5.0 ], "autoUv": false },
+						"west": { "texture": "#blackguard-damaged", "uv": [ 25.5, 0.5, 30.5, 3.5 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 5.0 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#blackguard-damaged", "uv": [ 25.5, 3.5, 30.5, 6.5 ], "rotation": 90, "autoUv": false }
+					}
+				},
+				{
+					"name": "ArmorHeadCrest1",
+					"from": [ -0.26, 6.37, 3.25 ],
+					"to": [ 0.52, 7.67, 3.9 ],
+					"uv": [ 12.5, 1.5 ],
+					"rotationOrigin": [ -0.26, 6.37, 3.64 ],
+					"rotationX": 1.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#blackguard-damaged", "uv": [ 12.5, 2.0, 13.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#blackguard-damaged", "uv": [ 13.0, 2.0, 13.5, 3.0 ], "autoUv": false },
+						"south": { "texture": "#blackguard-damaged", "uv": [ 13.5, 2.0, 14.0, 3.0 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#blackguard-damaged", "uv": [ 14.0, 2.0, 14.5, 3.0 ], "autoUv": false },
+						"up": { "texture": "#blackguard-damaged", "uv": [ 12.5, 1.5, 13.0, 2.0 ], "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 13.0, 1.5, 13.5, 2.0 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorHeadCrest2",
+					"from": [ 1.04, 6.37, 3.25 ],
+					"to": [ 1.82, 7.67, 3.9 ],
+					"uv": [ 12.5, 3.0 ],
+					"rotationOrigin": [ 1.04, 6.37, 3.64 ],
+					"faces": {
+						"north": { "texture": "#blackguard-damaged", "uv": [ 12.5, 3.5, 13.0, 4.5 ], "autoUv": false },
+						"east": { "texture": "#blackguard-damaged", "uv": [ 13.0, 3.5, 13.5, 4.5 ], "autoUv": false },
+						"south": { "texture": "#blackguard-damaged", "uv": [ 13.5, 3.5, 14.0, 4.5 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#blackguard-damaged", "uv": [ 14.0, 3.5, 14.5, 4.5 ], "autoUv": false },
+						"up": { "texture": "#blackguard-damaged", "uv": [ 12.5, 3.0, 13.0, 3.5 ], "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 13.0, 3.0, 13.5, 3.5 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorHeadCrest3",
+					"from": [ 2.34, 6.37, 3.25 ],
+					"to": [ 3.12, 7.67, 3.9 ],
+					"uv": [ 14.5, 1.5 ],
+					"rotationOrigin": [ 2.34, 6.37, 3.64 ],
+					"rotationX": 4.0,
+					"faces": {
+						"north": { "texture": "#blackguard-damaged", "uv": [ 14.5, 2.0, 15.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#blackguard-damaged", "uv": [ 15.0, 2.0, 15.5, 3.0 ], "autoUv": false },
+						"south": { "texture": "#blackguard-damaged", "uv": [ 15.5, 2.0, 16.0, 3.0 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#blackguard-damaged", "uv": [ 16.0, 2.0, 16.5, 3.0 ], "autoUv": false },
+						"up": { "texture": "#blackguard-damaged", "uv": [ 14.5, 1.5, 15.0, 2.0 ], "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 15.0, 1.5, 15.5, 2.0 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorHeadCrest5",
+					"from": [ 4.94, 5.98, 3.25 ],
+					"to": [ 5.72, 7.28, 3.9 ],
+					"uv": [ 16.5, 3.0 ],
+					"rotationOrigin": [ 4.94, 5.98, 3.64 ],
+					"faces": {
+						"north": { "texture": "#blackguard-damaged", "uv": [ 16.5, 3.5, 17.0, 4.5 ], "autoUv": false },
+						"east": { "texture": "#blackguard-damaged", "uv": [ 17.0, 3.5, 17.5, 4.5 ], "autoUv": false },
+						"south": { "texture": "#blackguard-damaged", "uv": [ 17.5, 3.5, 18.0, 4.5 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#blackguard-damaged", "uv": [ 18.0, 3.5, 18.5, 4.5 ], "autoUv": false },
+						"up": { "texture": "#blackguard-damaged", "uv": [ 16.5, 3.0, 17.0, 3.5 ], "autoUv": false },
+						"down": { "texture": "#null", "uv": [ 17.0, 3.0, 17.5, 3.5 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "ArmorHeadCrest7",
+					"from": [ 6.24, 6.37, 3.25 ],
+					"to": [ 7.02, 7.67, 3.9 ],
+					"uv": [ 18.5, 1.5 ],
+					"rotationOrigin": [ 6.24, 6.37, 3.64 ],
+					"rotationZ": -9.0,
+					"faces": {
+						"north": { "texture": "#blackguard-damaged", "uv": [ 18.5, 2.0, 19.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#blackguard-damaged", "uv": [ 19.0, 2.0, 19.5, 3.0 ], "autoUv": false },
+						"south": { "texture": "#blackguard-damaged", "uv": [ 19.5, 2.0, 20.0, 3.0 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#blackguard-damaged", "uv": [ 20.0, 2.0, 20.5, 3.0 ], "autoUv": false },
+						"up": { "texture": "#blackguard-damaged", "uv": [ 18.5, 1.5, 19.0, 2.0 ], "autoUv": false },
+						"down": { "texture": "#blackguard-damaged", "uv": [ 19.0, 1.5, 19.5, 2.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	],
+	"animations": [
+	]
+}

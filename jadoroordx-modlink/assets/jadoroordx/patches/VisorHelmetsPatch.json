@@ -1,0 +1,34 @@
+[
+	{
+	"file": "jadoroordx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/jadoroordx:jadoroo",
+	"dependsOn": [{ "modid": "visorhelmets" }],
+	"value": {
+		"visorhelmets:armor/head-gold-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-gold-closed",
+		"visorhelmets:armor/head-gold-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-gold-opened",
+		"visorhelmets:armor/head-iron-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-iron-closed",
+		"visorhelmets:armor/head-iron-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-iron-opened",
+		"visorhelmets:armor/head-steel-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-steel-closed",
+		"visorhelmets:armor/head-steel-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-steel-opened",
+		"visorhelmets:armor/head-bronze-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-bronze-closed",
+		"visorhelmets:armor/head-bronze-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-bronze-opened",
+		"visorhelmets:armor/head-copper-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-copper-closed",
+		"visorhelmets:armor/head-copper-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-copper-opened",
+		"visorhelmets:armor/head-silver-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-silver-closed",
+		"visorhelmets:armor/head-silver-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-silver-opened",
+		"visorhelmets:armor/head-forlorn-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-forlorn-closed",
+		"visorhelmets:armor/head-forlorn-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-forlorn-opened",
+		"visorhelmets:armor/head-blackguard-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-blackguard-closed",
+		"visorhelmets:armor/head-blackguard-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-blackguard-opened",
+		"visorhelmets:armor/head-vanillagold-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-vanillagold-closed",
+		"visorhelmets:armor/head-vanillagold-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-vanillagold-opened",
+		"visorhelmets:armor/head-meteoriciron-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-meteoriciron-closed",
+		"visorhelmets:armor/head-meteoriciron-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-meteoriciron-opened",
+		"visorhelmets:armor/head-vanillasilver-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-vanillasilver-closed",
+		"visorhelmets:armor/head-vanillasilver-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-vanillasilver-opened",
+		"visorhelmets:armor/head-vanillameteoriciron-closed": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-vanillameteoriciron-closed",
+		"visorhelmets:armor/head-vanillameteoriciron-opened": "jadoroordx:entity/humanoid/seraph/armor/visorhelmets/head-vanillameteoriciron-opened"
+		}
+	}
+]

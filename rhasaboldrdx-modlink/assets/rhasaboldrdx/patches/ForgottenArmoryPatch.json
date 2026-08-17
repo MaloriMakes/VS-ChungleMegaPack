@@ -1,0 +1,209 @@
+[
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "fagothic" }],
+	"value": {
+		"fagothic:entity/armor/gothic/gothiclegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothiclegs",
+		"fagothic:entity/armor/gothic_co/gothiclegs_co": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothiclegs",
+		"fagothic:entity/armor/gothic/gothicbearlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothicbearlegs",
+		"fagothic:entity/armor/gothic_co/gothicbearlegs_co": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothicbearlegs",
+		"fagothic:entity/armor/gothic/gothicsallethead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothicsallethead",
+		"fagothic:entity/armor/gothic/gothicsalletbearhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothicsalletwingedhead",
+		"fagothic:entity/armor/gothic/gothicsalletwingedhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothicsalletwingedhead",
+		"fagothic:entity/armor/gothic/gothicsalletwreathhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagothic/gothicsalletwreathhead"
+		}
+	},
+	{
+		"file": "fagothic:itemtypes/wearable/gothic/fa-gothic-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "fagothic" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "fagreenwich" }],
+	"value": {
+		"fagreenwich:entity/armor/greenwich/greenwichlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwichlegs",
+		"fagreenwich:entity/armor/greenwich_co/greenwichlegs_co": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwichlegs",
+		"fagreenwich:entity/armor/greenwich/greenwichbearlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwichbearlegs",
+		"fagreenwich:entity/armor/greenwich_co/greenwichbearlegs_co": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwichbearlegs",
+		"fagreenwich:entity/armor/greenwich/greenwicharmethead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwicharmethead",
+		"fagreenwich:entity/armor/greenwich/greenwicharmetbearhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwicharmetbearhead",
+		"fagreenwich:entity/armor/greenwich/greenwicharmetwinghead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwicharmetwinghead",
+		"fagreenwich:entity/armor/greenwich/greenwicharmetcristahead": "rhasaboldrdx:entity/humanoid/seraph/mods/fagreenwich/greenwicharmetcristahead"
+		}
+	},
+	{
+		"file": "fagreenwich:itemtypes/wearable/greenwich/fa-greenwich-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "fagreenwich" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "falandsknecht" }],
+	"value": {
+		"falandsknecht:entity/armor/landsknecht/landsknechtlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/falandsknecht/landsknechtlegs"
+		}
+	},
+	{
+		"file": "falandsknecht:itemtypes/wearable/landsknecht/fa-landsknecht-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "falandsknecht" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "fatemplar" }],
+	"value": {
+		"fatemplar:entity/armor/templar/balance/templar_balancebear_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/balance/templar_balancebear_legs",
+		"fatemplar:entity/armor/templar/balance/templar_balance_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/balance/templar_balance_legs",
+		"fatemplar:entity/armor/templar/balance/templar_pothelmbear_heavy": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/balance/templar_pothelmbear_heavy",
+		"fatemplar:entity/armor/templar/balance/templar_pothelm_heavy": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/balance/templar_pothelm_heavy",
+		"fatemplar:entity/armor/templar/heavy/templar_greathelmbear_none": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/heavy/templar_greathelmbear_none",
+		"fatemplar:entity/armor/templar/heavy/templar_greathelm_crista": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/heavy/templar_greathelm_crista",
+		"fatemplar:entity/armor/templar/heavy/templar_greathelm_none": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/heavy/templar_greathelm_none",
+		"fatemplar:entity/armor/templar/heavy/templar_greathelm_winged": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/heavy/templar_greathelm_winged",
+		"fatemplar:entity/armor/templar/heavy/templar_greathelm_wreath": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/heavy/templar_greathelm_wreath",
+		"fatemplar:entity/armor/templar/heavy/templar_heavybear_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/heavy/templar_heavybear_legs",
+		"fatemplar:entity/armor/templar/heavy/templar_heavy_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/heavy/templar_heavy_legs",
+		"fatemplar:entity/armor/templar/light/templar_light_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/balance/templar_balance_legs",
+		"fatemplar:entity/armor/templar/light/templar_lightbear_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fatemplar/balance/templar_balancebear_legs"
+		}
+	},
+	{
+		"file": "fatemplar:itemtypes/wearable/templar/fa-templar-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "fatemplar" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "fahussar" }],
+	"value": {
+		"fahussar:entity/armor/hussar/heavy/hussarmaskedszyszakbearhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/heavy/hussarmaskedszyszakbearhead",
+		"fahussar:entity/armor/hussar/heavy/hussarmaskedszyszakhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/heavy/hussarmaskedszyszakhead",
+		"fahussar:entity/armor/hussar/heavy/hussar_heavy_bear_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/heavy/hussar_heavy_bear_legs",
+		"fahussar:entity/armor/hussar/heavy/hussar_heavy_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/heavy/hussar_heavy_legs",
+		"fahussar:entity/armor/hussar/light/hussarmaskedkapalinbearhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/light/hussarmaskedkapalinbearhead",
+		"fahussar:entity/armor/hussar/light/hussarmaskedkapalinhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/light/hussarmaskedkapalinhead",
+		"fahussar:entity/armor/hussar/light/hussar_light_bear_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/light/hussar_light_bear_legs",
+		"fahussar:entity/armor/hussar/light/hussar_light_legs": "rhasaboldrdx:entity/humanoid/seraph/mods/fahussar/light/hussar_light_legs"
+		}
+	},
+	{
+		"file": "fahussar:itemtypes/wearable/hussar/fa-hussar-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "fahussar" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "fadynasties" }],
+	"value": {
+		"fadynasties:entity/armor/dynasties/mingdynastiesbearlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fadynasties/mingdynastiesbearlegs",
+		"fadynasties:entity/armor/dynasties/mingdynastieslegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fadynasties/mingdynastieslegs",
+		"fadynasties:entity/armor/dynasties/songdynastiesbearlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fadynasties/songdynastiesbearlegs",
+		"fadynasties:entity/armor/dynasties/songdynastieslegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fadynasties/songdynastieslegs",
+		"fadynasties:entity/armor/dynasties/songdynastiesbearhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fadynasties/songdynastiesbearhead",
+		"fadynasties:entity/armor/dynasties/songdynastieshead": "rhasaboldrdx:entity/humanoid/seraph/mods/fadynasties/songdynastieshead"
+		}
+	},
+	{
+		"file": "fadynasties:itemtypes/wearable/dynasties/fa-dynasties-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "fadynasties" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "faviking" }],
+	"value": {
+		"faviking:entity/armor/viking/vikingbearhead": "rhasaboldrdx:entity/humanoid/seraph/mods/faviking/vikingbearhead",
+		"faviking:entity/armor/viking/vikinghead": "rhasaboldrdx:entity/humanoid/seraph/mods/faviking/vikinghead",
+		"faviking:entity/armor/viking/vikingbearlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/faviking/vikingbearlegs",
+		"faviking:entity/armor/viking/vikinglegs": "rhasaboldrdx:entity/humanoid/seraph/mods/faviking/vikinglegs"
+		}
+	},
+	{
+		"file": "faviking:itemtypes/wearable/viking/fa-viking-body.json",
+		"op": "addmerge",
+		"path": "0/attributesByType",
+		"dependsOn": [{ "modid": "faviking" }],
+		"value": {
+			"*": {
+				"disableElements": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	},
+	{
+	"file": "rhasaboldrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/rhasaboldrdx:rhasabold",
+	"dependsOn": [{ "modid": "fajousting" }],
+	"value": {
+		"fajousting:entity/armor/jousting/joustingbody": "rhasaboldrdx:entity/humanoid/seraph/mods/fajousting/joustingbody",
+		"fajousting:entity/armor/jousting/joustinglegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fajousting/joustinglegs",
+		"fajousting:entity/armor/jousting/joustingbearlegs": "rhasaboldrdx:entity/humanoid/seraph/mods/fajousting/joustingbearlegs",
+		"fajousting:entity/armor/jousting/joustingfrogmouthhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fajousting/joustingfrogmouthhead",
+		"fajousting:entity/armor/jousting/joustingfrogmouthdavehead": "rhasaboldrdx:entity/humanoid/seraph/mods/fajousting/joustingfrogmouthdavehead",
+		"fajousting:entity/armor/jousting/joustingfrogmouthcrownhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fajousting/joustingfrogmouthcrownhead",
+		"fajousting:entity/armor/jousting/joustingfrogmouthbearhead": "rhasaboldrdx:entity/humanoid/seraph/mods/fajousting/joustingfrogmouthbearhead"
+		}
+	},
+	{
+		"file": "fajousting:itemtypes/wearable/jousting/fa-jousting-body.json",
+		"op": "addmerge",
+		"path": "0/attributes",
+		"dependsOn": [{ "modid": "fajousting" }],
+		"value": {
+			"disableElementsByType": {
+				"*": ["Chest", "Breasts-clothes", "Breasts-clothing", "Breasts-armor"]
+			}
+		}
+	}
+]
