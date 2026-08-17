@@ -12,6 +12,7 @@
 		"MinCollisionBox": [ 0.1, 0.1 ],
 		"MaxEyeHeight":	1.1,
 		"MinEyeHeight":	1.1,
+        "SneakEyeHeightMultiplier": 0.75,
 		"AddTags": ["beasts","avali"],
 		"RemoveTags": ["seraph"],
 		"SkinnableParts": [
