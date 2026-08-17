@@ -30,9 +30,9 @@
 			"children": [
 				{
 					"name": "Cube1",
-					"from": [ -0.1, -0.1, 0.7 ],
-					"to": [ 3.3, 3.9, 2.9 ],
-					"rotationOrigin": [ -0.1, -0.1, 0.7 ],
+					"from": [ -0.1, -0.1, -0.1 ],
+					"to": [ 3.3, 3.9, 3.0 ],
+					"rotationOrigin": [ -0.1, -0.1, -0.1 ],
 					"faces": {
 						"north": { "texture": "#gloves1", "uv": [ 0.0, 12.0, 2.5, 16.0 ], "autoUv": false },
 						"east": { "texture": "#gloves1", "uv": [ 7.0, 12.0, 9.0, 16.0 ], "autoUv": false },

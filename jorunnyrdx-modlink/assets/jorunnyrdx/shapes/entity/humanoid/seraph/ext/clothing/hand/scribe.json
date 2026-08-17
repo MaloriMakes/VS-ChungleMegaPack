@@ -32,11 +32,11 @@
 			"children": [
 				{
 					"name": "Right",
-					"from": [ -0.014, -0.014, -0.014 ],
-					"to": [ 3.314, 2.086, 2.814 ],
+					"from": [ -0.014, -0.014, -0.11 ],
+					"to": [ 3.314, 2.086, 2.818 ],
 					"autoUnwrap": false,
 					"uv": [ 0.0, 12.0 ],
-					"rotationOrigin": [ -0.014, -0.014, -0.014 ],
+					"rotationOrigin": [ -0.014, -0.014, -0.114 ],
 					"faces": {
 						"north": { "texture": "#gloves1", "uv": [ 0.0, 5.0, 2.5, 6.5 ], "autoUv": false },
 						"east": { "texture": "#gloves1", "uv": [ 2.5, 5.0, 4.5, 6.5 ], "autoUv": false },
@@ -63,10 +63,10 @@
 							"children": [
 								{
 									"name": "FrillSR",
-									"from": [ -2.8, 0.0, 1.428 ],
-									"to": [ 0.728, 0.7, 1.428 ],
+									"from": [ -2.8, 0.0, 1.53 ],
+									"to": [ 0.728, 0.7, 1.53 ],
 									"uv": [ 4.5, 4.5 ],
-									"rotationOrigin": [ -0.84, 0.0, 1.4 ],
+									"rotationOrigin": [ -0.84, 0.0, 1.5 ],
 									"rotationX": 10.0,
 									"faces": {
 										"north": { "texture": "#null", "uv": [ 4.5, 5.0, 7.0, 5.5 ], "autoUv": false, "enabled": false },
@@ -247,7 +247,4 @@
 				}
 			]
 		}
-	],
-	"animations": [
-	]
-}
+	]}
