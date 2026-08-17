@@ -10,8 +10,9 @@
 		"ScaleColliderWithSizeVertically": true,
 		"MaxCollisionBox": [ 0.8, 2.7 ],
 		"MinCollisionBox": [ 0.1, 0.1 ],
-		"MaxEyeHeight":	2.58,
-		"MinEyeHeight":	0.8,
+		"MaxEyeHeight":	2.1,
+		"MinEyeHeight":	2.1,
+        "SneakEyeHeightMultiplier": 0.75,
 		"AddTags": ["beasts","tiger"],
 		"RemoveTags": ["seraph"],
 		"SkinnableParts": [
