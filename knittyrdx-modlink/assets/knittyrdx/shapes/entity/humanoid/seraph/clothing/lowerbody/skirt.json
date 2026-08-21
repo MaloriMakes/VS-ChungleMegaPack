@@ -161,12 +161,12 @@
 				},
 				{
 					"name": "backTop",
-					"from": [ 1.404, -2.34, 0.0 ],
-					"to": [ 6.284, 1.17, 7.1136 ],
+					"from": [ 1.5, -4.64, 0.0 ],
+					"to": [ 6.38, 0.17, 7.1136 ],
 					"unwrapMode": 2,
 					"autoUnwrap": false,
 					"uv": [ 14.0, 9.0 ],
-					"rotationOrigin": [ 6.084, 1.17, 0.0 ],
+					"rotationOrigin": [ 6.184, -1.13, 0.0 ],
 					"rotationZ": 4.0,
 					"faces": {
 						"north": { "texture": "#lowerbody", "uv": [ 9.5, 6.0, 13.5, 9.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
