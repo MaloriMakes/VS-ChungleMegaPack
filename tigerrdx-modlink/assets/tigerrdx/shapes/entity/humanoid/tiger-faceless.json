@@ -11,7 +11,7 @@
 		"flesh": [32,32]
 	},
 	"textures": {
-		"tigerbodytex": "tigerrdx:textures/entity/humanoid/tigerbodytex",
+		"tigerbodytex": "entity/humanoid/tigerbodytex",
 		"flesh": "entity/humanoid/flesh"
 	},
 	"elements": [

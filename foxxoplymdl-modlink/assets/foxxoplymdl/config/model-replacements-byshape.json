@@ -1,3 +1,5 @@
 {
-	"foxxoplymdl:fox": {}
+	"foxxoplymdl:fox": {
+			"grassroots:item/cannabis/pipe-wearable": "foxxoplymdl:entity/humanoid/seraph/mods/grassroots/pipe-wearable"
+	}
 }

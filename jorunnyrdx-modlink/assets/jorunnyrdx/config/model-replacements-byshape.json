@@ -1,5 +1,6 @@
 {
   "jorunnyrdx:jorunny": {
+	"grassroots:item/cannabis/pipe-wearable": "jorunnyrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
 	"game:entity/humanoid/seraph/armor/antique/blackguard-broken/legs": "jorunnyrdx:entity/humanoid/seraph/armor/antique/blackguard-broken/legs",
 	"game:entity/humanoid/seraph/armor/antique/blackguard-damaged/legs": "jorunnyrdx:entity/humanoid/seraph/armor/antique/blackguard-damaged/legs",
 	"game:entity/humanoid/seraph/armor/antique/blackguard-pristine/head": "jorunnyrdx:entity/humanoid/seraph/armor/antique/blackguard-pristine/head",

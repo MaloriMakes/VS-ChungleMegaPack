@@ -1,6 +1,6 @@
 {
   "diriotterrdx:diriotter": {
-	"grassroots:item/cannabis/pipe-wearable": "otterrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
+	"grassroots:item/cannabis/pipe-wearable": "diriotterrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
 	"game:entity/humanoid/seraph/armor/antique/blackguard-broken/legs": "diriotterrdx:entity/humanoid/seraph/armor/antique/blackguard-broken/legs",
 	"game:entity/humanoid/seraph/armor/antique/blackguard-damaged/legs": "diriotterrdx:entity/humanoid/seraph/armor/antique/blackguard-damaged/legs",
 	"game:entity/humanoid/seraph/armor/antique/blackguard-pristine/head": "diriotterrdx:entity/humanoid/seraph/armor/antique/blackguard-pristine/head",
