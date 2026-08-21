@@ -16,9 +16,9 @@
 		{
 			"name": "hidehat",
 			"stepParentName": "Head",
-			"from": [ 3.5, 5.375, 2.875 ],
-			"to": [ 3.5, 5.375, 2.875 ],
-			"rotationOrigin": [ 3.625, 5.375, 2.875 ],
+			"from": [ 3.6, 4.47, 2.27 ],
+			"to": [ 3.6, 4.47, 2.27 ],
+			"rotationOrigin": [ 3.725, 4.475, 2.275 ],
 			"rotationZ": -8.0,
 			"faces": {
 				"north": { "texture": "#rotten-king-crown", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
@@ -288,4 +288,7 @@
 				}
 			]
 		}
-	]}
+	],
+	"animations": [
+	]
+}

@@ -15,9 +15,9 @@
 		{
 			"name": "origin",
 			"stepParentName": "Head",
-			"from": [ -1.12, 2.38, 2.99 ],
-			"to": [ -1.12, 2.38, 2.99 ],
-			"rotationOrigin": [ -1.12, 2.38, 2.99 ],
+			"from": [ -0.82, 1.38, 2.39 ],
+			"to": [ -0.82, 1.38, 2.39 ],
+			"rotationOrigin": [ -0.82, 1.38, 2.39 ],
 			"rotationZ": -1.0,
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },

@@ -18,7 +18,7 @@
 			"name": "LowertorsoWparented",
 			"stepParentName": "LowerTorso",
 			"from": [ -0.51, -1.01, -0.51 ],
-			"to": [ 0.075, 5.085, 6.5334 ],
+			"to": [ 0.075, 3.085, 6.51 ],
 			"unwrapMode": 4,
 			"autoUnwrap": false,
 			"uv": [ 12.9, 2.5 ],
@@ -35,7 +35,7 @@
 				{
 					"name": "LowertorsoN",
 					"from": [ 0.585, 0.0, 0.0 ],
-					"to": [ 5.4884, 6.095, 0.585 ],
+					"to": [ 5.4884, 4.095, 0.585 ],
 					"unwrapMode": 1,
 					"autoUnwrap": false,
 					"uv": [ 9.0, 2.0 ],
@@ -51,8 +51,8 @@
 				},
 				{
 					"name": "LowertorsoS",
-					"from": [ 0.585, 0.0, 6.4584 ],
-					"to": [ 5.4884, 6.095, 7.0434 ],
+					"from": [ 0.585, 0.0, 6.43 ],
+					"to": [ 5.4884, 4.095, 7.015 ],
 					"unwrapMode": 3,
 					"autoUnwrap": false,
 					"uv": [ 20.0, 2.0 ],
@@ -68,8 +68,8 @@
 				},
 				{
 					"name": "LowertorsoE",
-					"from": [ 5.49, 0.0, 0.0 ],
-					"to": [ 6.075, 6.095, 7.0434 ],
+					"from": [ 5.43, 0.0, 0.0 ],
+					"to": [ 6.015, 4.095, 7.02 ],
 					"unwrapMode": 2,
 					"autoUnwrap": false,
 					"uv": [ 23.9, 2.0 ],
@@ -152,4 +152,7 @@
 				"down": { "texture": "#null", "uv": [ 20.0, 31.5, 23.0, 34.5 ], "rotation": 90, "enabled": false }
 			}
 		}
-	]}
+	],
+	"animations": [
+	]
+}

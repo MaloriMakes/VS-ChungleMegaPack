@@ -16,9 +16,9 @@
 		{
 			"name": "main",
 			"stepParentName": "Head",
-			"from": [ -1.105, 3.7, -1.105 ],
-			"to": [ 7.995, 6.3, 7.345 ],
-			"rotationOrigin": [ 3.64, 3.7, 3.25 ],
+			"from": [ -0.9, 3.1, -1.51 ],
+			"to": [ 8.2, 5.7, 6.94 ],
+			"rotationOrigin": [ 3.84, 3.1, 2.85 ],
 			"rotationZ": -10.0,
 			"faces": {
 				"north": { "texture": "#brown", "uv": [ 3.5, 8.5, 10.5, 10.5 ], "autoUv": false },
@@ -93,4 +93,7 @@
 				}
 			]
 		}
-	]}
+	],
+	"animations": [
+	]
+}

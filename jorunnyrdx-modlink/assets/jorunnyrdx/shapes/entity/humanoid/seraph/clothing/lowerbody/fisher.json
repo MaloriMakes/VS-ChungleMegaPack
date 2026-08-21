@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "C:/VS-Backdrop/backdrop_knitty",
+		"backDropShape": "C:/VS-Backdrop/backdrop_jorunny",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -291,4 +291,7 @@
 				}
 			]
 		}
-	]}
+	],
+	"animations": [
+	]
+}

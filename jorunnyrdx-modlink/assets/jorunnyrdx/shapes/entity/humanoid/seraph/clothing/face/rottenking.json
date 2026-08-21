@@ -16,9 +16,9 @@
 		{
 			"name": "origin",
 			"stepParentName": "Head",
-			"from": [ -1.44, 2.26, 2.96 ],
-			"to": [ -1.44, 2.26, 2.96 ],
-			"rotationOrigin": [ 4.608, 2.76, 3.3 ],
+			"from": [ -1.04, 1.76, 2.26 ],
+			"to": [ -1.04, 1.76, 2.26 ],
+			"rotationOrigin": [ 5.008, 2.26, 2.6 ],
 			"faces": {
 				"north": { "texture": "#rotten-king-mask", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
 				"east": { "texture": "#rotten-king-mask", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },

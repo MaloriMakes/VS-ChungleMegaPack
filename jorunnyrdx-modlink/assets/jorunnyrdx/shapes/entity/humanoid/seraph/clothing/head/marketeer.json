@@ -16,11 +16,11 @@
 		{
 			"name": "origin",
 			"stepParentName": "Head",
-			"from": [ -0.156, -0.26, -0.195 ],
-			"to": [ 7.254, 6.76, 6.695 ],
+			"from": [ -0.66, -1.36, -1.0 ],
+			"to": [ 6.85, 5.66, 5.89 ],
 			"unwrapMode": 4,
 			"uv": [ 1.5, 2.0 ],
-			"rotationOrigin": [ 2.925, 5.031, 4.16 ],
+			"rotationOrigin": [ 2.425, 3.931, 3.36 ],
 			"rotationZ": 1.0,
 			"faces": {
 				"north": { "texture": "#hat", "uv": [ 1.5, 7.5, 7.0, 12.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
@@ -52,6 +52,7 @@
 					"from": [ 0.013, 1.43, 2.795 ],
 					"to": [ 1.313, 2.73, 4.095 ],
 					"uv": [ 17.0, 2.0 ],
+					"renderInEditor": false,
 					"rotationOrigin": [ 0.0, 2.08, 3.38 ],
 					"rotationX": 45.0,
 					"faces": {
@@ -65,4 +66,7 @@
 				}
 			]
 		}
-	]}
+	],
+	"animations": [
+	]
+}

@@ -16,10 +16,10 @@
 		{
 			"name": "hidehat",
 			"stepParentName": "Head",
-			"from": [ 3.78, 3.78, 3.15 ],
-			"to": [ 3.78, 3.78, 3.15 ],
+			"from": [ 3.78, 2.78, 2.45 ],
+			"to": [ 3.78, 2.78, 2.45 ],
 			"uv": [ 0.0, 0.0 ],
-			"rotationOrigin": [ 3.78, 3.78, 3.15 ],
+			"rotationOrigin": [ 3.78, 2.78, 2.45 ],
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "autoUv": false, "enabled": false },
 				"east": { "texture": "#null", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "autoUv": false, "enabled": false },
@@ -100,7 +100,7 @@
 						{
 							"name": "top",
 							"from": [ 0.378, 1.89, 0.252 ],
-							"to": [ 7.812, 3.15, 7.056 ],
+							"to": [ 7.812, 3.15, 7.256 ],
 							"autoUnwrap": false,
 							"uv": [ 0.0, 1.875 ],
 							"rotationOrigin": [ 4.158, 1.89, 3.654 ],
@@ -133,4 +133,7 @@
 				}
 			]
 		}
-	]}
+	],
+	"animations": [
+	]
+}

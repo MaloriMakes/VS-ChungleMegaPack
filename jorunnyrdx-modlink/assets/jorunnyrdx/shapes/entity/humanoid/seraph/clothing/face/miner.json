@@ -16,10 +16,10 @@
 		{
 			"name": "origin",
 			"stepParentName": "Head",
-			"from": [ 1.4, 1.6, 2.3 ],
-			"to": [ 1.4, 1.6, 2.3 ],
+			"from": [ 1.4, 1.6, 1.3 ],
+			"to": [ 1.4, 1.6, 1.3 ],
 			"uv": [ 999.0, 999.0 ],
-			"rotationOrigin": [ 1.4, 1.6, 2.3 ],
+			"rotationOrigin": [ 1.4, 1.6, 1.3 ],
 			"rotationZ": 3.0,
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
@@ -32,13 +32,13 @@
 			"children": [
 				{
 					"name": "Mask",
-					"from": [ -2.4, -3.4, -2.35 ],
-					"to": [ 5.2, 0.8, 4.25 ],
+					"from": [ -2.4, -3.4, -2.25 ],
+					"to": [ 5.5, 0.8, 4.65 ],
 					"renderPass": 1,
 					"unwrapMode": 4,
 					"autoUnwrap": false,
 					"uv": [ 1.5, 4.0 ],
-					"rotationOrigin": [ -2.4, -3.4, -2.4 ],
+					"rotationOrigin": [ -2.4, -3.4, -2.3 ],
 					"faces": {
 						"north": { "texture": "#mask", "uv": [ 1.0, 4.0, 9.0, 7.5 ], "autoUv": false },
 						"east": { "texture": "#mask", "uv": [ 18.0, 4.0, 23.0, 7.5 ], "autoUv": false },
@@ -57,11 +57,11 @@
 							"uv": [ 18.0, 0.5 ],
 							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
-								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false },
-								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "enabled": false },
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "rotation": 90, "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "rotation": 180, "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 0.5 ], "rotation": 270, "enabled": false },
 								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 5.0, 0.5 ], "enabled": false },
-								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 5.0 ], "enabled": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 7.5, 5.0 ], "rotation": 270, "enabled": false },
 								"down": { "texture": "#mask", "uv": [ 18.0, 0.5, 23.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
 							}
 						}

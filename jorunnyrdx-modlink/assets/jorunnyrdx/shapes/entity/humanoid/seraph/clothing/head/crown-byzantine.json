@@ -26,9 +26,9 @@
 		{
 			"name": "hidehat",
 			"stepParentName": "Head",
-			"from": [ 3.75, 4.625, 3.125 ],
-			"to": [ 3.75, 4.625, 3.125 ],
-			"rotationOrigin": [ 3.75, 4.75, 3.125 ],
+			"from": [ 3.75, 3.82, 2.62 ],
+			"to": [ 3.75, 3.82, 2.62 ],
+			"rotationOrigin": [ 3.75, 3.95, 2.625 ],
 			"rotationZ": -5.0,
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },

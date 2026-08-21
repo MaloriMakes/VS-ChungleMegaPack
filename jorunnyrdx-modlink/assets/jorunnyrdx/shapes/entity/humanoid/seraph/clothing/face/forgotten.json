@@ -15,9 +15,9 @@
 		{
 			"name": "origin",
 			"stepParentName": "Head",
-			"from": [ -1.06, 3.4, 2.99 ],
-			"to": [ -1.06, 3.4, 2.99 ],
-			"rotationOrigin": [ -1.06, 3.4, 2.99 ],
+			"from": [ -0.66, 2.4, 2.39 ],
+			"to": [ -0.66, 2.4, 2.39 ],
+			"rotationOrigin": [ -0.66, 2.4, 2.39 ],
 			"rotationZ": -3.0,
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false, "enabled": false },
@@ -63,7 +63,6 @@
 									"from": [ 0.0, -2.6, 0.0 ],
 									"to": [ 5.2, -1.95, 0.65 ],
 									"rotationOrigin": [ 0.0, -1.95, 0.0 ],
-									"rotationX": 0.0,
 									"rotationY": 1.0,
 									"rotationZ": 32.0,
 									"faces": {
@@ -115,7 +114,6 @@
 									"from": [ 0.0, -2.6, 0.0 ],
 									"to": [ 5.2, -1.95, 0.65 ],
 									"rotationOrigin": [ 0.0, -1.95, 0.52 ],
-									"rotationX": 0.0,
 									"rotationY": -1.0,
 									"rotationZ": 32.0,
 									"faces": {

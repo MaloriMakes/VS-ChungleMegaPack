@@ -11,8 +11,8 @@
 		"avali": [128,128]
 	},
 	"textures": {
-		"avalibodytex": "avalirdx:entity/humanoid/seraphskinparts/body/avaliskin1",
-		"avali": "avalirdx:entity/humanoid/avalitex"
+		"avalibodytex": "entity/humanoid/seraphskinparts/body/avaliskin1",
+		"avali": "entity/humanoid/avalitex"
 	},
 	"elements": [
 		{

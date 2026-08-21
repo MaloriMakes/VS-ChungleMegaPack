@@ -16,13 +16,13 @@
 		{
 			"name": "hidehat",
 			"stepParentName": "Head",
-			"from": [ -0.5625, 4.725, -0.51 ],
-			"to": [ 7.3125, 6.3, 6.8025 ],
+			"from": [ -0.2, 3.72, -1.4 ],
+			"to": [ 8.4625, 5.4525, 6.6438 ],
 			"autoUnwrap": false,
 			"uv": [ 0.0, 8.5 ],
-			"rotationOrigin": [ 3.825, 5.85, 3.3125 ],
+			"rotationOrigin": [ 4.6275, 4.965, 2.8038 ],
 			"rotationX": -2.0,
-			"rotationZ": -8.0,
+			"rotationZ": -9.0,
 			"faces": {
 				"north": { "texture": "#hat-alchemist", "uv": [ 15.0, 23.0, 22.0, 24.0 ], "autoUv": false },
 				"east": { "texture": "#hat-alchemist", "uv": [ 15.0, 21.0, 21.5, 22.0 ], "autoUv": false },
@@ -34,11 +34,11 @@
 			"children": [
 				{
 					"name": "Hat-Top",
-					"from": [ 0.1125, 1.35, 0.1125 ],
-					"to": [ 7.65, 3.2625, 7.2 ],
+					"from": [ 0.1238, 1.485, 0.1238 ],
+					"to": [ 8.415, 3.5888, 7.92 ],
 					"autoUnwrap": false,
 					"uv": [ 0.0, 10.0 ],
-					"rotationOrigin": [ 4.3875, 1.35, 3.6 ],
+					"rotationOrigin": [ 4.8263, 1.485, 3.96 ],
 					"rotationX": -3.0,
 					"faces": {
 						"north": { "texture": "#hat-alchemist", "uv": [ 0.0, 16.0, 6.5, 17.5 ], "autoUv": false },
@@ -51,10 +51,10 @@
 					"children": [
 						{
 							"name": "Hat-Tip",
-							"from": [ 1.125, 1.0125, -1.2375 ],
-							"to": [ 6.75, 3.2625, 6.075 ],
+							"from": [ 1.2375, 1.1138, -1.3613 ],
+							"to": [ 7.425, 3.5888, 6.6825 ],
 							"uv": [ 0.0, 1.5 ],
-							"rotationOrigin": [ 3.9375, 1.0125, 3.825 ],
+							"rotationOrigin": [ 4.3313, 1.1138, 4.2075 ],
 							"rotationX": -11.0,
 							"rotationY": -42.0,
 							"faces": {
@@ -68,11 +68,11 @@
 							"children": [
 								{
 									"name": "Hat-tip2",
-									"from": [ 1.4625, -3.375, -1.0125 ],
-									"to": [ 4.8375, 1.125, 2.3625 ],
+									"from": [ 1.6088, -3.7125, -1.1138 ],
+									"to": [ 5.3213, 1.2375, 2.5988 ],
 									"autoUnwrap": false,
 									"uv": [ 7.0, 9.0 ],
-									"rotationOrigin": [ 3.15, 0.0, 0.675 ],
+									"rotationOrigin": [ 3.465, 0.0, 0.7425 ],
 									"rotationX": 47.0,
 									"faces": {
 										"north": { "texture": "#hat-alchemist", "uv": [ 7.0, 12.0, 10.0, 16.0 ], "autoUv": false },

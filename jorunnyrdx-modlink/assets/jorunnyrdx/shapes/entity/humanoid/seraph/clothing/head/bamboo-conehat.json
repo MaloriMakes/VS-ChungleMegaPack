@@ -16,10 +16,10 @@
 		{
 			"name": "hidehat",
 			"stepParentName": "Head",
-			"from": [ 0.0, 6.33, 0.0 ],
-			"to": [ 6.875, 6.955, 6.25 ],
+			"from": [ 0.0, 5.63, -0.5 ],
+			"to": [ 6.875, 6.255, 5.75 ],
 			"uv": [ 0.0, 4.0 ],
-			"rotationOrigin": [ 4.375, 6.325, 3.125 ],
+			"rotationOrigin": [ 4.375, 5.625, 2.625 ],
 			"rotationZ": -5.0,
 			"faces": {
 				"north": { "texture": "#bamboo-conehat", "uv": [ 0.0, 4.0, 5.5, 4.5 ], "autoUv": false },

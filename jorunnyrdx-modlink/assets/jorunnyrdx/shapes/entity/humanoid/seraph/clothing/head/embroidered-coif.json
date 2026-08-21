@@ -16,12 +16,12 @@
 		{
 			"name": "hidehat",
 			"stepParentName": "Head",
-			"from": [ -0.6875, -1.75, -0.7625 ],
-			"to": [ 7.6875, 7.0, 7.0125 ],
+			"from": [ -0.6875, -1.75, -1.16 ],
+			"to": [ 7.6875, 7.0, 6.615 ],
 			"renderPass": 1,
 			"unwrapMode": 4,
 			"uv": [ 0.5, 0.5 ],
-			"rotationOrigin": [ 2.3125, 3.3375, 4.0 ],
+			"rotationOrigin": [ 2.3125, 3.3375, 3.6 ],
 			"rotationZ": 1.0,
 			"faces": {
 				"north": { "texture": "#hat", "uv": [ 0.5, 7.0, 7.0, 14.0 ], "autoUv": false },
@@ -29,7 +29,7 @@
 				"south": { "texture": "#hat", "uv": [ 13.0, 7.0, 19.5, 14.0 ], "autoUv": false },
 				"west": { "texture": "#hat", "uv": [ 7.0, 7.0, 13.0, 14.0 ], "autoUv": false },
 				"up": { "texture": "#hat", "uv": [ 7.0, 0.5, 13.0, 7.0 ], "rotation": 90, "autoUv": false },
-				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 6.5, 6.0 ], "autoUv": false, "enabled": false }
+				"down": { "texture": "#null", "uv": [ 7.0, 14.0, 6.5, 6.0 ], "rotation": 90, "autoUv": false, "enabled": false }
 			}
 		}
 	]}

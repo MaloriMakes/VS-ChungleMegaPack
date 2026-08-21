@@ -10,7 +10,7 @@
 		"shirt": [28,64]
 	},
 	"textures": {
-		"upperbodyover": "entity/humanoid/villagerclothes/upperbodyover/longsleeve-extended/coat-verylong"
+		"upperbodyover": "entity/humanoid/villagerclothes/upperbodyover/longsleeve-extended/uover-verylong"
 	},
 	"elements": [
 		{
