@@ -382,7 +382,7 @@
 				{
 					"name": "shouldertextureFrontUpper",
 					"from": [ -0.34, -0.04, 0.5 ],
-					"to": [ 0.16, 3.06, 5.1 ],
+					"to": [ 0.16, 3.26, 5.1 ],
 					"unwrapMode": 4,
 					"autoUnwrap": false,
 					"uv": [ 6.5, 7.5 ],
@@ -398,11 +398,11 @@
 				},
 				{
 					"name": "Breasts-armor",
-					"from": [ 0.05, 3.0, 0.1 ],
-					"to": [ 3.1, 5.05, 5.4 ],
+					"from": [ -0.05, 3.0, 0.1 ],
+					"to": [ 3.0, 5.05, 5.4 ],
 					"autoUnwrap": false,
 					"uv": [ 1.5, 15.0 ],
-					"rotationOrigin": [ 0.1, 3.0, 0.1 ],
+					"rotationOrigin": [ 0.0, 3.0, 0.1 ],
 					"rotationZ": 55.0,
 					"faces": {
 						"north": { "texture": "#shouldertexture", "uv": [ 6.0, 5.5, 8.0, 8.5 ], "rotation": 90, "autoUv": false, "enabled": false },
@@ -487,7 +487,4 @@
 				}
 			]
 		}
-	],
-	"animations": [
-	]
-}
+	]}

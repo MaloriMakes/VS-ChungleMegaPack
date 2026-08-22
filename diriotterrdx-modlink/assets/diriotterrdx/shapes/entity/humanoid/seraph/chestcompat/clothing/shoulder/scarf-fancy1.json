@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/diriotterplayerrdx_1.3.4/assets/diriotterrdx/shapes/entity/humanoid/BACKDROP",
+		"backDropShape": "G:/My Drive/Vintage Modding/Vintagestory/Mods/otterplayerrdx_1.3.4/assets/otterrdx/shapes/entity/humanoid/BACKDROP",
 		"collapsedPaths": "",
 		"allAngles": true,
 		"entityTextureMode": true
@@ -378,26 +378,7 @@
 								"west": { "texture": "#shouldertexture", "uv": [ 1.5, 6.0, 3.5, 10.5 ], "autoUv": false },
 								"up": { "texture": "#shouldertexture", "uv": [ 1.5, 5.5, 3.5, 6.0 ], "rotation": 90, "autoUv": false },
 								"down": { "texture": "#shouldertexture", "uv": [ 1.5, 10.5, 3.5, 11.0 ], "rotation": 90, "autoUv": false }
-							},
-							"children": [
-								{
-									"name": "Breasts-clothes2",
-									"from": [ 0.04, 2.92, -0.009 ],
-									"to": [ 3.04, 4.92, 2.001 ],
-									"autoUnwrap": false,
-									"uv": [ 1.5, 15.0 ],
-									"rotationOrigin": [ 0.04, 2.92, -0.009 ],
-									"rotationZ": 55.0,
-									"faces": {
-										"north": { "texture": "#shouldertexture", "uv": [ 1.5, 7.0, 3.5, 10.0 ], "rotation": 90 },
-										"east": { "texture": "#null", "uv": [ 3.0, 6.0, 5.0, 8.0 ], "enabled": false },
-										"south": { "texture": "#shouldertexture", "uv": [ 8.5, 7.0, 10.5, 10.0 ], "rotation": 90 },
-										"west": { "texture": "#shouldertexture", "uv": [ 1.5, 8.0, 3.5, 10.0 ] },
-										"up": { "texture": "#shouldertexture", "uv": [ 1.5, 6.0, 3.5, 9.0 ], "rotation": 90 },
-										"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 2.0 ], "enabled": false }
-									}
-								}
-							]
+							}
 						}
 					]
 				},
@@ -428,7 +409,6 @@
 					"autoUnwrap": false,
 					"uv": [ 9.5, 0.0 ],
 					"rotationOrigin": [ 4.46, 5.36, 0.56 ],
-					"rotationZ": 0.0,
 					"faces": {
 						"north": { "texture": "#shouldertexture", "uv": [ 4.5, 0.0, 5.0, 0.5 ], "rotation": 270, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
 						"east": { "texture": "#shouldertexture", "uv": [ 4.0, 0.0, 8.0, 0.5 ], "rotation": 180 },
@@ -471,26 +451,7 @@
 								"west": { "texture": "#shouldertexture", "uv": [ 8.5, 6.0, 10.5, 12.5 ], "autoUv": false },
 								"up": { "texture": "#shouldertexture", "uv": [ 8.5, 5.5, 10.5, 6.0 ], "rotation": 90, "autoUv": false },
 								"down": { "texture": "#shouldertexture", "uv": [ 8.5, 10.5, 10.5, 11.0 ], "rotation": 90, "autoUv": false }
-							},
-							"children": [
-								{
-									"name": "Breasts-clothes3",
-									"from": [ 0.04, 2.92, -0.01 ],
-									"to": [ 3.04, 4.92, 2.0 ],
-									"autoUnwrap": false,
-									"uv": [ 1.5, 15.0 ],
-									"rotationOrigin": [ 0.04, 2.92, -0.01 ],
-									"rotationZ": 55.0,
-									"faces": {
-										"north": { "texture": "#shouldertexture", "uv": [ 1.5, 7.0, 3.5, 10.0 ], "rotation": 90 },
-										"east": { "texture": "#null", "uv": [ 3.0, 6.0, 5.0, 8.0 ], "enabled": false },
-										"south": { "texture": "#shouldertexture", "uv": [ 9.0, 1.0, 11.0, 4.0 ], "rotation": 90 },
-										"west": { "texture": "#shouldertexture", "uv": [ 1.5, 8.0, 3.5, 10.0 ] },
-										"up": { "texture": "#shouldertexture", "uv": [ 8.5, 6.0, 10.5, 9.0 ], "rotation": 90 },
-										"down": { "texture": "#null", "uv": [ 3.0, 0.0, 6.0, 2.0 ], "enabled": false }
-									}
-								}
-							]
+							}
 						}
 					]
 				}
@@ -559,7 +520,6 @@
 					}
 				}
 			]
-		},
-
+		}
 	]
 }

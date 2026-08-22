@@ -125,12 +125,12 @@
 		{
 			"name": "UpperFootLorigin",
 			"stepParentName": "UpperFootL",
-			"from": [ -0.03, -0.03, -0.03 ],
-			"to": [ 4.23, 6.83, 3.93 ],
+			"from": [ -0.13, -0.13, -0.13 ],
+			"to": [ 4.33, 6.93, 4.03 ],
 			"unwrapMode": 3,
 			"autoUnwrap": false,
 			"uv": [ 15.0, 19.62 ],
-			"rotationOrigin": [ 2.0, 9.0, 3.2 ],
+			"rotationOrigin": [ 1.9, 8.9, 3.1 ],
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 3.0, 4.0, 12.0 ], "autoUv": false, "enabled": false },
 				"east": { "texture": "#uover", "uv": [ 20.0, 22.0, 23.0, 31.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
@@ -143,12 +143,12 @@
 		{
 			"name": "UpperFootRorigin",
 			"stepParentName": "UpperFootR",
-			"from": [ -0.03, -0.03, -0.03 ],
-			"to": [ 4.23, 6.83, 3.93 ],
+			"from": [ -0.13, -0.13, -0.13 ],
+			"to": [ 4.33, 6.93, 4.03 ],
 			"unwrapMode": 1,
 			"autoUnwrap": false,
 			"uv": [ 1.0, 19.62 ],
-			"rotationOrigin": [ 2.0, 9.0, 0.0 ],
+			"rotationOrigin": [ 1.9, 8.9, -0.1 ],
 			"faces": {
 				"north": { "texture": "#uover", "uv": [ 4.0, 22.0, 8.0, 31.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
 				"east": { "texture": "#uover", "uv": [ 1.0, 22.0, 4.0, 31.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
