@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "F:/Games/Vintagestory/assets/game/shapes/entity/humanoid/seraph-faceless",
+		"backDropShape": "C:/VS-Backdrop/tiger-backdrop",
 		"collapsedPaths": "Root/LowerArmLorigin/LArm Fringe 1,Root/UpperTorsoOrigin/Chest Seam/Fringe W1,Root/UpperTorsoOrigin/Chest Seam,Root/UpperTorsoOrigin/Fringe Ridge,Root/LowerArmROrigin/RArm Lower Fringe 1,Root/LowerTorsoOrigin,Root/UpperArmLorigin/LArm Upper Fringe 1,Root/UpperArmROrigin,Root/UpperTorsoOrigin,Root/LowerArmROrigin,Root/LowerArmLorigin/LArm Lower Fringe 1,Root/UpperTorsoOrigin/Lace 1,Root/bandN/toothR1,Root/UpperArmROrigin/RArm Upper Fringe 1,Root/bandN/toothL1,Root/UpperTorsoOrigin/Fringe Ridge/Fringe W1,Root/LowerArmLorigin,Root/UpperArmLorigin",
 		"allAngles": false,
 		"entityTextureMode": true

@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "C:/Users/Cal/Desktop/boobold",
+		"backDropShape": "C:/VS-Backdrop/tiger-backdrop",
 		"collapsedPaths": "Root/ArmorLowerLegR/ArmorKneeR,Root/ArmorLowerArmR/Flap1/LowerRBackFlap,Root/ArmorLowerLegR/Bigflap2,Root/ArmorUpperLegR/Flap4,Root/ArmorUpperLegR/Flap2,Root/ArmorUpperLegR/Flap3,Root/ArmorUpperLegR/Flap1,Root/ArmorUpperArmR/ArmorUpperArmR2,Root/ArmorLowerArmR/Flap4,Root/ArmorLowerArmR/Flap3,Root/ArmorLowerArmR/Flap2,Root/ArmorUpperArmR/ArmorUpperArmR7,Root/ArmorLowerArmR/Flap1/LowerRFrontFlap,Root/ArmorLowerArmR/Flap1/LowerRRighTFlap",
 		"allAngles": true,
 		"entityTextureMode": true

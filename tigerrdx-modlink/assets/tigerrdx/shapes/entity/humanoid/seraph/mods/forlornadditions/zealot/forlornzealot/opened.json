@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "C:/Users/GachiKing/AppData/Roaming/VSLGameVersions/1.21.4/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"backDropShape": "C:/VS-Backdrop/tiger-backdrop",
 		"collapsedPaths": "Root/HoodChest,Root/GloveL,Root/BootR,Root/Cowl,Root/ShoulderR,Root/GloveR,Root/Chest,Root/HelmetMain/HelmetTrim1,Root/ArmorHelmet/PlumeMount,Root/HoodChest/Capelet1,Root/ArmorHelmet/Hinge/Visor,Root/ThighL,Root/ShoulderL,Root/BootL,Root/ThighR,Root/ArmorHelmet/PointedFace",
 		"allAngles": false,
 		"entityTextureMode": false

@@ -1,3 +1,4 @@
+#!/bin/bash
 gitRelease="https://github.com/MaloriMakes/VS-ChungleMegaPack/releases/latest/download/VS-ChungleMegaPack.zip"
 vinMods=$(realpath ~/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Mods)
 chungPack="VS-ChungleMegaPack.zip"

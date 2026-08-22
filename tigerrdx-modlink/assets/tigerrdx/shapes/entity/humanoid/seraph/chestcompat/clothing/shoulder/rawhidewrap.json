@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "entity/humanoid/seraph",
+		"backDropShape": "C:/VS-Backdrop/tiger-backdrop",
 		"collapsedPaths": "Root/UpperArmLOrigin,Root/UpperTorsoOrigin,Root/UpperFootLOrigin,Root,Root/UpperFootROrigin,Root/LowerTorsoOrigin",
 		"allAngles": false,
 		"entityTextureMode": true

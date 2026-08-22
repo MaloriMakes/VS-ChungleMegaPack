@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "entity/humanoid/seraph",
+		"backDropShape": "C:/VS-Backdrop/tiger-backdrop",
 		"allAngles": true,
 		"entityTextureMode": false
 	},

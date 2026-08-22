@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "C:/Users/Cal/AppData/Roaming/VintagestoryData/Mods/koboldplayerrdx_1.0.21/assets/koboldrdx/shapes/entity/humanoid/kobold-faceless",
+		"backDropShape": "C:/VS-Backdrop/tiger-backdrop",
 		"collapsedPaths": ",Root/Chap Lower Torso Right 1/Lower Torso Rear Upper Detail,Root/Chap Upper Left/Upper Left 2,Root/Chap Lower Right/Button Lower Right 1,Root/Chap Upper Right/Upper Right 2,Root/Chap Lower Torso Left 1/Lower Torso Front Detail L1,Root/Chap Upper Left,Root/Chap Lower Torso Right 1/Lower Torso Rear Upper Detail/Lower Torso Rear Detail L1,Root/Chap Lower Torso Right 1,Root/Chap Upper Left/Upper Left 2/Upper Left 3,Root/Chap Lower Torso Right 1/Lower Torso Rear Upper Detail/Lower Torso Rear Detail R1,Root/Chap Lower Left/Button Lower Left 2,Root/Chap Lower Torso Left 1,Root/Chap Upper Right/Upper Right 2/Upper Right 3,Root/Chap Upper Right,Root/Chap Lower Torso Right 1/Lower Torso Front Detail R1,Root/Chap Lower Left/Button Lower Left 1",
 		"allAngles": true,
 		"entityTextureMode": true
