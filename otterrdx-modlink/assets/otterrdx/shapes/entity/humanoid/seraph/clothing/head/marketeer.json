@@ -1,0 +1,67 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/otter-backdrop",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 28,
+	"textureHeight": 20,
+	"textureSizes": {
+		"hat": [28,20]
+	},
+	"textures": {
+		"hat": "entity/humanoid/seraphclothes/head/marketeer"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"stepParentName": "Head",
+			"from": [ -0.15, -1.35, -0.1875 ],
+			"to": [ 6.975, 5.4, 6.4375 ],
+			"unwrapMode": 4,
+			"uv": [ 1.5, 2.0 ],
+			"rotationOrigin": [ 2.8125, 3.7375, 4.0 ],
+			"rotationZ": 1.0,
+			"faces": {
+				"north": { "texture": "#hat", "uv": [ 1.5, 7.5, 7.0, 12.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"east": { "texture": "#hat", "uv": [ 17.5, 7.5, 22.5, 12.5 ], "autoUv": false },
+				"south": { "texture": "#hat", "uv": [ 12.0, 7.5, 17.5, 12.5 ], "autoUv": false },
+				"west": { "texture": "#hat", "uv": [ 7.0, 7.5, 12.0, 12.5 ], "autoUv": false },
+				"up": { "texture": "#hat", "uv": [ 7.0, 2.0, 12.0, 7.5 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#hat", "uv": [ 7.0, 12.5, 12.0, 18.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+			},
+			"children": [
+				{
+					"name": "neck",
+					"from": [ 2.0, -1.25, 1.375 ],
+					"to": [ 5.875, 0.0, 5.05 ],
+					"unwrapMode": 4,
+					"uv": [ 13.0, 4.0 ],
+					"rotationOrigin": [ 2.0, -1.25, 1.375 ],
+					"faces": {
+						"north": { "texture": "#hat", "uv": [ 13.0, 4.0, 16.5, 5.0 ], "autoUv": false },
+						"east": { "texture": "#hat", "uv": [ 23.0, 4.0, 26.0, 5.0 ], "autoUv": false },
+						"south": { "texture": "#hat", "uv": [ 19.5, 4.0, 23.0, 5.0 ], "autoUv": false },
+						"west": { "texture": "#hat", "uv": [ 16.5, 4.0, 19.5, 5.0 ], "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 16.5, 4.0, 19.5, 7.5 ], "rotation": 90, "autoUv": false, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 16.5, 5.0, 19.5, 12.0 ], "rotation": 90, "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "Cube2",
+					"from": [ -1.59, 0.17, 1.79 ],
+					"to": [ 0.16, 2.02, 5.04 ],
+					"uv": [ 17.0, 2.0 ],
+					"rotationOrigin": [ -1.6, 0.8, 2.35 ],
+					"faces": {
+						"north": { "texture": "#hat", "uv": [ 17.0, 3.0, 19.0, 5.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 18.0, 3.0, 19.0, 4.0 ], "autoUv": false, "enabled": false },
+						"south": { "texture": "#hat", "uv": [ 19.0, 3.0, 21.0, 5.0 ], "autoUv": false },
+						"west": { "texture": "#hat", "uv": [ 20.0, 3.0, 23.0, 5.0 ], "autoUv": false },
+						"up": { "texture": "#hat", "uv": [ 17.0, 2.0, 18.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#hat", "uv": [ 18.0, 2.0, 19.0, 3.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

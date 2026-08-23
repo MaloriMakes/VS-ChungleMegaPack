@@ -1,0 +1,74 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/otter-backdrop",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 20,
+	"textureHeight": 20,
+	"textureSizes": {
+		"hat": [20,20]
+	},
+	"textures": {
+		"hat": "entity/humanoid/seraphclothes/head/fortune-tellers-scarf"
+	},
+	"elements": [
+		{
+			"name": "hidehat",
+			"stepParentName": "Head",
+			"from": [ -0.4, -1.0, -0.6875 ],
+			"to": [ 7.1, 7.125, 6.9375 ],
+			"renderPass": 1,
+			"unwrapMode": 5,
+			"unwrapRotation": 1,
+			"uv": [ 0.5, 0.5 ],
+			"rotationOrigin": [ 2.5625, 4.0875, 3.5 ],
+			"rotationZ": 1.0,
+			"faces": {
+				"north": { "texture": "#hat", "uv": [ 0.5, 7.0, 7.0, 13.0 ], "rotation": 270, "autoUv": false },
+				"east": { "texture": "#hat", "uv": [ 7.0, 0.5, 13.0, 7.0 ], "rotation": 180, "autoUv": false },
+				"south": { "texture": "#hat", "uv": [ 13.0, 7.0, 19.5, 13.0 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#null", "uv": [ 7.0, 13.0, 13.0, 19.5 ], "autoUv": false, "enabled": false },
+				"up": { "texture": "#hat", "uv": [ 7.0, 7.0, 13.0, 13.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#null", "uv": [ 19.5, 7.0, 25.5, 13.0 ], "rotation": 270, "autoUv": false, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "swag",
+					"from": [ 1.375, -2.375, 0.25 ],
+					"to": [ 8.25, 3.875, 7.375 ],
+					"renderPass": 1,
+					"unwrapMode": 2,
+					"autoUnwrap": false,
+					"uv": [ 1.5, 14.5 ],
+					"rotationOrigin": [ 4.3375, 2.7125, 4.4375 ],
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#hat", "uv": [ 13.0, 14.5, 18.5, 19.5 ], "autoUv": false },
+						"east": { "texture": "#hat", "uv": [ 7.5, 14.5, 13.0, 19.5 ], "autoUv": false },
+						"south": { "texture": "#hat", "uv": [ 1.5, 14.5, 7.0, 19.5 ], "autoUv": false },
+						"west": { "texture": "#null", "uv": [ 16.5, 5.5, 22.0, 10.5 ], "autoUv": false, "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 5.5 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#null", "uv": [ 5.5, 0.0, 11.0, 5.5 ], "autoUv": false, "enabled": false }
+					}
+				},
+				{
+					"name": "edgeTop",
+					"from": [ 1.25, 7.875, 0.0 ],
+					"to": [ 5.625, 8.125, 7.625 ],
+					"renderPass": 1,
+					"unwrapMode": 6,
+					"uv": [ 14.0, 0.0 ],
+					"rotationOrigin": [ 1.25, 7.875, 0.0 ],
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 14.5, 0.0, 18.0, 0.5 ], "autoUv": false, "enabled": false },
+						"east": { "texture": "#hat", "uv": [ 14.0, 0.0, 14.5, 6.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#null", "uv": [ 14.5, 6.5, 18.0, 7.0 ], "rotation": 180, "autoUv": false, "enabled": false },
+						"west": { "texture": "#hat", "uv": [ 18.0, 0.0, 18.5, 6.0 ], "rotation": 270, "autoUv": false },
+						"up": { "texture": "#null", "uv": [ 18.5, 0.5, 22.0, 6.5 ], "autoUv": false, "enabled": false },
+						"down": { "texture": "#hat", "uv": [ 14.5, 0.0, 18.0, 6.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				}
+			]
+		}
+	]}
