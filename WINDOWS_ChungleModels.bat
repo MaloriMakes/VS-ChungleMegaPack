@@ -14,6 +14,8 @@ if exist "%vinMods%\koboldplayerrdx-modlink" rmdir /S /Q "%vinMods%\koboldplayer
 if exist "%vinMods%\otterrdx-modlink" rmdir /S /Q "%vinMods%\otterrdx-modlink"
 if exist "%vinMods%\rhasaboldrdx-modlink" rmdir /S /Q "%vinMods%\rhasaboldrdx-modlink"
 if exist "%vinMods%\tigerrdx-modlink" rmdir /S /Q "%vinMods%\tigerrdx-modlink"
+if exist "%vinMods%\koboldplayerrdx_1.4.14" rmdir /S /Q "%vinMods%\koboldplayerrdx_1.4.14"
+if exist "%vinMods%\foxxoplymdl_1.0.9" rmdir /S /Q "%vinMods%\foxxoplymdl_1.0.9"
 tar -xf "%vinMods%\%chungPack%"
 del "%vinMods%\%chungPack%"
 pause
