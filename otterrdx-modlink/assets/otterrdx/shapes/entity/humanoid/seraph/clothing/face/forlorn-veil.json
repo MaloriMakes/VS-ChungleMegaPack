@@ -32,13 +32,13 @@
 			"children": [
 				{
 					"name": "Mask",
-					"from": [ -1.37, -5.95, -2.9375 ],
-					"to": [ 7.105, 0.425, 3.4375 ],
+					"from": [ 0.13, -6.65, -2.9375 ],
+					"to": [ 7.005, -0.275, 3.4375 ],
 					"renderPass": 1,
 					"unwrapMode": 4,
 					"autoUnwrap": false,
 					"uv": [ 1.0, 1.5 ],
-					"rotationOrigin": [ -0.125, -5.95, -3.0 ],
+					"rotationOrigin": [ 1.375, -6.65, -3.0 ],
 					"faces": {
 						"north": { "texture": "#mask", "uv": [ 1.5, 1.5, 9.5, 7.0 ], "autoUv": false },
 						"east": { "texture": "#mask", "uv": [ 17.5, 1.5, 22.5, 7.0 ], "autoUv": false },
@@ -46,7 +46,28 @@
 						"west": { "texture": "#mask", "uv": [ 7.0, 1.5, 12.0, 7.0 ], "autoUv": false },
 						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "enabled": false },
 						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "enabled": false }
-					}
+					},
+					"children": [
+						{
+							"name": "Mask2",
+							"from": [ -1.5, 2.4, 1.6 ],
+							"to": [ 4.575, 5.475, 4.875 ],
+							"renderPass": 1,
+							"unwrapMode": 4,
+							"autoUnwrap": false,
+							"uv": [ 1.0, 1.5 ],
+							"rotationOrigin": [ -0.255, 2.4, 1.5375 ],
+							"rotationZ": 0.0,
+							"faces": {
+								"north": { "texture": "#mask", "uv": [ 1.5, 1.5, 9.5, 7.0 ], "autoUv": false },
+								"east": { "texture": "#mask", "uv": [ 17.5, 1.5, 22.5, 7.0 ], "autoUv": false },
+								"south": { "texture": "#mask", "uv": [ 12.0, 1.5, 20.0, 7.0 ], "autoUv": false },
+								"west": { "texture": "#mask", "uv": [ 7.0, 1.5, 12.0, 7.0 ], "autoUv": false },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "enabled": false },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 8.0, 5.0 ], "autoUv": false, "enabled": false }
+							}
+						}
+					]
 				}
 			]
 		}

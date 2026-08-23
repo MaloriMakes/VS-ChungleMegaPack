@@ -1,0 +1,124 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/avali-backdrop",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 12,
+	"textureHeight": 12,
+	"textureSizes": {
+		"hat": [12,12]
+	},
+	"textures": {
+		"hat": "entity/humanoid/seraphclothes/head/minstrel-hat"
+	},
+	"elements": [
+		{
+			"name": "hidehat",
+			"stepParentName": "Head",
+			"from": [ -0.708, 2.4, -0.43 ],
+			"to": [ 9.342, 8.4, 8.72 ],
+			"renderPass": 1,
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 0.5, 0.5 ],
+			"rotationOrigin": [ 2.895, 8.505, 4.6 ],
+			"rotationZ": -9.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 6.0, 6.5, 10.0 ], "autoUv": false, "enabled": false },
+				"east": { "texture": "#null", "uv": [ 6.5, 6.0, 12.5, 10.0 ], "autoUv": false, "enabled": false },
+				"south": { "texture": "#null", "uv": [ 12.5, 6.0, 19.0, 10.0 ], "autoUv": false, "enabled": false },
+				"west": { "texture": "#null", "uv": [ 19.0, 6.0, 25.0, 10.0 ], "autoUv": false, "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 6.5, 6.0 ], "autoUv": false, "enabled": false },
+				"down": { "texture": "#null", "uv": [ 6.5, 0.0, 13.0, 6.0 ], "autoUv": false, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "main",
+					"from": [ 0.0, 4.5, 0.0 ],
+					"to": [ 10.05, 6.0, 9.15 ],
+					"autoUnwrap": false,
+					"uv": [ 0.5, 0.5 ],
+					"rotationOrigin": [ 5.25, 4.5, 4.5 ],
+					"faces": {
+						"north": { "texture": "#hat", "uv": [ 0.0, 9.5, 6.5, 10.5 ], "autoUv": false },
+						"east": { "texture": "#hat", "uv": [ 6.0, 9.5, 12.0, 10.5 ], "autoUv": false },
+						"south": { "texture": "#hat", "uv": [ 1.5, 9.5, 8.0, 10.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#hat", "uv": [ 3.5, 9.5, 9.5, 10.5 ], "autoUv": false },
+						"up": { "texture": "#hat", "uv": [ 0.0, 0.5, 6.5, 6.5 ], "autoUv": false },
+						"down": { "texture": "#hat", "uv": [ 0.0, 0.5, 6.5, 6.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "BrimW",
+							"from": [ -1.5, -1.5, -0.75 ],
+							"to": [ 1.5, 0.0, 9.75 ],
+							"autoUnwrap": false,
+							"uv": [ 0.5, 2.0 ],
+							"rotationOrigin": [ 0.0, -0.75, 4.5 ],
+							"rotationZ": -10.0,
+							"faces": {
+								"north": { "texture": "#hat", "uv": [ 0.0, 11.0, 2.0, 12.0 ], "autoUv": false },
+								"east": { "texture": "#hat", "uv": [ 1.5, 7.5, 8.5, 8.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#hat", "uv": [ 10.0, 11.0, 12.0, 12.0 ], "autoUv": false },
+								"west": { "texture": "#hat", "uv": [ 2.5, 11.0, 9.5, 12.0 ], "autoUv": false },
+								"up": { "texture": "#hat", "uv": [ 0.0, 8.0, 7.0, 10.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#hat", "uv": [ 4.0, 8.0, 11.0, 10.0 ], "rotation": 90, "autoUv": false }
+							}
+						},
+						{
+							"name": "BrimE",
+							"from": [ 8.4, -1.5, -0.75 ],
+							"to": [ 11.4, 0.0, 9.75 ],
+							"autoUnwrap": false,
+							"uv": [ 0.5, 2.0 ],
+							"rotationOrigin": [ 9.9, -0.75, 4.5 ],
+							"rotationZ": 10.0,
+							"faces": {
+								"north": { "texture": "#hat", "uv": [ 0.5, 11.0, 2.5, 12.0 ], "autoUv": false },
+								"east": { "texture": "#hat", "uv": [ 1.5, 11.0, 8.5, 12.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"south": { "texture": "#hat", "uv": [ 8.0, 11.0, 10.0, 12.0 ], "autoUv": false },
+								"west": { "texture": "#hat", "uv": [ 4.0, 11.0, 11.0, 12.0 ], "autoUv": false },
+								"up": { "texture": "#hat", "uv": [ 0.0, 8.0, 7.0, 10.0 ], "rotation": 90, "autoUv": false },
+								"down": { "texture": "#hat", "uv": [ 4.0, 8.0, 11.0, 10.0 ], "rotation": 90, "autoUv": false }
+							}
+						},
+						{
+							"name": "BrimN",
+							"from": [ -1.05, -1.5, -1.5 ],
+							"to": [ 10.95, 0.0, 1.5 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 7.5 ],
+							"rotationOrigin": [ 5.25, -0.75, 0.0 ],
+							"rotationX": 10.0,
+							"faces": {
+								"north": { "texture": "#hat", "uv": [ 0.0, 9.5, 8.0, 10.5 ], "autoUv": false },
+								"east": { "texture": "#hat", "uv": [ 8.0, 9.5, 10.0, 10.5 ], "autoUv": false },
+								"south": { "texture": "#hat", "uv": [ 4.0, 9.5, 12.0, 10.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#hat", "uv": [ 4.0, 11.0, 6.0, 12.0 ], "autoUv": false },
+								"up": { "texture": "#hat", "uv": [ 0.0, 7.5, 8.0, 9.5 ], "autoUv": false },
+								"down": { "texture": "#hat", "uv": [ 4.0, 7.5, 12.0, 9.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "BrimS",
+							"from": [ -1.05, -1.5, 7.5 ],
+							"to": [ 10.95, 0.0, 10.5 ],
+							"autoUnwrap": false,
+							"uv": [ 0.0, 7.5 ],
+							"rotationOrigin": [ 5.25, -0.75, 9.0 ],
+							"rotationX": -10.0,
+							"faces": {
+								"north": { "texture": "#hat", "uv": [ 0.0, 9.5, 8.0, 10.5 ], "autoUv": false },
+								"east": { "texture": "#hat", "uv": [ 8.0, 9.5, 10.0, 10.5 ], "autoUv": false },
+								"south": { "texture": "#hat", "uv": [ 4.0, 9.5, 12.0, 10.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+								"west": { "texture": "#hat", "uv": [ 4.0, 11.0, 6.0, 12.0 ], "autoUv": false },
+								"up": { "texture": "#hat", "uv": [ 0.0, 7.5, 8.0, 9.5 ], "autoUv": false },
+								"down": { "texture": "#hat", "uv": [ 4.0, 7.5, 12.0, 9.5 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

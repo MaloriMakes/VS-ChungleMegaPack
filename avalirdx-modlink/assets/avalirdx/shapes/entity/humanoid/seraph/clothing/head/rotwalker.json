@@ -1,0 +1,34 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/avali-backdrop",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 16,
+	"textureSizes": {
+		"surgeon": [24,16]
+	},
+	"textures": {
+		"surgeon": "entity/humanoid/seraphclothes/head/rotwalker"
+	},
+	"elements": [
+		{
+			"name": "closehat",
+			"stepParentName": "Head",
+			"from": [ -0.225, -2.59, -0.49 ],
+			"to": [ 7.275, 7.91, 8.635 ],
+			"renderPass": 1,
+			"unwrapMode": 4,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 2.6851, 2.6, 2.95 ],
+			"faces": {
+				"north": { "texture": "#surgeon", "uv": [ 0.0, 6.0, 6.0, 14.0 ], "autoUv": false },
+				"east": { "texture": "#surgeon", "uv": [ 17.0, 6.0, 22.0, 14.0 ], "autoUv": false },
+				"south": { "texture": "#surgeon", "uv": [ 11.0, 6.0, 17.0, 14.0 ], "autoUv": false },
+				"west": { "texture": "#surgeon", "uv": [ 6.0, 6.0, 11.0, 14.0 ], "autoUv": false },
+				"up": { "texture": "#surgeon", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90, "autoUv": false },
+				"down": { "texture": "#null", "uv": [ 6.0, 14.0, 6.0, 5.0 ], "rotation": 90, "autoUv": false, "enabled": false }
+			}
+		}
+	]}
