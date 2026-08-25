@@ -13,6 +13,7 @@
 		"MaxEyeHeight":	1.1,
 		"MinEyeHeight":	1.1,
         "SneakEyeHeightMultiplier": 0.7,
+		"ExtraTraits": ["avali-nutrition", "avali-movement"],
 		"AddTags": ["beasts","avali"],
 		"RemoveTags": ["seraph"],
 		"SkinnableParts": [
