@@ -3,8 +3,8 @@
         code: "otter-speed",
         type: "positive",
         attributes: {
-            "swimSpeed": 0.75,
-            "sprintSpeed": -0.1
+            "swimSpeed": 0.8,
+            "sprintSpeed": -0.15
         }
     },
     {        code: "otter-hide",
