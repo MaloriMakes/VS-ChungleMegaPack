@@ -12,8 +12,9 @@
         type: "positive",
         attributes: {
             "ArmorWalkSpeedAffectedness": -0.05,
-            "miningSpeedMul": 0.15,
-            "dairyNutritionFactor": 0.1
+            "miningSpeedMul": 0.2,
+            "dairyNutritionFactor": 0.1,
+            "maxSaturationFactor": 0.25
         }
     }
 ]
