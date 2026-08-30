@@ -1,0 +1,198 @@
+{
+	"catsby": {
+		"Group": "beasts",
+		"Icon": "catsbyrdx:icons/catsby",
+		"GroupIcon": "playermodellib:icons/beasts",
+		"ShapePath": "catsbyrdx:entity/humanoid/catsby-faceless",
+		"MainTextureCode": "catsbybodytex",
+		"SizeRange": [ 1.2, 1.2 ],
+		"ScaleColliderWithSizeHorizontally": true,
+		"ScaleColliderWithSizeVertically": true,
+		"MaxCollisionBox": [ 0.8, 2.7 ],
+		"MinCollisionBox": [ 0.1, 0.1 ],
+		"MaxEyeHeight":	2.1,
+		"MinEyeHeight":	2.1,
+        "SneakEyeHeightMultiplier": 0.75,
+		"AddTags": ["beasts","catsby"],
+		"RemoveTags": ["seraph"],
+		"SkinnableParts": [
+			{
+				"code": "baseskin",
+				"type": "texture",
+				"textureTarget": "catsbybodytex",
+				"targetSkinParts": ["base", "chest","facialexpression"],
+				"overlayTexture": false,
+				"overlayMode": "Normal",
+				"textureTemplate": "catsbyrdx:entity/humanoid/seraphskinparts/body/{code}",
+				"variants": [
+					{ "code": "catsbyskin1", "texture": "skin1" }
+				]
+			},
+			{
+				"code": "eyecolor",
+				"type": "texture",
+				"textureTarget": "playermodellib-iris",
+				"targetSkinParts": ["facialexpression"],
+				"textureTemplate": "playermodellib:eyes/{code}",
+				"variants": [
+					{ "code": "aquamarine", "texture": "aquamarine" }
+				]
+			},
+			{
+				"code": "haircolor",
+				"type": "texture",
+				"colbreak": true,
+				"textureTarget": "hair",
+				"targetSkinParts": ["hairbase", "hairextra"],
+				"textureTemplate": "game:entity/humanoid/seraphskinparts/hair/{code}",
+				"variants": [
+					{ "code": "lightgray" },
+					{ "code": "silverchalice" },
+					{ "code": "slategray" },
+					{ "code": "eerieblack" },
+					{ "code": "mossgreen" },
+					{ "code": "seagreen" },
+					{ "code": "wintergreendream" },
+					{ "code": "steelblue" },
+					{ "code": "queenblue" },
+					{ "code": "indigodye" },
+					{ "code": "heliotropegray" },
+					{ "code": "palatinatepurple" },
+					{ "code": "darkpurple" },
+					{ "code": "wheat" },
+					{ "code": "sanddune" },
+					{ "code": "harvestgold" },
+					{ "code": "cordovan" },
+					{ "code": "rosewood" },
+					{ "code": "russet" },
+					{ "code": "liver" },
+					{ "code": "oldburgundy" }
+				]
+			},
+			{
+				"code": "facialexpression",
+				"type": "shape",
+				"shapeTemplate": { "base": "catsbyrdx:entity/humanoid/seraphskinparts/face/{code}" },
+				"variants": [
+					{ "code": "neutral"}
+				]
+			},
+			{
+				"code": "voicetype",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "altoflute", "sound": "sounds/voice/altoflute" },
+					{ "code": "harmonica", "sound": "sounds/voice/harmonica" },
+					{ "code": "oboe", "sound": "sounds/voice/oboe" },
+					{ "code": "clarinet", "sound": "sounds/voice/clarinet" },
+					{ "code": "accordion", "sound": "sounds/voice/accordion" },
+					{ "code": "trumpet", "sound": "sounds/voice/trumpet" },
+					{ "code": "sax", "sound": "sounds/voice/sax" },
+					{ "code": "tuba", "sound": "sounds/voice/tuba" },
+					{ "code": "frog", "sound": "catsbyrdx:sounds/voice/treefrog" },
+					{ "code": "gecko", "sound": "catsbyrdx:sounds/voice/tokay" },
+					{ "code": "meep", "sound": "catsbyrdx:sounds/voice/meep" },
+					{ "code": "none", "sound": "catsbyrdx:sounds/voice/none" }
+				]
+			},
+			{
+				"code": "voicepitch",
+				"type": "voice", 
+				"useDropDown": true,
+				"variants": [
+					{ "code": "verylow" },
+					{ "code": "low" },
+					{ "code": "medium" },
+					{ "code": "high" }
+				]
+			},
+			{
+				"code": "hairbase",
+				"type": "shape",
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-base/{code}" },
+				"variants": [
+					{ "code": "bald" },
+					{ "code": "balding" },
+					{ "code": "afro" },
+					{ "code": "combed" },
+					{ "code": "dreadlocks" },
+					{ "code": "indigenousbalding" },
+					{ "code": "iroquois" },
+					{ "code": "kniaz" },
+					{ "code": "layered" },
+					{ "code": "longflowing" },
+					{ "code": "longwithstrands" },
+					{ "code": "mediumlength-bangs" },
+					{ "code": "messy" },
+					{ "code": "messy2" },
+					{ "code": "classic" },
+					{ "code": "short" },
+					{ "code": "short-parted" },
+					{ "code": "shortspiky" },
+					{ "code": "short-trimmed" },
+					{ "code": "tonsure" }
+				]
+			},
+			{
+				"code": "hairextra",
+				"type": "shape",
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/{code}" },
+				"variants": [
+					{ "code": "none" },
+					{ "code": "backbun" },
+					{ "code": "braidedup" },
+					{ "code": "elaboratestickbun" },
+					{ "code": "headsidebraid" },
+					{ "code": "largestickbun" },
+					{ "code": "neatbraid" },
+					{ "code": "classicponytail" },
+					{ "code": "ponytail" },
+					{ "code": "rolledbraidwithbun" },
+					{ "code": "shortmessybraid" },
+					{ "code": "sidebraids" },
+					{ "code": "sidebuns" },
+					{ "code": "siderolls" },
+					{ "code": "snood" },
+					{ "code": "thicklongfrenchbraid" },
+					{ "code": "tiedback" },
+					{ "code": "tieddreads" },
+					{ "code": "tiedtopknot" },
+					{ "code": "topbun" },
+					{ "code": "topknot" },
+					{ "code": "unkempt" },
+					{ "code": "vikingtopbraid" }
+				]
+			},
+			{
+				"code": "underwear",
+				"type": "texture", 
+				"useDropDown": true,
+				"textureTarget": "catsbybodytex",
+				"targetSkinParts": ["base", "chest"],
+				"overlayTexture": true,
+				"overlayMode": "normal",
+				"textureTemplate": "catsbyrdx:entity/humanoid/seraphskinparts/underwear/{code}",
+				"variants": [
+					{ "code": "twopiece", "texture": "twopiece" },
+					{ "code": "leotard", "texture": "leotard" },
+					{ "code": "breeches", "texture": "breeches" },
+					{ "code": "none", "texture": "none" }
+				]
+			},
+			{
+				"code": "chest",
+				"type": "shape",
+				"shapeTemplate": { "base": "catsbyrdx:entity/humanoid/seraphskinparts/chest/{code}" },
+				"variants": [
+					{ "code": "yes"}
+				],
+				"disableElementsByVariantCode": {
+					"none": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
+					"yes": []
+				}
+			}
+		],
+		"ExtraTraits": ["catsby-buffs"]
+	}
+}

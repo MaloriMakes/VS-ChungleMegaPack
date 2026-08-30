@@ -1,0 +1,19 @@
+[
+	{
+	"file": "catsbyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/catsbyrdx:catsby",
+	"dependsOn": [{ "modid": "regalia" }],
+	"value": {
+		"regalia:blackgown": "catsbyrdx:entity/humanoid/seraph/mods/regalia/blackgown",
+		"regalia:cardigan": "catsbyrdx:entity/humanoid/seraph/mods/regalia/cardigan",
+		"regalia:darknobledress": "catsbyrdx:entity/humanoid/seraph/mods/regalia/darknobledress",
+		"regalia:finegown": "catsbyrdx:entity/humanoid/seraph/mods/regalia/finegown",
+		"regalia:rednobledress": "catsbyrdx:entity/humanoid/seraph/mods/regalia/rednobledress",
+		"regalia:summerdress": "catsbyrdx:entity/humanoid/seraph/mods/regalia/summerdress",
+		"regalia:tailcoat": "catsbyrdx:entity/humanoid/seraph/mods/regalia/tailcoat",
+		"regalia:trimmedtunic": "catsbyrdx:entity/humanoid/seraph/mods/regalia/trimmedtunic",
+		"regalia:weddingdress": "catsbyrdx:entity/humanoid/seraph/mods/regalia/weddingdress"
+		}
+	}
+]

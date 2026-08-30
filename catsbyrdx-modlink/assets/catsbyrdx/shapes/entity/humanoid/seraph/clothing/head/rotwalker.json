@@ -1,0 +1,53 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/catsby-backdrop",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 24,
+	"textureHeight": 16,
+	"textureSizes": {
+		"surgeon": [24,16]
+	},
+	"textures": {
+		"surgeon": "entity/humanoid/seraphclothes/head/rotwalker"
+	},
+	"elements": [
+		{
+			"name": "closehat",
+			"stepParentName": "Head",
+			"from": [ -0.18, -3.35, -0.15 ],
+			"to": [ 5.82, 5.05, 5.15 ],
+			"renderPass": 1,
+			"unwrapMode": 4,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 2.1481, 0.8, 2.6 ],
+			"faces": {
+				"north": { "texture": "#surgeon", "uv": [ 0.0, 6.0, 6.0, 14.0 ] },
+				"east": { "texture": "#surgeon", "uv": [ 17.0, 6.0, 22.0, 14.0 ] },
+				"south": { "texture": "#surgeon", "uv": [ 11.0, 6.0, 17.0, 14.0 ] },
+				"west": { "texture": "#surgeon", "uv": [ 6.0, 6.0, 11.0, 14.0 ] },
+				"up": { "texture": "#surgeon", "uv": [ 6.0, 0.0, 11.0, 6.0 ], "rotation": 90 },
+				"down": { "texture": "#null", "uv": [ 6.0, 14.0, 11.0, 20.0 ], "rotation": 90, "enabled": false }
+			},
+			"children": [
+				{
+					"name": "closehat2",
+					"from": [ -2.48, 2.15, 0.95 ],
+					"to": [ 2.52, 5.45, 4.25 ],
+					"renderPass": 1,
+					"unwrapMode": 4,
+					"uv": [ 0.0, 0.0 ],
+					"rotationOrigin": [ -0.1519, 6.3, 3.7 ],
+					"faces": {
+						"north": { "texture": "#surgeon", "uv": [ 0.0, 5.0, 5.0, 8.0 ] },
+						"east": { "texture": "#surgeon", "uv": [ 13.0, 5.0, 16.0, 8.0 ] },
+						"south": { "texture": "#surgeon", "uv": [ 8.0, 5.0, 13.0, 8.0 ] },
+						"west": { "texture": "#surgeon", "uv": [ 5.0, 5.0, 8.0, 8.0 ] },
+						"up": { "texture": "#surgeon", "uv": [ 5.0, 0.0, 8.0, 5.0 ], "rotation": 90 },
+						"down": { "texture": "#null", "uv": [ 5.0, 8.0, 8.0, 13.0 ], "rotation": 90, "enabled": false }
+					}
+				}
+			]
+		}
+	]}

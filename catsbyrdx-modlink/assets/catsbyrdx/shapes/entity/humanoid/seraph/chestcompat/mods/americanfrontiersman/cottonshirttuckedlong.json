@@ -1,0 +1,236 @@
+{
+	"editor": {
+		"backDropShape": "C:/VS-Backdrop/catsby-backdrop",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 28,
+	"textureHeight": 44,
+	"textureSizes": {
+		"shirt": [28,44],
+		"homespun-shirt": [28,44],
+		"cotton shirt wip": [28,44],
+		"cottonshirt": [28,44],
+		"plain": [28,44],
+		"Flannel Red": [28,44],
+		"red": [28,44]
+	},
+	"textures": {
+		"cottonshirt": "F:/Games/Vintagestory/Mods/AmericanFrontiersmanWesternWear_1.8.2/assets/americanfrontiersman/textures/item/upperbody/shirtcotton/cottonshirt"
+	},
+	"elements": [
+		{
+			"name": "UpperTorsoOrigin",
+			"stepParentName": "UpperTorso",
+			"from": [ -0.02, -0.02, -0.02 ],
+			"to": [ 5.02, 5.02, 6.22 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 10.0, 0.0 ],
+			"rotationOrigin": [ 2.0, 2.0, 3.25 ],
+			"faces": {
+				"north": { "texture": "#cottonshirt", "uv": [ 1.0, 5.5, 6.0, 10.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"east": { "texture": "#cottonshirt", "uv": [ 17.0, 5.5, 23.0, 10.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#cottonshirt", "uv": [ 12.0, 5.5, 17.0, 10.5 ] },
+				"west": { "texture": "#cottonshirt", "uv": [ 6.0, 5.5, 12.0, 10.5 ] },
+				"up": { "texture": "#cottonshirt", "uv": [ 6.0, 0.5, 12.0, 5.5 ], "rotation": 90 },
+				"down": { "texture": "#cottonshirt", "uv": [ 17.0, 29.0, 23.0, 34.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Blackout",
+					"from": [ 0.1, 0.8, 0.6 ],
+					"to": [ 4.9, 4.8, 5.6 ],
+					"autoUnwrap": false,
+					"uv": [ 23.0, 9.0 ],
+					"rotationOrigin": [ 0.1, 0.8, 0.6 ],
+					"faces": {
+						"north": { "texture": "#cottonshirt", "uv": [ 0.0, 0.0, 4.5, 4.0 ] },
+						"east": { "texture": "#cottonshirt", "uv": [ 1.0, 0.0, 5.0, 5.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#cottonshirt", "uv": [ 0.0, 1.0, 4.5, 5.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#cottonshirt", "uv": [ 0.5, 0.0, 4.5, 5.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#cottonshirt", "uv": [ 0.0, 0.0, 4.5, 5.0 ] },
+						"down": { "texture": "#cottonshirt", "uv": [ 0.5, 0.0, 5.0, 5.0 ] }
+					}
+				},
+				{
+					"name": "buttons1",
+					"from": [ -0.005, -0.005, 2.86 ],
+					"to": [ 0.995, 5.035, 3.36 ],
+					"unwrapMode": 4,
+					"uv": [ 27.0, 5.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 2.86 ],
+					"faces": {
+						"west": { "texture": "#cottonshirt", "uv": [ 27.0, 5.5, 27.5, 10.5 ] },
+						"down": { "texture": "#cottonshirt", "uv": [ 27.0, 10.5, 27.5, 11.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "Breasts-clothes",
+					"from": [ 0.0, 0.8, 0.1 ],
+					"to": [ 3.0, 2.8, 6.2 ],
+					"autoUnwrap": false,
+					"uv": [ 1.5, 15.0 ],
+					"rotationOrigin": [ 0.0, 0.8, 0.1 ],
+					"rotationZ": 55.0,
+					"faces": {
+						"north": { "texture": "#cottonshirt", "uv": [ 4.0, 6.5, 6.0, 9.5 ], "rotation": 270, "autoUv": false },
+						"south": { "texture": "#cottonshirt", "uv": [ 12.0, 5.5, 14.0, 8.5 ], "rotation": 90, "autoUv": false },
+						"west": { "texture": "#cottonshirt", "uv": [ 6.0, 9.0, 12.0, 11.0 ] },
+						"up": { "texture": "#cottonshirt", "uv": [ 6.0, 6.0, 12.0, 9.0 ], "rotation": 90 }
+					}
+				}
+			]
+		},
+		{
+			"name": "LowerTorsoOrigin",
+			"stepParentName": "LowerTorso",
+			"from": [ -0.02, 3.48, -0.02 ],
+			"to": [ 5.02, 5.02, 6.02 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 9.0, 10.0 ],
+			"rotationOrigin": [ 3.0, 6.5, 3.0 ],
+			"faces": {
+				"north": { "texture": "#cottonshirt", "uv": [ 1.0, 10.5, 6.0, 12.0 ] },
+				"east": { "texture": "#cottonshirt", "uv": [ 17.0, 10.5, 23.0, 12.0 ] },
+				"south": { "texture": "#cottonshirt", "uv": [ 12.0, 10.5, 17.0, 12.0 ] },
+				"west": { "texture": "#cottonshirt", "uv": [ 6.0, 10.5, 12.0, 12.0 ] },
+				"up": { "texture": "#cottonshirt", "uv": [ 17.0, 29.0, 23.0, 34.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#cottonshirt", "uv": [ 2.0, 29.0, 8.0, 34.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "buttons2",
+					"from": [ -0.005, 0.0, 2.76 ],
+					"to": [ 0.995, 1.54, 3.26 ],
+					"unwrapMode": 4,
+					"uv": [ 27.0, 10.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 2.76 ],
+					"faces": {
+						"west": { "texture": "#cottonshirt", "uv": [ 27.0, 10.0, 27.5, 11.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "UpperArmROrigin",
+			"stepParentName": "UpperArmR",
+			"from": [ -0.02, -0.02, -0.02 ],
+			"to": [ 3.02, 7.02, 2.02 ],
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 8.0, 21.0 ],
+			"rotationOrigin": [ 1.5, 7.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#cottonshirt", "uv": [ 4.0, 29.0, 7.0, 36.0 ] },
+				"east": { "texture": "#cottonshirt", "uv": [ 2.0, 29.0, 4.0, 36.0 ] },
+				"south": { "texture": "#cottonshirt", "uv": [ 9.0, 29.0, 12.0, 36.0 ] },
+				"west": { "texture": "#cottonshirt", "uv": [ 7.0, 29.0, 9.0, 36.0 ] },
+				"up": { "texture": "#cottonshirt", "uv": [ 7.0, 26.0, 9.0, 29.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#cottonshirt", "uv": [ 7.0, 26.0, 9.0, 29.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "UpperArmLorigin",
+			"stepParentName": "UpperArmL",
+			"from": [ -0.02, -0.02, -0.02 ],
+			"to": [ 3.02, 7.02, 2.02 ],
+			"unwrapMode": 3,
+			"autoUnwrap": false,
+			"uv": [ 0.0, 13.0 ],
+			"rotationOrigin": [ 1.5, 6.9, 1.0 ],
+			"faces": {
+				"north": { "texture": "#cottonshirt", "uv": [ 13.0, 29.0, 16.0, 36.0 ] },
+				"east": { "texture": "#cottonshirt", "uv": [ 21.0, 29.0, 23.0, 36.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#cottonshirt", "uv": [ 18.0, 29.0, 21.0, 36.0 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#cottonshirt", "uv": [ 16.0, 29.0, 18.0, 36.0 ] },
+				"up": { "texture": "#cottonshirt", "uv": [ 16.0, 26.0, 18.0, 29.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#cottonshirt", "uv": [ 16.0, 26.0, 18.0, 29.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "hidecollar",
+			"stepParentName": "Neck",
+			"from": [ -0.02, 0.5, -0.02 ],
+			"to": [ 3.02, 2.5, 3.02 ],
+			"unwrapMode": 4,
+			"uv": [ 13.0, 2.5 ],
+			"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+			"faces": {
+				"north": { "texture": "#cottonshirt", "uv": [ 13.0, 2.5, 16.0, 4.5 ] },
+				"east": { "texture": "#cottonshirt", "uv": [ 22.0, 2.5, 25.0, 4.5 ] },
+				"south": { "texture": "#cottonshirt", "uv": [ 19.0, 2.5, 22.0, 4.5 ] },
+				"west": { "texture": "#cottonshirt", "uv": [ 16.0, 2.5, 19.0, 4.5 ] }
+			}
+		},
+		{
+			"name": "LowerArmROrigin",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.02, -0.02, -0.02 ],
+			"to": [ 2.52, 8.02, 2.02 ],
+			"autoUnwrap": false,
+			"uv": [ 2.0, 36.0 ],
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#cottonshirt", "uv": [ 7.0, 36.0, 9.5, 44.0 ], "autoUv": false },
+				"east": { "texture": "#cottonshirt", "uv": [ 9.0, 36.0, 11.0, 44.0 ] },
+				"south": { "texture": "#cottonshirt", "uv": [ 2.5, 36.0, 5.0, 44.0 ], "autoUv": false },
+				"west": { "texture": "#cottonshirt", "uv": [ 5.0, 36.0, 7.0, 44.0 ] },
+				"up": { "texture": "#cottonshirt", "uv": [ 9.0, 27.0, 11.5, 29.0 ] },
+				"down": { "texture": "#cottonshirt", "uv": [ 4.0, 26.5, 6.5, 28.5 ] }
+			},
+			"children": [
+				{
+					"name": "LowerArmR Blackout",
+					"from": [ 0.01, 2.0, 0.01 ],
+					"to": [ 2.53, 3.0, 2.03 ],
+					"autoUnwrap": false,
+					"uv": [ 2.0, 21.5 ],
+					"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+					"faces": {
+						"north": { "texture": "#cottonshirt", "uv": [ 0.0, 2.0, 2.5, 3.0 ] },
+						"east": { "texture": "#cottonshirt", "uv": [ 3.0, 3.0, 5.0, 4.0 ] },
+						"south": { "texture": "#cottonshirt", "uv": [ 2.5, 2.0, 5.0, 3.0 ] },
+						"west": { "texture": "#cottonshirt", "uv": [ 0.0, 3.0, 2.0, 4.0 ] },
+						"up": { "texture": "#cottonshirt", "uv": [ 0.0, 0.0, 2.5, 2.0 ] },
+						"down": { "texture": "#cottonshirt", "uv": [ 2.5, 0.0, 5.0, 2.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "LowerArmLOrigin",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.02, -0.02, -0.02 ],
+			"to": [ 2.52, 8.02, 2.02 ],
+			"autoUnwrap": false,
+			"uv": [ 2.0, 36.0 ],
+			"rotationOrigin": [ -0.1, -0.1, -0.1 ],
+			"faces": {
+				"north": { "texture": "#cottonshirt", "uv": [ 19.5, 36.0, 22.0, 44.0 ] },
+				"east": { "texture": "#cottonshirt", "uv": [ 18.0, 36.0, 20.0, 44.0 ] },
+				"south": { "texture": "#cottonshirt", "uv": [ 15.5, 36.0, 18.0, 44.0 ] },
+				"west": { "texture": "#cottonshirt", "uv": [ 14.0, 36.0, 16.0, 44.0 ] },
+				"up": { "texture": "#cottonshirt", "uv": [ 13.5, 27.0, 16.0, 29.0 ] },
+				"down": { "texture": "#cottonshirt", "uv": [ 4.0, 26.5, 6.5, 28.5 ] }
+			},
+			"children": [
+				{
+					"name": "LowerArmL Blackout",
+					"from": [ 0.01, 2.0, 0.01 ],
+					"to": [ 2.53, 3.0, 2.03 ],
+					"autoUnwrap": false,
+					"uv": [ 2.0, 21.5 ],
+					"faces": {
+						"north": { "texture": "#cottonshirt", "uv": [ 0.0, 2.0, 2.5, 3.0 ] },
+						"east": { "texture": "#cottonshirt", "uv": [ 3.0, 3.0, 5.0, 4.0 ] },
+						"south": { "texture": "#cottonshirt", "uv": [ 2.5, 2.0, 5.0, 3.0 ] },
+						"west": { "texture": "#cottonshirt", "uv": [ 0.0, 3.0, 2.0, 4.0 ] },
+						"up": { "texture": "#cottonshirt", "uv": [ 0.0, 0.0, 2.5, 2.0 ] },
+						"down": { "texture": "#cottonshirt", "uv": [ 2.5, 0.0, 5.0, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

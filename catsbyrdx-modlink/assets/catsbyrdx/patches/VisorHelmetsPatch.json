@@ -1,0 +1,34 @@
+[
+	{
+	"file": "catsbyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/catsbyrdx:catsby",
+	"dependsOn": [{ "modid": "visorhelmets" }],
+	"value": {
+		"visorhelmets:armor/head-gold-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-gold-closed",
+		"visorhelmets:armor/head-gold-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-gold-opened",
+		"visorhelmets:armor/head-iron-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-iron-closed",
+		"visorhelmets:armor/head-iron-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-iron-opened",
+		"visorhelmets:armor/head-steel-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-steel-closed",
+		"visorhelmets:armor/head-steel-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-steel-opened",
+		"visorhelmets:armor/head-bronze-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-bronze-closed",
+		"visorhelmets:armor/head-bronze-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-bronze-opened",
+		"visorhelmets:armor/head-copper-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-copper-closed",
+		"visorhelmets:armor/head-copper-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-copper-opened",
+		"visorhelmets:armor/head-silver-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-silver-closed",
+		"visorhelmets:armor/head-silver-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-silver-opened",
+		"visorhelmets:armor/head-forlorn-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-forlorn-closed",
+		"visorhelmets:armor/head-forlorn-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-forlorn-opened",
+		"visorhelmets:armor/head-blackguard-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-blackguard-closed",
+		"visorhelmets:armor/head-blackguard-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-blackguard-opened",
+		"visorhelmets:armor/head-vanillagold-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-vanillagold-closed",
+		"visorhelmets:armor/head-vanillagold-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-vanillagold-opened",
+		"visorhelmets:armor/head-meteoriciron-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-meteoriciron-closed",
+		"visorhelmets:armor/head-meteoriciron-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-meteoriciron-opened",
+		"visorhelmets:armor/head-vanillasilver-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-vanillasilver-closed",
+		"visorhelmets:armor/head-vanillasilver-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-vanillasilver-opened",
+		"visorhelmets:armor/head-vanillameteoriciron-closed": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-vanillameteoriciron-closed",
+		"visorhelmets:armor/head-vanillameteoriciron-opened": "catsbyrdx:entity/humanoid/seraph/mods/visorhelmets/head-vanillameteoriciron-opened"
+		}
+	}
+]

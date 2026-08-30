@@ -1,0 +1,27 @@
+[
+	{
+	"file": "catsbyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/catsbyrdx:catsby",
+	"dependsOn": [{ "modid": "ppstuff" }],
+	"value": {
+		"ppstuff:hunterboots": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/hunterboots",
+		"ppstuff:huntercoat": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/huntercoat",
+		"ppstuff:huntercoatfem": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/huntercoatfem",
+		"ppstuff:huntermask": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/huntermask",
+		"ppstuff:hunterpants": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/hunterpants",
+		"ppstuff:jester-mask": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/jester-mask",
+		"ppstuff:jester-shirt": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/jester-shirt",
+		"ppstuff:jester-shoes": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/jester-shoes",
+		"ppstuff:jester-socks": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/jester-socks",
+		"ppstuff:jesterf-shirt": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/jesterf-shirt",
+		"ppstuff:malejester-shirt": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/malejester-shirt",
+		"ppstuff:mensiscage": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/mensiscage",
+		"ppstuff:socks": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/socks",
+		"ppstuff:socks2": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/socks2",
+		"ppstuff:xanthouscrown": "catsbyrdx:entity/humanoid/seraph/mods/ppstuff/xanthouscrown"
+		}
+	}
+]
+
+

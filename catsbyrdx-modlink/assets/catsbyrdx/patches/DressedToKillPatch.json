@@ -1,0 +1,20 @@
+[
+	{
+	"file": "catsbyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/catsbyrdx:catsby",
+	"dependsOn": [{ "modid": "dressedtokillredux" }],
+	"value": {
+		"dressedtokillredux:foot": "catsbyrdx:entity/humanoid/seraph/mods/dressedtokillredux/foot",
+		"dressedtokillredux:lowerbody": "catsbyrdx:entity/humanoid/seraph/mods/dressedtokillredux/lowerbody",
+		"dressedtokillredux:upperbody": "catsbyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokillredux:upperbodyover": "catsbyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokillredux:shoulder": "catsbyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/shoulder",
+		"dressedtokill:foot": "catsbyrdx:entity/humanoid/seraph/mods/dressedtokillredux/foot",
+		"dressedtokill:lowerbody": "catsbyrdx:entity/humanoid/seraph/mods/dressedtokillredux/lowerbody",
+		"dressedtokill:upperbody": "catsbyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbody",
+		"dressedtokill:upperbodyover": "catsbyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/upperbodyover",
+		"dressedtokill:shoulder": "catsbyrdx:entity/humanoid/seraph/chestcompat/mods/dressedtokillredux/shoulder"
+		}
+	}
+]

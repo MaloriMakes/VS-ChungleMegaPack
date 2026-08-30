@@ -1,0 +1,14 @@
+[
+	{
+	"file": "catsbyrdx:config/model-replacements-byshape.json",
+	"op": "addmerge",
+	"path": "/catsbyrdx:catsby",
+	"dependsOn": [{ "modid": "exoskeletons" }],
+	"value": {
+		"exoskeletons:armored/legs": "catsbyrdx:entity/humanoid/seraph/mods/exoskeletons/armored/legs",
+		"exoskeletons:unarmored/legs": "catsbyrdx:entity/humanoid/seraph/mods/exoskeletons/unarmored/legs",
+		"exoskeletons:armored/armor/legs": "catsbyrdx:entity/humanoid/seraph/mods/exoskeletons/armored/armor/legs",
+		"exoskeletons:armored/armor/feet": "catsbyrdx:entity/humanoid/seraph/mods/exoskeletons/armored/armor/feet"
+		}
+	}
+]
