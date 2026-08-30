@@ -1,0 +1,16 @@
+[
+    {
+        code: "oozling-mobility",
+        type: "positive",
+        attributes: {
+            "backwardSpeed": 0.15
+        }
+    },
+    {
+        code: "oozling-healing",
+        type: "positive",
+        attributes: {
+            "healingeffectiveness": 0.15
+        }
+    }
+]
