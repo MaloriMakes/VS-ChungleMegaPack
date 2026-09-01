@@ -5,15 +5,15 @@
 		"GroupIcon": "playermodellib:icons/beasts",
 		"ShapePath": "catsbyrdx:entity/humanoid/catsby-faceless",
 		"MainTextureCode": "catsbybodytex",
-		"SizeRange": [ 1.2, 1.2 ],
+		"SizeRange": [ 1.05, 1.05 ],
 		"ScaleColliderWithSizeHorizontally": true,
 		"ScaleColliderWithSizeVertically": true,
 		"MaxCollisionBox": [ 0.8, 2.7 ],
 		"MinCollisionBox": [ 0.1, 0.1 ],
-		"MaxEyeHeight":	2.1,
-		"MinEyeHeight":	2.1,
+		"MaxEyeHeight":	1.85,
+		"MinEyeHeight":	1.85,
         "SneakEyeHeightMultiplier": 0.75,
-		"AddTags": ["beasts","catsby"],
+		"AddTags": ["beasts","cat"],
 		"RemoveTags": ["seraph"],
 		"SkinnableParts": [
 			{
@@ -185,7 +185,7 @@
 				"type": "shape",
 				"shapeTemplate": { "base": "catsbyrdx:entity/humanoid/seraphskinparts/chest/{code}" },
 				"variants": [
-					{ "code": "yes"}
+					{ "code": "none"}
 				],
 				"disableElementsByVariantCode": {
 					"none": ["*Breasts-clothes", "*Breasts-clothing", "*Breasts-armor"],
