@@ -47,7 +47,7 @@
 	"game:entity/humanoid/seraph/clothing/head/silver-diadem": "otterrdx:entity/humanoid/seraph/clothing/head/silver-diadem",
 	"game:entity/humanoid/seraph/clothing/head/squire-hood": "otterrdx:entity/humanoid/seraph/clothing/head/squire-hood",
 	"game:entity/humanoid/seraph/clothing/head/straw-conehat": "otterrdx:entity/humanoid/seraph/clothing/head/straw-conehat",
-	"game:entity/humanoid/seraph/clothing/head/straw-hat": "otterrdx:entity/humanoid/seraph/clothing/head/straw-hat",
+	"game:entity/humanoid/seraph/clothing/head/straw-hat": "otterrdx:entity/humanoid/seraph/ext/clothing/head/straw-hat",
 	"game:entity/humanoid/seraph/clothing/head/surgeon": "otterrdx:entity/humanoid/seraph/clothing/head/surgeon",
 	"game:entity/humanoid/seraph/clothing/head/temptress": "otterrdx:entity/humanoid/seraph/clothing/head/temptress",
 	"game:entity/humanoid/seraph/clothing/head/thrumcap": "otterrdx:entity/humanoid/seraph/clothing/head/thrumcap",
@@ -362,6 +362,6 @@
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-full": "otterrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-full",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-fur": "otterrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-fur",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-shortsleeve-fancy": "otterrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-shortsleeve-fancy",
-
+	"game:entity/humanoid/seraph/clothing/waist/clockmaker-belt": "otterrdx:entity/humanoid/seraph/ext/clothing/waist/clockmaker-belt"
   }
 }
