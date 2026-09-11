@@ -1,5 +1,9 @@
 {
   "tigerrdx:tiger": {
+	"grassroots:item/cannabis/pipe-wearable": "tigerrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
+
+	"heatstone:sueviteheatstone": "tigerrdx:entity/humanoid/seraph/mods/heatstone/sueviteheatstone",
+	"heatstone:meteoriteheatstone": "tigerrdx:entity/humanoid/seraph/mods/heatstone/meteoriteheatstone",
 
 	"game:entity/humanoid/seraph/clothing/head/acrobat": "tigerrdx:entity/humanoid/seraph/clothing/head/acrobat",
 	"game:entity/humanoid/seraph/clothing/head/alchemist": "tigerrdx:entity/humanoid/seraph/clothing/head/alchemist",

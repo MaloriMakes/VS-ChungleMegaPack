@@ -2,6 +2,9 @@
   "jorunnyrdx:jorunny": {
 	"grassroots:item/cannabis/pipe-wearable": "jorunnyrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
 
+	"heatstone:sueviteheatstone": "jorunnyrdx:entity/humanoid/seraph/mods/heatstone/sueviteheatstone",
+	"heatstone:meteoriteheatstone": "jorunnyrdx:entity/humanoid/seraph/mods/heatstone/meteoriteheatstone",
+
 	"game:entity/humanoid/seraph/clothing/head/acrobat": "jorunnyrdx:entity/humanoid/seraph/clothing/head/acrobat",
 	"game:entity/humanoid/seraph/clothing/head/alchemist": "jorunnyrdx:entity/humanoid/seraph/clothing/head/alchemist",
 	"game:entity/humanoid/seraph/clothing/head/bamboo-conehat": "jorunnyrdx:entity/humanoid/seraph/clothing/head/bamboo-conehat",
@@ -351,6 +354,11 @@
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-fancy": "jorunnyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-fancy",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-full": "jorunnyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-full",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-fur": "jorunnyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-fur",
-	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-shortsleeve-fancy": "jorunnyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-shortsleeve-fancy"
+	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-shortsleeve-fancy": "jorunnyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-shortsleeve-fancy",
+
+	"game:item/bag/backpack-normal-attached": "jorunnyrdx:item/bag/backpack-normal-attached",
+	"game:item/bag/backpack-sturdy-attached": "jorunnyrdx:item/bag/backpack-sturdy-attached",
+	"game:item/bag/hunterbackpack-attached": "jorunnyrdx:item/bag/hunterbackpack-attached",
+	"game:item/bag/quiver-attached": "jorunnyrdx:item/bag/quiver-attached"
   }
 }

@@ -2,6 +2,9 @@
   "otterrdx:otter": {
 	"grassroots:item/cannabis/pipe-wearable": "otterrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
 
+	"heatstone:sueviteheatstone": "otterrdx:entity/humanoid/seraph/mods/heatstone/sueviteheatstone",
+	"heatstone:meteoriteheatstone": "otterrdx:entity/humanoid/seraph/mods/heatstone/meteoriteheatstone",
+
 	"game:entity/humanoid/seraph/clothing/head/acrobat": "otterrdx:entity/humanoid/seraph/clothing/head/acrobat",
 	"game:entity/humanoid/seraph/clothing/head/alchemist": "otterrdx:entity/humanoid/seraph/clothing/head/alchemist",
 	"game:entity/humanoid/seraph/clothing/head/bamboo-conehat": "otterrdx:entity/humanoid/seraph/clothing/head/bamboo-conehat",
@@ -362,6 +365,11 @@
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-full": "otterrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-full",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-fur": "otterrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-fur",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-shortsleeve-fancy": "otterrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-shortsleeve-fancy",
-	"game:entity/humanoid/seraph/clothing/waist/clockmaker-belt": "otterrdx:entity/humanoid/seraph/ext/clothing/waist/clockmaker-belt"
+	"game:entity/humanoid/seraph/clothing/waist/clockmaker-belt": "otterrdx:entity/humanoid/seraph/ext/clothing/waist/clockmaker-belt",
+
+	"game:item/bag/backpack-normal-attached": "otterrdx:item/bag/backpack-normal-attached",
+	"game:item/bag/backpack-sturdy-attached": "otterrdx:item/bag/backpack-sturdy-attached",
+	"game:item/bag/hunterbackpack-attached": "otterrdx:item/bag/hunterbackpack-attached",
+	"game:item/bag/quiver-attached": "otterrdx:item/bag/quiver-attached"
   }
 }

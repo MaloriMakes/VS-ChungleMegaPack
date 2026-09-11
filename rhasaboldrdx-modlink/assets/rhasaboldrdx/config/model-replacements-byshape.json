@@ -1,5 +1,9 @@
 {
   "rhasaboldrdx:rhasabold": {
+	"grassroots:item/cannabis/pipe-wearable": "rhasaboldrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
+
+	"heatstone:sueviteheatstone": "rhasaboldrdx:entity/humanoid/seraph/mods/heatstone/sueviteheatstone",
+	"heatstone:meteoriteheatstone": "rhasaboldrdx:entity/humanoid/seraph/mods/heatstone/meteoriteheatstone",
 
 	"game:entity/humanoid/seraph/clothing/head/acrobat": "rhasaboldrdx:entity/humanoid/seraph/clothing/head/acrobat",
 	"game:entity/humanoid/seraph/clothing/head/alchemist": "rhasaboldrdx:entity/humanoid/seraph/clothing/head/alchemist",

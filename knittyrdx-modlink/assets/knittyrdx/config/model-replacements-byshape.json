@@ -2,6 +2,9 @@
   "knittyrdx:knitty": {
 	"grassroots:item/cannabis/pipe-wearable": "knittyrdx:entity/humanoid/seraph/mods/grassroots/pipe-wearable",
 
+	"heatstone:sueviteheatstone": "knittyrdx:entity/humanoid/seraph/mods/heatstone/sueviteheatstone",
+	"heatstone:meteoriteheatstone": "knittyrdx:entity/humanoid/seraph/mods/heatstone/meteoriteheatstone",
+
 	"game:entity/humanoid/seraph/clothing/head/acrobat": "knittyrdx:entity/humanoid/seraph/clothing/head/acrobat",
 	"game:entity/humanoid/seraph/clothing/head/alchemist": "knittyrdx:entity/humanoid/seraph/clothing/head/alchemist",
 	"game:entity/humanoid/seraph/clothing/head/bamboo-conehat": "knittyrdx:entity/humanoid/seraph/clothing/head/bamboo-conehat",
@@ -388,6 +391,11 @@
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-full": "knittyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-full",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-longsleeve-fur": "knittyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-longsleeve-fur",
 	"game:entity/humanoid/seraph/clothing/upperbodyover/collar-shortsleeve-fancy": "knittyrdx:entity/humanoid/seraph/ext/clothing/upperbody/collar-shortsleeve-fancy",
-	"game:entity/humanoid/seraph/clothing/upperbodyover/surgeon-apron": "knittyrdx:entity/humanoid/seraph/ext/clothing/upperbody/surgeon-apron"
+	"game:entity/humanoid/seraph/clothing/upperbodyover/surgeon-apron": "knittyrdx:entity/humanoid/seraph/ext/clothing/upperbody/surgeon-apron",
+
+	"game:item/bag/backpack-normal-attached": "knittyrdx:item/bag/backpack-normal-attached",
+	"game:item/bag/backpack-sturdy-attached": "knittyrdx:item/bag/backpack-sturdy-attached",
+	"game:item/bag/hunterbackpack-attached": "knittyrdx:item/bag/hunterbackpack-attached",
+	"game:item/bag/quiver-attached": "knittyrdx:item/bag/quiver-attached"
   }
 }
